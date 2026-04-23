@@ -1,0 +1,32 @@
+const { contextBridge, ipcRenderer } = require("electron");
+
+contextBridge.exposeInMainWorld("glauco", {
+  bootstrap: () => ipcRenderer.invoke("app:bootstrap"),
+  setActiveView: (view) => ipcRenderer.invoke("state:active-view", view),
+  updateState: (patch) => ipcRenderer.invoke("state:update", patch),
+  completeSetup: (payload) => ipcRenderer.invoke("setup:complete", payload),
+  openSetup: () => ipcRenderer.invoke("setup:open"),
+  connectGoogle: (email) => ipcRenderer.invoke("integration:google", email),
+  connectWhatsApp: (phone) => ipcRenderer.invoke("integration:whatsapp", phone),
+  uploadDocument: (id) => ipcRenderer.invoke("document:upload", id),
+  verifyDocument: (id) => ipcRenderer.invoke("document:verify", id),
+  uploadBalanceSheet: () => ipcRenderer.invoke("company:upload-balance"),
+  chat: (prompt) => ipcRenderer.invoke("agent:chat", prompt),
+  reviseAssistantConfig: (instruction) => ipcRenderer.invoke("assistant:revise-config", instruction),
+  reviseProposalTemplateSection: (sectionId, instruction) => ipcRenderer.invoke("proposal-template:revise-section", sectionId, instruction),
+  proposalChat: (prompt) => ipcRenderer.invoke("proposal:chat", prompt),
+  createProposal: (tenderId) => ipcRenderer.invoke("proposal:create", tenderId),
+  selectProposalDeclarations: () => ipcRenderer.invoke("proposal:select-declarations"),
+  selectProposalRequirementFile: (requirementId, label) => ipcRenderer.invoke("proposal:select-requirement-file", requirementId, label),
+  runAgentTask: (id) => ipcRenderer.invoke("agent:run-task", id),
+  runAllAgentTasks: () => ipcRenderer.invoke("agent:run-all"),
+  runBahiaScan: () => ipcRenderer.invoke("bahia:scan"),
+  openEditaisOverview: () => ipcRenderer.invoke("open-editais:overview"),
+  openEditaisList: (query) => ipcRenderer.invoke("open-editais:list", query),
+  openEditalDetail: (id) => ipcRenderer.invoke("open-editais:detail", id),
+  addPortalApp: (payload) => ipcRenderer.invoke("portal:add-app", payload),
+  togglePortalApp: (id, active) => ipcRenderer.invoke("portal:toggle", id, active),
+  generateTwa: (id) => ipcRenderer.invoke("portal:generate-twa", id),
+  portalChecks: () => ipcRenderer.invoke("portal:checks"),
+  openExternal: (url) => ipcRenderer.invoke("shell:open", url)
+});

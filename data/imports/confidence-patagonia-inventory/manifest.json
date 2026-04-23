@@ -1,0 +1,241 @@
+{
+  "packageId": "confidence-patagonia-inventory-entities",
+  "title": "Confidence Patagonia - entidades de inventario",
+  "sourcePdf": "C:\\Users\\usuario\\Downloads\\Confidence Documentação completa Patagônia.pdf",
+  "sourcePageCount": 52,
+  "generatedAt": "2026-04-23T07:58:50.866Z",
+  "entities": [
+    {
+      "id": "proposta-preco",
+      "file": "01_proposta_preco.pdf",
+      "title": "Proposta de preco",
+      "entityType": "documento_principal",
+      "category": "proposta",
+      "pages": [
+        [
+          1,
+          1
+        ]
+      ],
+      "role": "Documento nuclear do certame, valor ofertado e proponente.",
+      "pageCount": 1,
+      "path": "01_proposta_preco.pdf",
+      "status": "ready_for_inventory"
+    },
+    {
+      "id": "declaracoes-habilitacao-integridade",
+      "file": "02_declaracoes_habilitacao_integridade.pdf",
+      "title": "Declaracoes de habilitacao e integridade",
+      "entityType": "grupo_documental",
+      "category": "regularidade",
+      "pages": [
+        [
+          2,
+          4
+        ],
+        [
+          50,
+          52
+        ]
+      ],
+      "role": "Declaracoes formais de independencia, veracidade, requisitos tecnicos, menor e reserva legal.",
+      "pageCount": 6,
+      "path": "02_declaracoes_habilitacao_integridade.pdf",
+      "status": "ready_for_inventory"
+    },
+    {
+      "id": "capacidade-operacional-declarada",
+      "file": "03_capacidade_operacional_declarada.pdf",
+      "title": "Capacidade operacional declarada",
+      "entityType": "grupo_documental",
+      "category": "tecnico",
+      "pages": [
+        [
+          5,
+          6
+        ],
+        [
+          9,
+          9
+        ]
+      ],
+      "role": "Declaracoes de disponibilidade tecnica, equipamentos e aptidao de desempenho.",
+      "pageCount": 3,
+      "path": "03_capacidade_operacional_declarada.pdf",
+      "status": "ready_for_inventory"
+    },
+    {
+      "id": "financeiro-dfl-patrimonio-compromissos",
+      "file": "04_financeiro_dfl_patrimonio_compromissos.pdf",
+      "title": "Qualificacao economico-financeira",
+      "entityType": "grupo_documental",
+      "category": "financeiro",
+      "pages": [
+        [
+          7,
+          8
+        ],
+        [
+          10,
+          10
+        ]
+      ],
+      "role": "DFL, compromissos assumidos e patrimonio liquido.",
+      "pageCount": 3,
+      "path": "04_financeiro_dfl_patrimonio_compromissos.pdf",
+      "status": "ready_for_inventory"
+    },
+    {
+      "id": "representante-legal",
+      "file": "05_representante_legal.pdf",
+      "title": "Representante legal",
+      "entityType": "pessoa",
+      "category": "cadastro",
+      "pages": [
+        [
+          11,
+          11
+        ]
+      ],
+      "role": "Identificacao do representante legal por CNH.",
+      "pageCount": 1,
+      "path": "05_representante_legal.pdf",
+      "status": "ready_for_inventory"
+    },
+    {
+      "id": "empresa-cadastro-regularidade",
+      "file": "06_empresa_cadastro_regularidade.pdf",
+      "title": "Empresa - cadastro e regularidade",
+      "entityType": "empresa",
+      "category": "regularidade",
+      "pages": [
+        [
+          12,
+          16
+        ],
+        [
+          29,
+          29
+        ]
+      ],
+      "role": "CRC, situacao cadastral, certidao falencia/concordata, CREA PJ e CAO da empresa.",
+      "pageCount": 6,
+      "path": "06_empresa_cadastro_regularidade.pdf",
+      "status": "ready_for_inventory"
+    },
+    {
+      "id": "rt-civil-emily-vinculo",
+      "file": "07_responsavel_tecnico_civil_emily_vinculo.pdf",
+      "title": "Responsavel tecnico civil - Emily Almeida Pires",
+      "entityType": "responsavel_tecnico",
+      "category": "responsavel_tecnico",
+      "pages": [
+        [
+          30,
+          34
+        ]
+      ],
+      "role": "Contrato de vinculacao, autorizacao individual e certidao CREA PF.",
+      "pageCount": 5,
+      "path": "07_responsavel_tecnico_civil_emily_vinculo.pdf",
+      "status": "ready_for_inventory"
+    },
+    {
+      "id": "rt-civil-emily-acervo",
+      "file": "08_responsavel_tecnico_civil_emily_acervo.pdf",
+      "title": "Acervo tecnico civil - Emily Almeida Pires",
+      "entityType": "cat_atestado",
+      "category": "cat",
+      "pages": [
+        [
+          17,
+          28
+        ]
+      ],
+      "role": "CAT e atestado vinculado da engenheira civil.",
+      "pageCount": 12,
+      "path": "08_responsavel_tecnico_civil_emily_acervo.pdf",
+      "status": "ready_for_inventory"
+    },
+    {
+      "id": "rt-eletrica-paulo-vinculo",
+      "file": "09_responsavel_tecnico_eletrica_paulo_vinculo.pdf",
+      "title": "Responsavel tecnico eletrica - Paulo Moreira Mota da Silva",
+      "entityType": "responsavel_tecnico",
+      "category": "responsavel_tecnico",
+      "pages": [
+        [
+          35,
+          35
+        ],
+        [
+          46,
+          49
+        ]
+      ],
+      "role": "Autorizacao, contrato de assistencia tecnica e certidao CREA PF.",
+      "pageCount": 5,
+      "path": "09_responsavel_tecnico_eletrica_paulo_vinculo.pdf",
+      "status": "ready_for_inventory"
+    },
+    {
+      "id": "rt-eletrica-paulo-acervo",
+      "file": "10_responsavel_tecnico_eletrica_paulo_acervo.pdf",
+      "title": "Acervo tecnico eletrica - Paulo Moreira Mota da Silva",
+      "entityType": "cat_atestado",
+      "category": "cat",
+      "pages": [
+        [
+          36,
+          45
+        ]
+      ],
+      "role": "CAT e atestado vinculado do engenheiro eletricista.",
+      "pageCount": 10,
+      "path": "10_responsavel_tecnico_eletrica_paulo_acervo.pdf",
+      "status": "ready_for_inventory"
+    },
+    {
+      "id": "contratos-vinculacao-tecnica",
+      "file": "11_contratos_vinculacao_tecnica.pdf",
+      "title": "Contratos de vinculacao tecnica",
+      "entityType": "contrato",
+      "category": "responsavel_tecnico",
+      "pages": [
+        [
+          30,
+          32
+        ],
+        [
+          46,
+          47
+        ]
+      ],
+      "role": "Contratos que vinculam os responsaveis tecnicos a empresa.",
+      "pageCount": 5,
+      "path": "11_contratos_vinculacao_tecnica.pdf",
+      "status": "ready_for_inventory"
+    },
+    {
+      "id": "autorizacoes-responsaveis-tecnicos",
+      "file": "12_autorizacoes_responsaveis_tecnicos.pdf",
+      "title": "Autorizacoes dos responsaveis tecnicos",
+      "entityType": "autorizacao",
+      "category": "responsavel_tecnico",
+      "pages": [
+        [
+          33,
+          33
+        ],
+        [
+          35,
+          35
+        ]
+      ],
+      "role": "Autorizacoes individuais para uso dos responsaveis tecnicos na proposta.",
+      "pageCount": 2,
+      "path": "12_autorizacoes_responsaveis_tecnicos.pdf",
+      "status": "ready_for_inventory"
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "packageId": "confidence-patagonia-001-2025",
+  "sourcePdf": "C:\\Users\\usuario\\Downloads\\Confidence Documentação completa Patagônia.pdf",
+  "title": "Confidence Documentacao completa Patagonia",
+  "context": "Concorrencia Eletronica 001/2025",
+  "administrativeProcess": "069.1475.2024.0003715-28",
+  "proponent": "Confidence Construtora Ltda",
+  "generatedAt": "2026-04-23T04:14:13.990Z",
+  "totalSourcePages": 52,
+  "documents": [
+    {
+      "id": "principal-01",
+      "folder": "00_principais",
+      "file": "01_proposta_preco.pdf",
+      "title": "Proposta de preco",
+      "kind": "proposta",
+      "pages": {
+        "start": 1,
+        "end": 1
+      },
+      "platformCategory": "proposta",
+      "role": "Abre o dossie e amarra proponente, certame e valor ofertado.",
+      "pageCount": 1,
+      "path": "00_principais/01_proposta_preco.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "declaracao-01",
+      "folder": "00_principais",
+      "file": "02_declaracao_independencia_inexistencia_impedimento.pdf",
+      "title": "Declaracao de elaboracao independente e inexistencia de impedimento",
+      "kind": "declaracao",
+      "pages": {
+        "start": 2,
+        "end": 3
+      },
+      "platformCategory": "regularidade",
+      "role": "Registra integridade da proposta e ausencia de impedimento.",
+      "pageCount": 2,
+      "path": "00_principais/02_declaracao_independencia_inexistencia_impedimento.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "declaracao-02",
+      "folder": "00_principais",
+      "file": "03_declaracao_veracidade_documentos.pdf",
+      "title": "Declaracao de veracidade de documentos",
+      "kind": "declaracao",
+      "pages": {
+        "start": 4,
+        "end": 4
+      },
+      "platformCategory": "regularidade",
+      "role": "Declara responsabilidade pela autenticidade documental.",
+      "pageCount": 1,
+      "path": "00_principais/03_declaracao_veracidade_documentos.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "declaracao-03",
+      "folder": "00_principais",
+      "file": "04_declaracao_disponibilidade_tecnica_equipamentos.pdf",
+      "title": "Declaracao de disponibilidade tecnica e equipamentos",
+      "kind": "declaracao_tecnica",
+      "pages": {
+        "start": 5,
+        "end": 6
+      },
+      "platformCategory": "tecnico",
+      "role": "Declara disponibilidade operacional para executar o objeto.",
+      "pageCount": 2,
+      "path": "00_principais/04_declaracao_disponibilidade_tecnica_equipamentos.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "financeiro-01",
+      "folder": "00_principais",
+      "file": "05_demonstrativo_disponibilidade_financeira_liquida.pdf",
+      "title": "Demonstrativo da disponibilidade financeira liquida",
+      "kind": "financeiro",
+      "pages": {
+        "start": 7,
+        "end": 7
+      },
+      "platformCategory": "financeiro",
+      "role": "Demonstra capacidade financeira liquida para absorver o contrato.",
+      "pageCount": 1,
+      "path": "00_principais/05_demonstrativo_disponibilidade_financeira_liquida.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "financeiro-02",
+      "folder": "00_principais",
+      "file": "06_declaracao_compromissos_assumidos.pdf",
+      "title": "Declaracao de compromissos assumidos",
+      "kind": "financeiro",
+      "pages": {
+        "start": 8,
+        "end": 8
+      },
+      "platformCategory": "financeiro",
+      "role": "Informa compromissos assumidos que impactam disponibilidade.",
+      "pageCount": 1,
+      "path": "00_principais/06_declaracao_compromissos_assumidos.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "tecnico-00",
+      "folder": "00_principais",
+      "file": "07_comprovacao_aptidao_desempenho.pdf",
+      "title": "Comprovacao de aptidao para desempenho",
+      "kind": "declaracao_tecnica",
+      "pages": {
+        "start": 9,
+        "end": 9
+      },
+      "platformCategory": "tecnico",
+      "role": "Introduz a camada de qualificacao tecnica do dossie.",
+      "pageCount": 1,
+      "path": "00_principais/07_comprovacao_aptidao_desempenho.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "financeiro-03",
+      "folder": "00_principais",
+      "file": "08_declaracao_patrimonio_liquido.pdf",
+      "title": "Declaracao de patrimonio liquido",
+      "kind": "financeiro",
+      "pages": {
+        "start": 10,
+        "end": 10
+      },
+      "platformCategory": "financeiro",
+      "role": "Declara patrimonio liquido para habilitacao economico-financeira.",
+      "pageCount": 1,
+      "path": "00_principais/08_declaracao_patrimonio_liquido.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "anexo-01",
+      "folder": "01_institucional_cadastral",
+      "file": "anexo_01_cnh_representante_legal.pdf",
+      "title": "CNH do representante legal",
+      "kind": "identificacao",
+      "pages": {
+        "start": 11,
+        "end": 11
+      },
+      "platformCategory": "cadastro",
+      "role": "Identifica o representante legal vinculado ao pacote.",
+      "pageCount": 1,
+      "path": "01_institucional_cadastral/anexo_01_cnh_representante_legal.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "anexo-02",
+      "folder": "01_institucional_cadastral",
+      "file": "anexo_02_crc.pdf",
+      "title": "Certificado de Registro Cadastral - CRC",
+      "kind": "certidao",
+      "pages": {
+        "start": 12,
+        "end": 12
+      },
+      "platformCategory": "regularidade",
+      "role": "Comprova cadastro do fornecedor.",
+      "pageCount": 1,
+      "path": "01_institucional_cadastral/anexo_02_crc.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "anexo-03",
+      "folder": "01_institucional_cadastral",
+      "file": "anexo_03_situacao_cadastral_fornecedor.pdf",
+      "title": "Situacao cadastral do fornecedor",
+      "kind": "cadastro",
+      "pages": {
+        "start": 13,
+        "end": 14
+      },
+      "platformCategory": "regularidade",
+      "role": "Mostra situacao cadastral e painel de documentos/validade.",
+      "pageCount": 2,
+      "path": "01_institucional_cadastral/anexo_03_situacao_cadastral_fornecedor.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "anexo-04",
+      "folder": "01_institucional_cadastral",
+      "file": "anexo_04_certidao_falencia_concordata.pdf",
+      "title": "Certidao estadual de falencia e concordata",
+      "kind": "certidao",
+      "pages": {
+        "start": 15,
+        "end": 15
+      },
+      "platformCategory": "regularidade",
+      "role": "Comprova ausencia de falencia, concordata e recuperacao judicial.",
+      "pageCount": 1,
+      "path": "01_institucional_cadastral/anexo_04_certidao_falencia_concordata.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "anexo-05",
+      "folder": "01_institucional_cadastral",
+      "file": "anexo_05_certidao_crea_pessoa_juridica.pdf",
+      "title": "Certidao CREA pessoa juridica",
+      "kind": "certidao_tecnica",
+      "pages": {
+        "start": 16,
+        "end": 16
+      },
+      "platformCategory": "tecnico",
+      "role": "Comprova registro e quitacao da empresa no CREA-BA.",
+      "pageCount": 1,
+      "path": "01_institucional_cadastral/anexo_05_certidao_crea_pessoa_juridica.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "anexo-06",
+      "folder": "02_tecnico_engenharia_civil",
+      "file": "anexo_06_cat_emily_almeida_pires.pdf",
+      "title": "CAT com registro de atestado - Emily Almeida Pires",
+      "kind": "cat",
+      "pages": {
+        "start": 17,
+        "end": 18
+      },
+      "platformCategory": "cat",
+      "role": "Comprova acervo tecnico da responsavel civil.",
+      "pageCount": 2,
+      "path": "02_tecnico_engenharia_civil/anexo_06_cat_emily_almeida_pires.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "anexo-07",
+      "folder": "02_tecnico_engenharia_civil",
+      "file": "anexo_07_atestado_cat_engenharia_civil.pdf",
+      "title": "Atestado vinculado a CAT da Engenheira Civil",
+      "kind": "atestado",
+      "pages": {
+        "start": 19,
+        "end": 28
+      },
+      "platformCategory": "cat",
+      "role": "Evidencia experiencia aderente da responsavel civil.",
+      "pageCount": 10,
+      "path": "02_tecnico_engenharia_civil/anexo_07_atestado_cat_engenharia_civil.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "anexo-08",
+      "folder": "02_tecnico_engenharia_civil",
+      "file": "anexo_08_cao_empresa.pdf",
+      "title": "Certidao de Acervo Operacional da empresa",
+      "kind": "cao",
+      "pages": {
+        "start": 29,
+        "end": 29
+      },
+      "platformCategory": "tecnico",
+      "role": "Comprova acervo operacional da pessoa juridica.",
+      "pageCount": 1,
+      "path": "02_tecnico_engenharia_civil/anexo_08_cao_empresa.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "anexo-09",
+      "folder": "02_tecnico_engenharia_civil",
+      "file": "anexo_09_contrato_vinculacao_engenharia_civil.pdf",
+      "title": "Contrato de vinculacao da Engenheira Civil",
+      "kind": "contrato_vinculacao",
+      "pages": {
+        "start": 30,
+        "end": 32
+      },
+      "platformCategory": "responsavel_tecnico",
+      "role": "Vincula a profissional civil a empresa licitante.",
+      "pageCount": 3,
+      "path": "02_tecnico_engenharia_civil/anexo_09_contrato_vinculacao_engenharia_civil.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "anexo-10",
+      "folder": "02_tecnico_engenharia_civil",
+      "file": "anexo_10_autorizacao_engenheira_civil.pdf",
+      "title": "Autorizacao individual da Engenheira Civil",
+      "kind": "autorizacao",
+      "pages": {
+        "start": 33,
+        "end": 33
+      },
+      "platformCategory": "responsavel_tecnico",
+      "role": "Autoriza uso da responsavel tecnica civil na proposta.",
+      "pageCount": 1,
+      "path": "02_tecnico_engenharia_civil/anexo_10_autorizacao_engenheira_civil.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "anexo-11",
+      "folder": "02_tecnico_engenharia_civil",
+      "file": "anexo_11_certidao_crea_pf_emily.pdf",
+      "title": "Certidao CREA pessoa fisica - Emily Almeida Pires",
+      "kind": "certidao_tecnica",
+      "pages": {
+        "start": 34,
+        "end": 34
+      },
+      "platformCategory": "responsavel_tecnico",
+      "role": "Comprova registro e quitacao da responsavel civil.",
+      "pageCount": 1,
+      "path": "02_tecnico_engenharia_civil/anexo_11_certidao_crea_pf_emily.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "anexo-12",
+      "folder": "03_tecnico_engenharia_eletrica",
+      "file": "anexo_12_autorizacao_engenheiro_eletricista.pdf",
+      "title": "Autorizacao individual do Engenheiro Eletricista",
+      "kind": "autorizacao",
+      "pages": {
+        "start": 35,
+        "end": 35
+      },
+      "platformCategory": "responsavel_tecnico",
+      "role": "Autoriza uso do responsavel tecnico eletricista na proposta.",
+      "pageCount": 1,
+      "path": "03_tecnico_engenharia_eletrica/anexo_12_autorizacao_engenheiro_eletricista.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "anexo-13",
+      "folder": "03_tecnico_engenharia_eletrica",
+      "file": "anexo_13_cat_paulo_moreira.pdf",
+      "title": "CAT com registro de atestado - Paulo Moreira Mota da Silva",
+      "kind": "cat",
+      "pages": {
+        "start": 36,
+        "end": 36
+      },
+      "platformCategory": "cat",
+      "role": "Comprova acervo tecnico do responsavel eletricista.",
+      "pageCount": 1,
+      "path": "03_tecnico_engenharia_eletrica/anexo_13_cat_paulo_moreira.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "anexo-14",
+      "folder": "03_tecnico_engenharia_eletrica",
+      "file": "anexo_14_atestado_cat_engenharia_eletrica.pdf",
+      "title": "Atestado vinculado a CAT do Engenheiro Eletricista",
+      "kind": "atestado",
+      "pages": {
+        "start": 37,
+        "end": 45
+      },
+      "platformCategory": "cat",
+      "role": "Evidencia experiencia aderente do responsavel eletricista.",
+      "pageCount": 9,
+      "path": "03_tecnico_engenharia_eletrica/anexo_14_atestado_cat_engenharia_eletrica.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "anexo-15",
+      "folder": "03_tecnico_engenharia_eletrica",
+      "file": "anexo_15_contrato_vinculacao_engenharia_eletrica.pdf",
+      "title": "Contrato de vinculacao do Engenheiro Eletricista",
+      "kind": "contrato_vinculacao",
+      "pages": {
+        "start": 46,
+        "end": 47
+      },
+      "platformCategory": "responsavel_tecnico",
+      "role": "Vincula o profissional eletricista a empresa licitante.",
+      "pageCount": 2,
+      "path": "03_tecnico_engenharia_eletrica/anexo_15_contrato_vinculacao_engenharia_eletrica.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "anexo-16",
+      "folder": "03_tecnico_engenharia_eletrica",
+      "file": "anexo_16_certidao_crea_pf_paulo.pdf",
+      "title": "Certidao CREA pessoa fisica - Paulo Moreira Mota da Silva",
+      "kind": "certidao_tecnica",
+      "pages": {
+        "start": 48,
+        "end": 49
+      },
+      "platformCategory": "responsavel_tecnico",
+      "role": "Comprova registro e quitacao do responsavel eletricista.",
+      "pageCount": 2,
+      "path": "03_tecnico_engenharia_eletrica/anexo_16_certidao_crea_pf_paulo.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "final-01",
+      "folder": "04_declaracoes_finais",
+      "file": "01_declaracao_pleno_conhecimento_requisitos_tecnicos.pdf",
+      "title": "Declaracao de pleno conhecimento de requisitos tecnicos",
+      "kind": "declaracao",
+      "pages": {
+        "start": 50,
+        "end": 50
+      },
+      "platformCategory": "regularidade",
+      "role": "Fecha aderencia tecnica declarada ao edital.",
+      "pageCount": 1,
+      "path": "04_declaracoes_finais/01_declaracao_pleno_conhecimento_requisitos_tecnicos.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "final-02",
+      "folder": "04_declaracoes_finais",
+      "file": "02_declaracao_protecao_trabalho_menor.pdf",
+      "title": "Declaracao de protecao ao trabalho do menor",
+      "kind": "declaracao",
+      "pages": {
+        "start": 51,
+        "end": 51
+      },
+      "platformCategory": "regularidade",
+      "role": "Declara cumprimento de regra trabalhista legal.",
+      "pageCount": 1,
+      "path": "04_declaracoes_finais/02_declaracao_protecao_trabalho_menor.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    },
+    {
+      "id": "final-03",
+      "folder": "04_declaracoes_finais",
+      "file": "03_declaracao_reserva_cargos_pcd_reabilitado.pdf",
+      "title": "Declaracao de reserva de cargos PCD/reabilitado",
+      "kind": "declaracao",
+      "pages": {
+        "start": 52,
+        "end": 52
+      },
+      "platformCategory": "regularidade",
+      "role": "Declara cumprimento de reserva legal de cargos.",
+      "pageCount": 1,
+      "path": "04_declaracoes_finais/03_declaracao_reserva_cargos_pcd_reabilitado.pdf",
+      "source": "split_from_pdf",
+      "status": "ready_for_platform"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "id": "confidence-portal",
+      "name": "Portal Confidence",
+      "package": "app.glauco.confidence",
+      "host": "REPLACE_WITH_NGROK_HOST",
+      "start_url": "/__glauco/pages/confidence-portal",
+      "port": 8010,
+      "source_view": "portal-summary",
+      "public_url": "",
+      "theme_color": "#0f62fe",
+      "navigation_color": "#0f62fe"
+    }
+  ]
+}

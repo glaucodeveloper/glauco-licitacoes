@@ -1,0 +1,124 @@
+{
+  "generatedAt": "2026-04-03T03:02:08.334Z",
+  "totals": {
+    "documents": 18,
+    "candidateWindow": 1074,
+    "minYear": 2025
+  },
+  "facets": {
+    "orgaos": [
+      {
+        "label": "SECRETARIA DA SAÚDE",
+        "count": 8
+      },
+      {
+        "label": "SECRETARIA DE INFRAESTRUTURA HIDRICA E SANEAMENTO",
+        "count": 3
+      },
+      {
+        "label": "SECRETARIA DA ADMINISTRAÇÃO",
+        "count": 2
+      },
+      {
+        "label": "SECRETARIA DE COMUNICACAO SOCIAL",
+        "count": 2
+      },
+      {
+        "label": "SECRETARIA DE MEIO AMBIENTE",
+        "count": 1
+      },
+      {
+        "label": "SECRETARIA DE CULTURA",
+        "count": 1
+      },
+      {
+        "label": "SECRETARIA DE DESENVOLVIMENTO URBANO",
+        "count": 1
+      }
+    ],
+    "modalidades": [
+      {
+        "label": "Concorrência Pública",
+        "count": 13
+      },
+      {
+        "label": "Pregão Eletrônico",
+        "count": 5
+      }
+    ],
+    "situacoes": [
+      {
+        "label": "Em andamento/elaboração",
+        "count": 18
+      }
+    ],
+    "anos": [
+      {
+        "label": "2026",
+        "count": 17
+      },
+      {
+        "label": "2025",
+        "count": 1
+      }
+    ],
+    "cnaes": [
+      {
+        "label": "7112-0/00",
+        "count": 4
+      },
+      {
+        "label": "4120-4/00",
+        "count": 3
+      },
+      {
+        "label": "70.15",
+        "count": 1
+      },
+      {
+        "label": "07.05.19.00129870-4",
+        "count": 1
+      },
+      {
+        "label": "Serviços de comunicação institucional",
+        "count": 1
+      },
+      {
+        "label": "4299-5/99",
+        "count": 1
+      },
+      {
+        "label": "8211-3/00",
+        "count": 1
+      },
+      {
+        "label": "7739-0/99",
+        "count": 1
+      },
+      {
+        "label": "4299-1/99",
+        "count": 1
+      },
+      {
+        "label": "02.14 C",
+        "count": 1
+      },
+      {
+        "label": "65.15",
+        "count": 1
+      },
+      {
+        "label": "04.19",
+        "count": 1
+      },
+      {
+        "label": "4222-7/01",
+        "count": 1
+      }
+    ]
+  },
+  "notes": {
+    "chatModel": "gemini-2.5-flash",
+    "hasAiExtraction": true
+  }
+}

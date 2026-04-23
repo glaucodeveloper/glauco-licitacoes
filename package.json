@@ -1,0 +1,36 @@
+{
+  "name": "glauco-licitacoes-electron",
+  "version": "1.0.0",
+  "description": "Cockpit Electron React para agentes de licitacoes, portais externos e radar Bahia.",
+  "author": "Glauco",
+  "private": true,
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "start": "node scripts/dev-electron.mjs",
+    "dev": "node scripts/dev-electron.mjs",
+    "test": "node --test test/*.test.mjs",
+    "build": "vite build",
+    "package": "npm run build && node scripts/package-electron.mjs",
+    "containerize": "npm run build && node scripts/containerize-electron.mjs",
+    "split:confidence-patagonia": "node scripts/split-confidence-patagonia.mjs",
+    "split:confidence-inventory": "node scripts/split-confidence-inventory-entities.mjs",
+    "native-app": "npm run windows-app",
+    "windows-app": "npm run build && electron-builder --win portable --config electron-builder.yml"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^2.4.5",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "tesseract.js": "^7.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "electron": "^39.2.6",
+    "electron-builder": "^26.0.12",
+    "vite": "^7.3.0"
+  }
+}

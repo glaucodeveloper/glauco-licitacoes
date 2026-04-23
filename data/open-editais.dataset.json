@@ -1,0 +1,1799 @@
+[
+  {
+    "id": "09009PE0032026",
+    "licitacaoFormatada": "PE003/2026",
+    "orgao": "SECRETARIA DA ADMINISTRAÇÃO",
+    "unidade": "SUPERINTENDENCIA DE RECURSOS LOGISTICOS",
+    "modalidade": "Pregão Eletrônico",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "24/07/2026 00:00:00",
+    "dataAberturaIso": "2026-07-24",
+    "valorEstimado": 6045356,
+    "valorHomologado": 0,
+    "objeto": "Aquisição de bens comuns",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/09009PE0032026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Pregão Eletrônico (PE003/2026) para aquisição de bens comuns via Sistema de Registro de Preços (SRP), focado no ressuprimento de suprimentos de informática para Salvador e Região Metropolitana. Inclui tratamento diferenciado para Microempresas e Empresas de Pequeno Porte (ME/EPP) com itens de participação restrita e ampla, e reserva de cota.",
+      "cnaes": [
+        {
+          "code": "70.15",
+          "description": "Ressuprimento de Suprimento de Informática"
+        }
+      ],
+      "items": [
+        "Bens comuns",
+        "Suprimento de Informática",
+        "Ressuprimento de Suprimento de Informática"
+      ],
+      "deliveryConditions": [
+        "Sistema de Registro de Preços (SRP)"
+      ],
+      "locations": [
+        "Salvador e Região Metropolitana"
+      ],
+      "deadlines": [
+        "Recebimento de propostas: 23/04/2026 (08:30h) a 27/04/2026 (10:00h)",
+        "Início da sessão pública: 27/04/2026 às 10:00h",
+        "Reabertura de sessão suspensa agendada com 24h de antecedência"
+      ],
+      "requirements": [
+        "Inscrição no Cadastro de Fornecedores do Estado da Bahia / SAEB",
+        "Atividade pertinente ao objeto licitado",
+        "Credenciamento como usuário junto ao Banco do Brasil para obtenção de chave/senha individual",
+        "Atender a todas as exigências do edital e anexos",
+        "Leitura atenta e integral do Edital e seus anexos (especialmente item 15 sobre infrações e sanções)",
+        "Não ser autor ou empresa ligada ao autor do anteprojeto/projeto básico/executivo",
+        "Credenciar apenas um representante por licitante (e um representante por licitante)",
+        "Credenciar-se previamente no sistema eletrônico",
+        "Responsabilidade legal e presunção de capacidade técnica pelo usuário credenciado"
+      ],
+      "documents": [
+        "Documentação de habilitação",
+        "Modelos de declarações que acompanham a proposta",
+        "Modelo de procuração",
+        "Modelo de declaração por ME e EPP",
+        "Declaração de limitação de celebração de contrato (art. 4º, §2º, da Lei Federal nº 14.133/2021)"
+      ],
+      "keywords": [
+        "Pregão Eletrônico",
+        "SRP",
+        "Registro de Preços",
+        "Suprimento de Informática",
+        "TI",
+        "Salvador",
+        "Bahia",
+        "Bens Comuns",
+        "ME",
+        "EPP",
+        "Aquisição",
+        "Lei 14.133/2021"
+      ],
+      "sourceTextPreview": "INFORMAÇÕES PARA PARTICIPAÇÃO NO PREGÃO ELETRÔNICO (I) ALERTA AOS LICITANTES – DAS INFRAÇÕES E SANÇÕES ADMINISTRATIVAS Antes de apresentar propostas ou documentos, atente-se ao disposto no item 15 do edital – infrações administrativas e sanções. A inobservância das exigências editalícias, especialmente quanto a não apresentação da documentação obrigatória, poderá configurar infração administrativa, sujeitando o licitante às sanções previstas nos arts. 155 da Lei Federal nº 14.133/2021, art. 47 e art. 48 da lei nº 14.634/2023, e demais normas aplicáveis no âmbito do Estado da Bahia. As penalidades podem incluir advertência, multa, impedimento de licitar e contratar, e declaração de inidoneidade, respeitado o direito à ampla defesa e ao contraditório. Recomenda-se a leitura atenta e integral do Edital, bem como de todos os seus anexos, especialmente do item 15 da parte fixa, a fim de evitar sanções por descumprimento das obrigações legais e regulamentares. (II) 10.10.1 Desde que solicitado de forma expressa pelo licitante interessado, e sob sua inteira e exclusiva responsabilidade, inclusive no que respeita à adequação da habilitação econômico-financeira e da qualificação técnica, a",
+      "technicalQualificationHighlight": "Pertencer ao ramo de atividade pertinente ao objeto licitado: Ressuprimento de Suprimento de Informática para Salvador e Região Metropolitana.",
+      "proposalDateHighlight": "Início da sessão pública às 10:00 horas do dia 27/04/2026."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:20:56.335Z",
+      "textLength": 394923,
+      "highlightRefreshedAt": "2026-04-03T02:46:54.158Z"
+    }
+  },
+  {
+    "id": "19004CP0022026",
+    "licitacaoFormatada": "CP002/2026",
+    "orgao": "SECRETARIA DA SAÚDE",
+    "unidade": "COORDENAÇÃO EXECUTIVA DE INFRAESTRUTURA DA REDE FÍSICA",
+    "modalidade": "Concorrência Pública",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "19/06/2026 00:00:00",
+    "dataAberturaIso": "2026-06-19",
+    "valorEstimado": 58672542.61,
+    "valorHomologado": 0,
+    "objeto": "Serviços especiais, serviços especiais de engenharia e obras especiais",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/19004CP0022026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Licitação para contratação integrada para execução da obra de construção do Hospital Geral de Maracás, no Município de Maracás, Bahia, sob regime de técnica e preço, regida pela Lei Federal nº 14.133/2021.",
+      "cnaes": [
+        {
+          "code": "07.05.19.00129870-4",
+          "description": "Contratação integrada para execução da obra de construção do Hospital Geral de Maracás"
+        }
+      ],
+      "items": [
+        "Obra de construção do Hospital Geral de Maracás",
+        "Serviços especiais",
+        "Serviços especiais de engenharia",
+        "Obras especiais"
+      ],
+      "deliveryConditions": [
+        "Contratação Integrada por preço global",
+        "Execução da obra de construção do Hospital Geral de Maracás"
+      ],
+      "locations": [
+        "Maracás, Bahia (local da obra)",
+        "SECRETARIA DA SAÚDE DO ESTADO DA BAHIA-SESAB, 4ª Avenida, Plataforma VI, Térreo, Sala de licitações, DLC-CEAC, Ala A, Centro Administrativo da Bahia, Salvador/Ba. CEP 41.750-300 (local da sessão pública)"
+      ],
+      "deadlines": [
+        "Recebimento das propostas e documentos e início da sessão pública: 19/06/2026 às 09h30"
+      ],
+      "requirements": [
+        "Inscrição no Cadastro de Fornecedores do Estado da Bahia /SAEB (ou atender as exigências do edital)",
+        "Pertença ao ramo de atividade pertinente ao objeto licitado",
+        "Credenciamento como usuário junto ao Banco do Brasil para obtenção de chave de identificação ou senha individual",
+        "Não ser autor do anteprojeto, projeto básico ou executivo relacionados à obra",
+        "Não manter vínculo de natureza técnica, comercial, econômica, financeira, trabalhista ou civil com dirigente do órgão ou agente público da licitação/fiscalização/gestão do contrato, ou ser cônjuge, companheiro ou parente até terceiro grau",
+        "Não ser empresa controladora, controlada ou coligada concorrendo entre si",
+        "Não ter sido condenado judicialmente nos 5 anos anteriores por exploração de trabalho infantil, submissão a trabalho análogo à escravo ou contratação de adolescentes vedada",
+        "Não ser agente público do órgão ou entidade licitante",
+        "Não ser Organização da Sociedade Civil de Interesse Público - OSCIP, atuando nessa condição"
+      ],
+      "documents": [
+        "ENVELOPE A – Proposta Técnica",
+        "ENVELOPE B – Proposta de Preços",
+        "ENVELOPE C – Habilitação",
+        "Termo de Referência e Habilitação (TR/Habilitação)",
+        "Modelo de procuração (se aplicável)",
+        "Modelo de declaração por ME e EPP de limitação de celebração de contrato (art. 4º, §2º, da Lei Federal nº 14.133/2021)",
+        "Ato constitutivo, estatuto ou contrato social (para credenciamento)",
+        "Documento de eleição e posse dos administradores (para SA, para credenciamento)"
+      ],
+      "keywords": [
+        "Hospital Geral de Maracás",
+        "Construção",
+        "Obra",
+        "Maracás",
+        "Bahia",
+        "Contratação Integrada",
+        "Engenharia",
+        "Serviços",
+        "SESAB",
+        "Concorrência Pública",
+        "Técnica e Preço",
+        "Lei 14.133/2021"
+      ],
+      "sourceTextPreview": "ESTADO DA BAHIA SECRETARIA DA SAÚDE - SESAB DIRETORIA DE LICITAÇÕES – DL Página 1 de 40 VERSÃO 2 - OS PA Nº 17/2025 – 1. Preâmbulo e 2. Rito Procedimental – DOWNLOAD em 08/01/2026 VERSÃO 1 – OS PA Nº 17/2025 – 3. Formulário de documentos e 4. Seção do SRP – DOWNLOAD em 04/06/2025 EDITAL ( X ) Contratação delegada ( ) Sistema de Registro de Preços - SRP ESTRUTURAÇÃO DO EDITAL I – Parte Invariável, tendo como componentes: a) Preâmbulo; b) Rito Procedimental; c) Formulários de documentos; 1. Modelo de procuração 2. Modelo de declaração por ME e EPP de limitação de celebração de contrato (art. 4º, §2º, da Lei Federal nº 14.133/2021) d) Seção do Sistema de Registro de Preços - SRP: 1. Especificações do SRP; 2. Minuta da Ata de Registro de Preços; II – Parte Variável, tendo como componentes: a) Termo de Referência e Habilitação (TR/Habilitação) [disponibilizado separadamente]; b) Minuta de contrato [disponibilizado separadamente]. PREÂMBULO 1. Regência legal: Esta licitação obedecerá às disposições da Lei Federal nº 14.133, de 1° de abril de 2021, dos correspondentes decretos regulamentadores, bem como à legislação específica pertinente ao objeto licitado e, ainda, de acordo com as condi",
+      "technicalQualificationHighlight": "Apresentação e avaliação da proposta técnica para a contratação integrada da obra de construção do Hospital Geral de Maracás, conforme Termo de Referência e Habilitação.",
+      "proposalDateHighlight": "19/06/2026, às 09h30, para recebimento das propostas e documentos e início da sessão pública da licitação."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:21:10.943Z",
+      "textLength": 139961,
+      "highlightRefreshedAt": "2026-04-03T02:47:04.022Z"
+    }
+  },
+  {
+    "id": "23014CP0042026",
+    "licitacaoFormatada": "CP004/2026",
+    "orgao": "SECRETARIA DE INFRAESTRUTURA HIDRICA E SANEAMENTO",
+    "unidade": "DIRETORIA DE MEIO AMBIENTE E RECURSOS HÍDRICOS (DMR)",
+    "modalidade": "Concorrência Pública",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "01/06/2026 00:00:00",
+    "dataAberturaIso": "2026-06-01",
+    "valorEstimado": 9869356.03,
+    "valorHomologado": 0,
+    "objeto": "Obras Civis",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/23014CP0042026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Contratação de empresa especializada em Serviços de Gerenciamento, Supervisão, Inspeção e Controle de Qualidade das Obras da Barragem de Morrinhos.",
+      "cnaes": [
+        {
+          "code": "7112-0/00",
+          "description": "Serviços de engenharia"
+        }
+      ],
+      "items": [
+        "Serviços de Gerenciamento de Obras de Barragem",
+        "Serviços de Supervisão de Obras de Barragem",
+        "Serviços de Inspeção de Obras de Barragem",
+        "Serviços de Controle de Qualidade de Obras de Barragem",
+        "Avaliação de Projetos de Engenharia de Barragem",
+        "Adequação de Projetos de Engenharia de Barragem",
+        "Elaboração de Planos de Segurança de Barragens"
+      ],
+      "deliveryConditions": [
+        "Regime de Execução: Preços unitários.",
+        "Subcontratação permitida com autorização prévia e formal da CERB.",
+        "Empresas subcontratadas devem atender a todas as exigências, deveres e normas do contrato principal."
+      ],
+      "locations": [
+        "Obras da Barragem de Morrinhos"
+      ],
+      "deadlines": [
+        "Abertura da sessão pública da licitação: 01/06/2026 às 10h.",
+        "Prazo de execução do contrato: 690 dias corridos, a partir da emissão da Ordem de Serviço.",
+        "Prazo de vigência do contrato: 810 dias corridos, a partir do primeiro dia útil após a assinatura do contrato.",
+        "Solicitação de esclarecimentos: até 05 dias úteis antes da data de abertura do certame.",
+        "Disponibilização de respostas: até 03 dias úteis antes da data de abertura do certame.",
+        "Prazo para regularização fiscal (ME/EPP): 05 dias úteis, prorrogáveis por igual período."
+      ],
+      "requirements": [
+        "Pertencer ao ramo de atividade pertinente ao objeto licitado.",
+        "Conhecimento da política de qualidade da CERB, conforme NBR ISO 9001/2015.",
+        "Patrimônio Líquido mínimo de 10% do valor da proposta de preço.",
+        "Índice de Liquidez Corrente (ILC) maior ou igual a 2,00.",
+        "Índice de Endividamento Geral (IEG) menor ou igual a 0,50.",
+        "Disponibilidade Financeira Líquida (DFL) igual ou superior ao orçamento oficial da obra/serviço.",
+        "Registro ou inscrição no Conselho Regional de Engenharia e Agronomia (CREA) da empresa e dos seus responsáveis técnicos.",
+        "Apresentar visto do CREA-BA antes da assinatura do contrato, caso a empresa não seja registrada na Bahia.",
+        "Declaração de visita aos locais das obras e de conhecimento das condições locais, ou declaração de não realização de vistoria.",
+        "Apresentação de metodologia de execução para obras ou serviços de grande vulto e alta complexidade técnica.",
+        "Apresentar equipe técnica conforme quantitativo e qualificação descrita no Termo de Referência (Anexo VIII).",
+        "Comprovação de que a equipe técnica pertence ao quadro da empresa.",
+        "Comprovação de registro ou inscrição junto ao CREA para os profissionais da equipe.",
+        "Currículos dos profissionais de nível superior, com experiências relevantes.",
+        "Titulação acadêmica, quando exigida (certificados de pós-graduação).",
+        "Atestados de Gerenciamento/Supervisão de Obras de Barragem, Avaliação e Adequação de Projetos de Engenharia de Barragem e de Elaboração de Planos de Segurança de Barragens.",
+        "Mínimo de 2 atestados com CAT para Gerenciamento/Supervisão de Obras de Barragens.",
+        "Mínimo de 1 atestado com CAT para Avaliação e Adequação do Projeto Executivo de Barragem.",
+        "Mínimo de 1 atestado com CAT para Elaboração de Planos de Segurança de Barragens.",
+        "Experiência em barragens com Volume de CCR > 46.000 m³ ou Volume de Terra > 160.000 m³, Altura máxima > 25,00 m e Comprimento da Crista > 170,00 m.",
+        "Atestados de serviços concluídos até a data de emissão do atestado."
+      ],
+      "documents": [
+        "Mídia digital (pen drive, CD ou outros) com digitalização integral dos documentos.",
+        "Registro público (empresário individual) ou Ato constitutivo, estatuto ou contrato social com alterações (sociedades).",
+        "Documentos societários comprobatórios de eleição ou designação e investidura dos administradores.",
+        "Decreto de autorização e ato de registro ou autorização para funcionamento (empresa estrangeira).",
+        "Prova de inscrição no Cadastro Nacional de Pessoa Jurídica – CNPJ.",
+        "Prova de inscrição no Cadastro de Contribuinte Estadual ou Municipal.",
+        "Prova de regularidade para com a Fazenda Estadual e Municipal.",
+        "Prova de regularidade para com a Fazenda Federal, inclusive INSS.",
+        "Prova de regularidade relativa ao Fundo de Garantia por Tempo de Serviço (FGTS) - CRF.",
+        "Prova de inexistência de débitos e inadimplidos perante a Justiça do Trabalho.",
+        "Balanço patrimonial e demonstrações contábeis do último exercício social.",
+        "Certidão negativa de falência ou recuperação judicial.",
+        "Declaração de que os dados para cálculos dos índices (ILC, IEG) foram extraídos do balanço.",
+        "Relação dos compromissos assumidos que importem diminuição da capacidade operativa ou absorção de disponibilidade financeira.",
+        "Demonstração da Disponibilidade Financeira Líquida (DFL).",
+        "Atestados de realização de serviços e respectivas Certidões de Anotação Técnica (CATs).",
+        "Relação da equipe técnica (Modelo- Anexo VI).",
+        "Comprovação de vínculo da equipe técnica com a empresa (carteira de trabalho, certidão do CREA, contrato social, etc.).",
+        "Comprovação de registro ou inscrição junto ao CREA para os profissionais da equipe.",
+        "Currículos dos profissionais de nível superior e certificados de pós-graduação (quando exigido).",
+        "Declaração do licitante de que visitou os locais das obras ou Declaração de não realização de vistoria (Anexo IV).",
+        "Metodologia de execução para obras ou serviços de grande vulto e alta complexidade técnica.",
+        "Declaração de Proteção ao Trabalho do Menor (Anexo III).",
+        "Indicação do nome, condição legal, CPF e RG do representante da empresa que assinará o Contrato.",
+        "Endereço postal e eletrônico, número do telefone e números do CNPJ, da Inscrição Estadual e da Inscrição Municipal da Licitante.",
+        "Indicação de banco, número da Agência, número da Conta Corrente para crédito dos pagamentos."
+      ],
+      "keywords": [
+        "Licitação",
+        "Concorrência Pública",
+        "Gerenciamento de Obras",
+        "Supervisão de Obras",
+        "Inspeção de Obras",
+        "Controle de Qualidade",
+        "Barragem de Morrinhos",
+        "Obras Civis",
+        "Engenharia Hídrica",
+        "Saneamento",
+        "CERB",
+        "Bahia",
+        "Fiscalização de Obras",
+        "Avaliação de Projetos",
+        "Plano de Segurança de Barragens",
+        "CCR",
+        "Barragem de Terra"
+      ],
+      "sourceTextPreview": "1 LICITAÇÃO 2026010 – LEI 13.303/2016 REPÚBLICA FEDERATIVA DO BRASIL GOVERNO DO ESTADO DA BAHIA SECRETARIA DE INFRAESTRUTURA HÍDRICA E SANEAMENTO – SIHS COMPANHIA DE ENGENHARIA HÍDRICA E DE SANEAMENTO DA BAHIA - CERB LICITAÇÃO Nº 2026010 SEI Nº039.0781.2024.0005407-11 A Companhia de Engenharia Hídrica e de Saneamento da Bahia- CERB, por meio da Comissão Permanente de Licitação-CPL, com sede na Avenida Luiz Viana Filho- 3ª Avenida- nº 300- Centro Administrativo da Bahia- CAB- Salvador-BA, neste Edital doravante denominada simplesmente CERB, torna público, para conhecimento dos interessados que fará realizar às 10h do dia 01.06.2026 Licitação Pública Nº 2026010, no modo de disputa fechado, tendo como objeto a Contratação de empresa especializada em Serviços de Gerenciamento/Supervisão, Inspeção e Controle de Qualidade das Obras da Barragem de Morrinhos. Orienta-se, também, o acesso ao Portal Sei para usuários externos, através do link: https://seibahia.ba.gov.br/sei/controlador_externo.php?acao=usuario _externo_logar&id_orgao_acesso_externo=0 OBSERVAÇÃO: Para fins de apoio à análise técnica e administrativa, os licitantes deverão apresentar, conjuntamente com os envelopes físicos, mí",
+      "technicalQualificationHighlight": "A empresa deve apresentar atestados de realização de serviços de Gerenciamento/Supervisão de Obras de Barragem, Avaliação e Adequação de Projetos de Engenharia de Barragem e de Elaboração de Planos de Segurança de Barragens, com características e porte similares à Barragem de Morrinhos.",
+      "proposalDateHighlight": "A sessão pública de abertura das propostas e documentos de habilitação será realizada às 10h do dia 01/06/2026."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:21:40.389Z",
+      "textLength": 257325,
+      "highlightRefreshedAt": "2026-04-03T02:47:13.025Z"
+    }
+  },
+  {
+    "id": "27004CP0012026",
+    "licitacaoFormatada": "CP001/2026",
+    "orgao": "SECRETARIA DE MEIO AMBIENTE",
+    "unidade": "FUNDO DE RECURSOS PARA O MEIO AMBIENTE",
+    "modalidade": "Concorrência Pública",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "27/05/2026 00:00:00",
+    "dataAberturaIso": "2026-05-27",
+    "valorEstimado": 3366314.72,
+    "valorHomologado": 0,
+    "objeto": "Serviços especiais, serviços especiais de engenharia e obras especiais",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/27004CP0012026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Concorrência Pública nº 001/2026, promovida pela SECRETARIA DE MEIO AMBIENTE da Bahia, para a contratação de serviços de elaboração do Diagnóstico Estadual de Educação Ambiental.",
+      "cnaes": [],
+      "items": [
+        "Elaboração do Diagnóstico Estadual de Educação Ambiental"
+      ],
+      "deliveryConditions": [],
+      "locations": [
+        "Avenida Luís Viana Filho, 6a Avenida, nº 600, CAB, Salvador, BA, CEP: 41745-900",
+        "Salvador - BA"
+      ],
+      "deadlines": [
+        "Prazo de validade da proposta: mínimo de 60 dias",
+        "Recebimento das propostas: das 08:30 de 19/03/2026 às 14:00 de 27/05/2026",
+        "Início da sessão pública: 14:00 de 27/05/2026",
+        "Envio de documentos de habilitação do licitante vencedor: 1 dia útil após solicitação",
+        "Prazo para assinatura do contrato: 10 dias úteis"
+      ],
+      "requirements": [
+        "Serão admitidos a participar os interessados que atenderem a todas as exigências contidas no edital e que pertençam ao ramo de atividade pertinente ao objeto licitado",
+        "Tratamento diferenciado e simplificado para microempresas e empresas de pequeno porte (sem reserva de cota para serviços)",
+        "As propostas técnica e de preço devem ser elaboradas de acordo com os requisitos definidos no Termo de Referência",
+        "As propostas devem ser originais, datilografadas ou digitadas, sem emendas, rasuras, ressalvas ou entrelinhas, rubricadas em todas as folhas, datadas e assinadas pelo representante legal ou por seu mandatário",
+        "Apresentação de procuração, se a proposta for assinada por mandatário",
+        "Propostas técnica e de preços em 2 envelopes distintos, lacrados, indevassados, rubricados e identificados",
+        "Participação de consórcios é permitida",
+        "Consórcios não formados integralmente por microempresas ou empresas de pequeno porte terão acréscimo no percentual de habilitação econômico-financeira",
+        "Impedimentos de participação conforme o Edital (ex: autor do projeto, sancionados, com vínculo com agentes públicos, empresas controladoras/controladas/coligadas concorrendo, condenados por exploração de trabalho infantil/degradante/forçado, agente público do órgão licitante, OSCIPs)"
+      ],
+      "documents": [
+        "Proposta Técnica (Envelope A)",
+        "Proposta de Preços (Envelope B)",
+        "Envelope C – Declarações, contendo:",
+        "Declaração de elaboração independente de proposta e de inexistência de impedimento à participação no certame",
+        "Declaração de ciência das condições do Edital e seus Anexos e de veracidade dos documentos",
+        "Declaração de abrangência da proposta de preços",
+        "Declaração de cumprimento de requisitos de habilitação",
+        "Declaração de proteção ao trabalho do menor",
+        "Declaração de ausência de empregados executando trabalho degradante ou forçado",
+        "Declaração de cumprimento das exigências de reserva de cargos",
+        "Declaração de enquadramento como microempresa, empresa de pequeno porte ou sociedade cooperativa",
+        "Documentos de habilitação (para o licitante vencedor, ou todos se fase invertida)",
+        "Procuração (se aplicável)"
+      ],
+      "keywords": [
+        "Diagnóstico Estadual de Educação Ambiental",
+        "Educação Ambiental",
+        "Meio Ambiente",
+        "SEMA",
+        "Bahia",
+        "Concorrência Pública",
+        "Serviços",
+        "2026"
+      ],
+      "sourceTextPreview": "ESTADO DA BAHIA SECRETARIA DO MEIO AMBIENTE 1/20 Edital – concorrência Nº 001/2026, sob a forma presencial EDITAL (Processo Administrativo n° 027.1457.2024.0001510-68) ( X ) Contratação delegada ( X ) CONCORRÊNCIA PRESENCIAL Nº 001/2026 PREÂMBULO 1. Regência legal: Esta licitação obedecerá as disposições da Lei n° 14.634, de 28 de novembro de 2023, da Lei Complementar no 123, de 14 de dezembro de 2006, das normas gerais da Lei no 14.133, de 1° de abril de 2021, e respectivas alterações, bem como dos Decretos n° 22.885, de 20 de junho de 2024, e do Decreto n° 22.888, de 26 de junho de 2024. 2. Requisito de participação: 2.1 Inscrição no Cadastro de Fornecedores do Estado da Bahia /SAEB ( x ) Serão admitidos a participar desta licitação os interessados, inscritos ou não no Cadastro de Fornecedores do Estado da Bahia, que atenderem a todas as exigências contidas neste instrumento, e que pertençam ao ramo de atividade pertinente ao objeto licitado. 2.2 Tratamento diferenciado e simplificado ( X ) Ampla Participação ( ) Aquisições ( ) Sem reserva de cota ( ) Com reserva de cota ( x ) Serviços – Sem reserva de cota 2.2.1 A obtenção do benefício a que se refere este subitem 2.2 fica limit",
+      "technicalQualificationHighlight": "Capacidade de elaborar o Diagnóstico Estadual de Educação Ambiental conforme Termo de Referência.",
+      "proposalDateHighlight": "Início da sessão pública e prazo final para recebimento das propostas em 27/05/2026 às 14:00 horas."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:22:08.449Z",
+      "textLength": 217825,
+      "highlightRefreshedAt": "2026-04-03T02:47:25.023Z"
+    }
+  },
+  {
+    "id": "23014CP0092025",
+    "licitacaoFormatada": "CP009/2025",
+    "orgao": "SECRETARIA DE INFRAESTRUTURA HIDRICA E SANEAMENTO",
+    "unidade": "DIRETORIA DE MEIO AMBIENTE E RECURSOS HÍDRICOS (DMR)",
+    "modalidade": "Concorrência Pública",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2025",
+    "dataAbertura": "26/05/2026 00:00:00",
+    "dataAberturaIso": "2026-05-26",
+    "valorEstimado": 995423.51,
+    "valorHomologado": 0,
+    "objeto": "Estudos e Projetos",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/23014CP0092025.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Contratação de empresa especializada para elaboração dos Estudos Ambientais de Médio Impacto (EMI) visando a obtenção de Licença Prévia junto ao INEMA, necessárias para implantação da Barragem de Rio Bonito, situada no rio Bonito, nos municípios de Lençóis e Wagner, no Estado da Bahia.",
+      "cnaes": [],
+      "items": [
+        "Elaboração de Estudos Ambientais de Médio Impacto (EMI)",
+        "Obtenção de Licença Prévia junto ao INEMA"
+      ],
+      "deliveryConditions": [
+        "Regime de Execução: Empreitada por preços unitários",
+        "Não será permitida a participação de consórcios",
+        "Não será permitida a subcontratação de obras e serviços",
+        "Apresentação de mídia digital (pen drive, CD ou outros) com digitalização integral dos documentos",
+        "Conhecimento da política de qualidade da CERB, conforme NBR ISO 9001/2015"
+      ],
+      "locations": [
+        "Municípios de Lençóis e Wagner, Estado da Bahia (para implantação da Barragem de Rio Bonito)",
+        "3ª Avenida nº 300, Centro Administrativo da Bahia - Salvador-BA (sede da CERB e local da sessão pública)"
+      ],
+      "deadlines": [
+        "Data e horário da sessão pública: 26/05/2026 às 10h",
+        "Prazo de execução do contrato: 420 dias corridos (a contar do 7º dia após a emissão da ordem de serviço)",
+        "Prazo de vigência do contrato: 540 dias corridos (a contar da assinatura do contrato)",
+        "Solicitação de esclarecimentos: até 05 dias úteis antes da data de abertura do certame",
+        "Disponibilização de respostas a dúvidas: até 03 dias úteis antes da data de abertura do certame",
+        "Prazo para regularização fiscal e trabalhista (ME/EPP): 05 dias úteis (prorrogáveis por igual período)",
+        "Validade da certidão negativa de falência ou recuperação judicial: últimos 90 dias anteriores à data da licitação",
+        "Balanço patrimonial e demonstrações contábeis: podem ser atualizados se encerrados há mais de 03 meses da data da apresentação da proposta"
+      ],
+      "requirements": [
+        "Pertencer ao ramo de atividade pertinente ao objeto licitado",
+        "Habilitação jurídica (registro público, ato constitutivo, estatuto ou contrato social, documentos comprobatórios de administradores, decreto de autorização para empresas estrangeiras)",
+        "Regularidade fiscal e trabalhista (inscrição CNPJ, inscrição Cadastro de Contribuinte Estadual ou Municipal, regularidade com Fazenda Estadual/Municipal/Federal/INSS, regularidade FGTS, inexistência de débitos na Justiça do Trabalho)",
+        "Qualificação técnico-operacional (atestado(s) de capacitação técnico-operacional compatível com o objeto, prova de registro e regularidade da empresa e responsáveis técnicos no CREA ou Conselho Profissional Regional)",
+        "Profissional de nível superior no quadro permanente como Coordenador Geral, detentor de Certidão de Acervo Técnico (CAT) para execução de atividades relacionadas ao setor mineral ou elaboração de serviços compatíveis com o objeto",
+        "Equipe de trabalho coerente com documentos de Habilitação, com cronograma de alocação e experiência compatível com as funções",
+        "Coordenador Geral com Curriculum Vitae, atestado e CAT (como Responsável Técnico e/ou Coordenação de projeto)",
+        "Declaração do licitante de visita aos locais das obras e conhecimento das condições locais (Anexo IV) ou Declaração de não realização de vistoria",
+        "Apresentação de equipe técnica (Modelo-Anexo VI), com indicação do responsável técnico e comprovação de vínculo",
+        "Comprovação de registro ou inscrição junto ao CREA para os profissionais da equipe que a legislação exigir",
+        "Currículos dos profissionais de nível superior, com experiências relevantes",
+        "Titulação acadêmica com certificados de conclusão de pós-graduação, quando exigida",
+        "Conhecimento e disponibilização dos equipamentos definidos nas composições dos serviços da planilha orçamentária",
+        "Registro ou inscrição no Conselho Regional de Engenharia e Agronomia (CREA) da empresa e de seus responsáveis técnicos",
+        "Apresentar visto do CREA-BA (para empresas não registradas no CREA da Bahia, caso vencedora)",
+        "Metodologia de execução para obras ou serviços de grande vulto e alta complexidade técnica (será exigida)",
+        "Qualificação econômico-financeira (balanço patrimonial e demonstrações contábeis do último exercício social, Patrimônio Líquido mínimo de 10% do valor estimado, Índice de Liquidez Corrente (ILC) ≥ 1,50, Índice de Endividamento Geral (IEG) ≤ 0,60, Disponibilidade Financeira Líquida compatível com o valor estimado)",
+        "Certidão negativa de falência ou recuperação judicial",
+        "Relação dos compromissos assumidos que importem diminuição da capacidade operativa ou absorção de disponibilidade financeira"
+      ],
+      "documents": [
+        "Registro público (se empresário individual)",
+        "Ato constitutivo, estatuto ou contrato social com alterações (sociedades empresárias e simples)",
+        "Documentos societários comprobatórios de eleição ou designação e investidura dos administradores",
+        "Decreto de autorização e ato de registro ou autorização (empresa ou sociedade estrangeira)",
+        "Prova de inscrição no Cadastro Nacional de Pessoa Jurídica – CNPJ",
+        "Prova de inscrição no Cadastro de Contribuinte Estadual ou Municipal",
+        "Prova de regularidade para com a Fazenda Estadual e Municipal",
+        "Prova de regularidade para com a Fazenda Federal, inclusive INSS",
+        "Certificado de Regularidade do FGTS – CRF",
+        "Certidão de inexistência de débitos e inadimplidos perante a Justiça do Trabalho",
+        "Atestado(s) de capacitação técnico-operacional",
+        "Certificado de Registro e regularidade da empresa e de seu(s) responsável(eis) técnico(s) no CREA ou Conselho Profissional Regional",
+        "Certidão de Acervo Técnico (CAT) para o Coordenador Geral",
+        "Curriculum Vitae do Coordenador Geral",
+        "Declaração de visita aos locais das obras ou de não realização de vistoria (Anexo IV)",
+        "Modelo de Equipe Técnica (Anexo VI)",
+        "Comprovação de vínculo da equipe técnica (carteira de trabalho, certidão do CREA, contrato social, contrato de prestação de serviços, contrato de trabalho registrado na DRT, termo de responsabilidade técnica)",
+        "Certificados de conclusão em cursos de pós-graduação (quando exigido para titulação acadêmica)",
+        "Balanço patrimonial e demonstrações contábeis do último exercício social",
+        "Certidão negativa de falência ou recuperação judicial",
+        "Relação dos compromissos assumidos pela Licitante",
+        "Mídia digital (pen drive, CD ou outros) com a digitalização integral dos documentos"
+      ],
+      "keywords": [
+        "Estudos Ambientais",
+        "EMI",
+        "Licença Prévia",
+        "INEMA",
+        "Barragem de Rio Bonito",
+        "Lençóis",
+        "Wagner",
+        "Bahia",
+        "CERB",
+        "Engenharia Hídrica",
+        "Saneamento",
+        "Licitação Pública",
+        "Empreitada por Preços Unitários",
+        "Qualificação Técnica",
+        "Qualificação Econômico-Financeira"
+      ],
+      "sourceTextPreview": "1 LICITAÇÃO 2025029 – LEI 13.303/2016 REPÚBLICA FEDERATIVA DO BRASIL GOVERNO DO ESTADO DA BAHIA SECRETARIA DE INFRAESTRUTURA HÍDRICA E SANEAMENTO – SIHS COMPANHIA DE ENGENHARIA HÍDRICA E DE SANEAMENTO DA BAHIA - CERB LICITAÇÃO Nº 2025029 A Companhia de Engenharia Hídrica e de Saneamento da Bahia- CERB, por meio da Comissão Permanente de Licitação-CPL, com sede na Avenida Luiz Viana Filho- 3ª Avenida- nº 300- Centro Administrativo da Bahia- CAB- Salvador-BA, neste Edital doravante denominada simplesmente CERB, torna público, para conhecimento dos interessados que fará realizar às 10h do dia 26.05.2026 Licitação Pública Nº 2025029, no modo de disputa fechado, tendo como objeto a Contratação de empresa especializada para elaboração dos Estudos Ambientais de Médio Impacto (EMI) visando a obtenção de Licença Prévia junto ao INEMA, necessárias para implantação da Barragem de Rio Bonito, situada no rio Bonito, nos municípios de Lençóis e Wagner, no Estado da Bahia. Orienta-se, também, o acesso ao Portal Sei para usuários externos, através do link: https://seibahia.ba.gov.br/sei/controlador_externo.php?acao=usuario _externo_logar&id_orgao_acesso_externo=0 OBSERVAÇÃO: Para fins de apoio à a",
+      "technicalQualificationHighlight": "Empresa especializada na elaboração de Estudos Ambientais de Médio Impacto (EMI) visando a obtenção de Licença Prévia para implantação de barragens.",
+      "proposalDateHighlight": "A sessão pública para abertura das propostas será realizada às 10h do dia 26/05/2026."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:22:38.240Z",
+      "textLength": 290390,
+      "highlightRefreshedAt": "2026-04-03T02:47:36.582Z"
+    }
+  },
+  {
+    "id": "36004CP0022026",
+    "licitacaoFormatada": "CP002/2026",
+    "orgao": "SECRETARIA DE COMUNICACAO SOCIAL",
+    "unidade": "DIRETORIA ADMINISTRATIVA",
+    "modalidade": "Concorrência Pública",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "21/05/2026 00:00:00",
+    "dataAberturaIso": "2026-05-21",
+    "valorEstimado": 30000000,
+    "valorHomologado": 0,
+    "objeto": "Serviços especiais, serviços especiais de engenharia e obras especiais",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/36004CP0022026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Contratação de empresa prestadora de serviços de comunicação institucional para a Secretaria de Comunicação Social do Estado da Bahia, na modalidade de Concorrência Pública, tipo Melhor Técnica.",
+      "cnaes": [
+        {
+          "code": "",
+          "description": "Serviços de comunicação institucional"
+        }
+      ],
+      "items": [
+        "Prospecção, planejamento, desenvolvimento, implementação, manutenção e monitoramento de soluções de comunicação institucional",
+        "Relacionamento com a imprensa",
+        "Atuação em relações públicas",
+        "Criação e execução técnica de projetos, ações ou produtos de comunicação institucional",
+        "Produtos e Serviços Essenciais",
+        "Produtos e Serviços Complementares"
+      ],
+      "deliveryConditions": [
+        "Execução indireta e regime de empreitada por preço unitário",
+        "Contratação de 2 (duas) empresas",
+        "Valor estimado de R$ 30.000.000,00 (trinta milhões de reais)",
+        "Período contratual inicial de 12 (doze) meses, prorrogável até o limite máximo de 10 (dez) anos"
+      ],
+      "locations": [
+        "Serviços a serem realizados em território nacional e internacional",
+        "Local de recebimento e abertura das propostas: Secretaria de Comunicação Social, 3ª Avenida, nº 390, Plataforma IV, 1º andar, Centro Administrativo da Bahia – CAB, Salvador – Bahia"
+      ],
+      "deadlines": [
+        "Recebimento e abertura das Propostas Técnicas e de Preços: 21/05/2026 às 09:30 hs (horário de Brasília)",
+        "Pedidos de esclarecimento sobre o Edital: até 03 (três) dias úteis antes da data de abertura do certame",
+        "Impugnação do Edital: até 3 (três) dias úteis antes da data da abertura do certame"
+      ],
+      "requirements": [
+        "Empresas especializadas na prestação de serviços de comunicação institucional",
+        "Empresas estabelecidas no País",
+        "Pertencer ao ramo de atividade pertinente ao objeto licitado",
+        "Não participar com mais de uma proposta (isoladamente ou em consórcio)",
+        "Não ser autor do anteprojeto, projeto básico ou executivo relacionado ao objeto",
+        "Não estar impedido de participar de licitações devido a sanção",
+        "Não manter vínculo de conflito de interesses com dirigentes ou agentes públicos do contratante",
+        "Não ser empresas controladoras, controladas ou coligadas concorrendo entre si",
+        "Não ter sido condenada judicialmente, com trânsito em julgado, nos 5 (cinco) anos anteriores, por exploração de trabalho infantil, submissão a condições análogas às de escravo ou contratação de adolescentes em casos vedados",
+        "Não ser agente público do órgão ou entidade licitante",
+        "Não ser Organização da Sociedade Civil de Interesse Público (OSCIP) atuando nessa condição"
+      ],
+      "documents": [
+        "Proposta Técnica",
+        "Proposta de Preços",
+        "Documentos de Habilitação",
+        "Documento de credenciamento do representante (ou cópia do ato de constituição para sócios/dirigentes)",
+        "Documento de identidade de fé pública do representante",
+        "Procuração (para prepostos não estatutários/legais)",
+        "Prova de Qualificação Técnica Capacidade Técnico Operacional (conforme Anexo IV)",
+        "Declaração de Indicação do Pessoal Técnico, Instalações e Aparelhamento (conforme Anexo V)",
+        "Declaração de Pleno Conhecimento, Sem Exigencia de Vistoria (conforme Anexo VI)"
+      ],
+      "keywords": [
+        "Comunicação institucional",
+        "Serviços de comunicação",
+        "Relações públicas",
+        "Imprensa",
+        "Planejamento de comunicação",
+        "Monitoramento de comunicação",
+        "Secretaria de Comunicação Social",
+        "Bahia",
+        "Licitação",
+        "Concorrência Pública"
+      ],
+      "sourceTextPreview": "GOVERNO DO ESTADO DA BAHIA SECRETARIA DE COMUNICAÇÃO SOCIAL SECRETARIA DE COMUNICAÇÃO SOCIAL CONCORRÊNCIA Nº 02 / 2026 CONTRATAÇÃO DE EMPRESA PRESTADORA DE SERVIÇOS DE COMUNICAÇÃO INSTITUCIONAL -- 1 of 138 -- GOVERNO DO ESTADO DA BAHIA SECRETARIA DE COMUNICAÇÃO SOCIAL S U M Á R I O Edital 1. Disposições Iniciais 2. Objeto 3. Valor Contratual e Recursos Orçamentários 4. Condições de Participação 5. Retirada do Edital 6. Esclarecimentos sobre o Edital 7. Da Impugnação do Edital 8. Do Credenciamento de Representantes ou Procuradores 9. Recebimento das Propostas Técnicas e de Preços 10. Apresentação e Julgamento da Proposta Técnica 11. Entrega da Proposta Técnica 12. Apresentação das Propostas de Preços 13. Entrega das Propostas de Preços 14. Apresentação dos Documentos de Habilitação 15. Análise dos Documentos de Habilitação 16. Comissão Especial de Contratação e Subcomissão Técnica 17. Divulgação dos Atos Licitatórios 18. Recursos Administrativos 19. Procedimentos Licitatórios 20. Julgamento Final da Concorrência 21. Homologação e Adjudicação 22. Condições Pré-Contratuais 23. Garantia de Execução 24. Obrigações da Contratada e do Contratante 25. Fiscalização 26. Pagamento e Remuneraç",
+      "technicalQualificationHighlight": "Apresentar atestado de experiência de no mínimo 3 anos em serviços de comunicação institucional compatíveis com o objeto, cobrindo pelo menos 50% dos Produtos e Serviços Essenciais, e ter profissional de nível superior na área no quadro permanente.",
+      "proposalDateHighlight": "Recebimento e abertura das Propostas Técnicas e de Preços em 21/05/2026, às 09:30 hs."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:23:00.871Z",
+      "textLength": 314356,
+      "highlightRefreshedAt": "2026-04-03T02:47:52.251Z"
+    }
+  },
+  {
+    "id": "19300CP0062026",
+    "licitacaoFormatada": "CP006/2026",
+    "orgao": "SECRETARIA DA SAÚDE",
+    "unidade": "SECRETARIA DA SAÚDE",
+    "modalidade": "Concorrência Pública",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "20/05/2026 00:00:00",
+    "dataAberturaIso": "2026-05-20",
+    "valorEstimado": 29217047.64,
+    "valorHomologado": 0,
+    "objeto": "Serviços especiais, serviços especiais de engenharia e obras especiais",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/19300CP0062026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Licitação Pública Nacional (LPN) para contratação de empresa para execução das obras de construção de equipamentos de saúde em Camaçari, Bahia. Inclui duas Unidades Básicas de Saúde Tipo II, uma Unidade Básica de Saúde Tipo III, um Centro de Atenção Psicossocial Tipo III e uma Unidade de Acolhimento, financiadas pelo Banco Interamericano de Desenvolvimento (BID) no âmbito do PROSUS II.",
+      "cnaes": [
+        {
+          "code": "4120-4/00",
+          "description": "Construção de edifícios"
+        },
+        {
+          "code": "4299-5/99",
+          "description": "Outras obras de engenharia civil não especificadas anteriormente"
+        },
+        {
+          "code": "7112-0/00",
+          "description": "Serviços de engenharia"
+        }
+      ],
+      "items": [
+        "Construção de 2 Unidades Básicas de Saúde Tipo II",
+        "Construção de 1 Unidade Básica de Saúde Tipo III",
+        "Construção de 1 Centro de Atenção Psicossocial Tipo III",
+        "Construção de 1 Unidade de Acolhimento"
+      ],
+      "deliveryConditions": [
+        "Conclusão das Obras no prazo especificado nos Dados da Licitação (DDL)."
+      ],
+      "locations": [
+        "Camaçari, Bahia"
+      ],
+      "deadlines": [
+        "Atestados de instituições financeiras emitidos nos 60 dias anteriores à data de abertura das propostas",
+        "Comprovação de volume de obras nos últimos 5 anos",
+        "Comprovação de experiência em obras de natureza equivalente nos últimos 10 anos"
+      ],
+      "requirements": [
+        "Ter nacionalidade de país membro do Banco Interamericano de Desenvolvimento (BID)",
+        "Não ter conflito de interesses",
+        "Não estar declarado inelegível pelo Banco (BID) ou outras Instituições Financeiras Internacionais (IFI)",
+        "Entidades governamentais brasileiras devem ser legal e financeiramente autônomas, operar sob leis de comércio e não ser dependentes do Mutuário",
+        "Apresentar proposta seguindo modelos da Seção 3 do Edital",
+        "Apresentar descrição preliminar do método e cronograma do trabalho proposto",
+        "Comprovação de habilitação jurídica (ato constitutivo, estatuto/contrato social, registros)",
+        "Comprovação de qualificação econômico-financeira (certidão negativa de falência/recuperação judicial, balanço patrimonial, relatórios de auditores/contadores, atestados de instituições financeiras)",
+        "Comprovação de regularidade fiscal e trabalhista (CNPJ, inscrição estadual/municipal, regularidade com Fazendas Federal/Estadual/Municipal, Dívida Ativa da União, Seguridade Social, FGTS, Justiça do Trabalho)",
+        "Declaração de não empregar menor de dezoito anos em trabalho noturno, perigoso ou insalubre, e não empregar menor de 16 anos (exceto aprendiz a partir de 14 anos)",
+        "Comprovação de qualificação técnica (atestados de serviços executados, experiência e qualificação do responsável técnico, disponibilidade de máquinas e equipamentos)",
+        "Para consórcios: documentação individual por membro, compromisso de constituição, responsabilidade solidária, designação de líder, cumprimento individual de situação regular e índice de liquidez, e cumprimento de no mínimo 25% dos critérios de volume e experiência por membro",
+        "Realizar, nos últimos 5 anos, volume médio anual de Obras de, pelo menos, o montante especificado nos DDL",
+        "Experiência como contratado/executor principal na construção de, pelo menos, 2 obras de natureza e complexidade equivalente nos últimos 10 anos (com 70% concluídas)",
+        "Índice de liquidez igual ou superior ao mínimo exigido nos DDL",
+        "Patrimônio líquido igual ou superior ao mínimo exigido nos DDL",
+        "Ter executado serviços com características, quantidades, prazos e valores de contratos compatíveis com o objeto da licitação, conforme DDL",
+        "Possuir responsável técnico com experiência e qualificação compatíveis com os requisitos de similaridade definidos nos DDL",
+        "Disponibilidade (compra, aluguel, leasing) das máquinas e equipamentos necessários à execução das Obras, conforme DDL",
+        "Apresentar uma única proposta (individualmente ou em consórcio)",
+        "Visita recomendada ao(s) local(is) das obras antes da apresentação da proposta"
+      ],
+      "documents": [
+        "Proposta (seguindo modelos da Seção 3)",
+        "Descrição preliminar do método e cronograma do trabalho",
+        "Ato constitutivo, estatuto ou contrato social em vigor (registrado)",
+        "Documentos de eleição dos administradores (para S.A.)",
+        "Decreto de autorização (empresa/sociedade estrangeira)",
+        "Registro de autorização para funcionamento (se exigido)",
+        "Inscrição do ato constitutivo (sociedades civis)",
+        "Prova de diretoria em exercício",
+        "Certidão negativa de falência ou recuperação judicial",
+        "Balanço patrimonial e demonstrações contábeis do último exercício social",
+        "Relatório de auditores ou contadores (registrados no Conselho de Contabilidade)",
+        "Atestados de 02 (duas) instituições financeiras",
+        "Prova de inscrição no Cadastro Nacional de Pessoas Jurídicas (CNPJ)",
+        "Prova de inscrição no cadastro de contribuintes estadual ou municipal (se houver)",
+        "Prova de regularidade para com as Fazendas Federal, Estadual e Municipal",
+        "Certidão quanto à Dívida Ativa da União",
+        "Prova de regularidade relativa à Seguridade Social",
+        "Prova de regularidade relativa ao Fundo de Garantia por Tempo de Serviço (FGTS)",
+        "Prova de inexistência de débitos inadimplidos perante a Justiça do Trabalho (CNDT)",
+        "Declaração de não emprego de menores (Formulário 10 da Seção 3)",
+        "Formulário Modelo 3 da Seção 3 (com atestados de serviços executados)",
+        "Formulário Modelo 4 da Seção 3 (com comprovação de experiência e qualificação do responsável técnico)",
+        "Formulário Modelo 5 da Seção 3 (demonstrando disponibilidade de máquinas e equipamentos)",
+        "Compromisso de constituição de consórcio (se aplicável)"
+      ],
+      "keywords": [
+        "Licitação Pública Nacional",
+        "LPN",
+        "Obras de construção",
+        "Equipamentos de saúde",
+        "Unidades Básicas de Saúde",
+        "UBS",
+        "Centro de Atenção Psicossocial",
+        "CAPS",
+        "Unidade de Acolhimento",
+        "Camaçari",
+        "Bahia",
+        "BID",
+        "Banco Interamericano de Desenvolvimento",
+        "PROSUS II",
+        "Construção civil",
+        "Engenharia",
+        "Saúde"
+      ],
+      "sourceTextPreview": "Capa 1 LICITAÇÃO PÚBLICA NACIONAL (LPN) PARA EXECUÇÃO DAS OBRAS DE CONSTRUÇÃO CONTRATAÇÃO DE EMPRESA PARA EXECUÇÃO DAS OBRAS DE CONSTRUÇÃO DE EQUIPAMENTOS DE SAÚDE, EM LOTE ÚNICO, NO MUNICÍPIO DE CAMAÇARI, ESTADO DA BAHIA. 2 UNIDADES BÁSICAS DE SAÚDE TIPO II 1 UNIDADE BÁSICA DE SAÚDE TIPO III 1 CENTRO DE ATENÇÃO PSICOSSOCIAL TIPO III 1 UNIDADE DE ACOLHIMENTO. LPN 006/2026 SECRETARIA DA SA⁄DE DO ESTADO DA BAHIA - SESAB PROGRAMA DE FORTALECIMENTO DO SISTEMA ⁄NICO DE SA⁄DE NO ESTADO DA BAHIA – PROSUS II PROJETO BR-L 1602 BANCO INTERAMERICANO DE DESENVOLVIMENTO - BID CONTRATO DE EMPR…STIMO n o 5870/OC-BR Março/2026 GOVERNO DO ESTADO DA BAHIA Secretaria da Sa˙de do Estado da Bahia Programa de Fortalecimento do SUS no Estado da Bahia – PROSUS II Unidade de Gest„o de Projetos – UGP -- 1 of 111 -- Conte˙do 2 EDITAL DE LICITA«√O P⁄BLICA COM DIVULGA«√O NACIONAL PARA CONTRATA«√O DE OBRAS CIVIS (LPN) PARTE 1 – PROCEDIMENTOS DE LICITA«√O ...............................................................................3 SE«√O 1 - INSTRU«’ES AOS CONCORRENTES (IAC) ....................................................3 SE«√O 2 – DADOS DA LICITA«√O (DDL) ...............................................",
+      "technicalQualificationHighlight": "Comprovar a execução de serviços com características e quantitativos mínimos nas parcelas de maior relevância das obras, como a construção de Estabelecimento Assistencial de Saúde (EAS) de 1200 m², em um único atestado por item.",
+      "proposalDateHighlight": "A abertura das propostas está agendada para o dia 20/05/2026 às 09:00 horas."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:23:24.322Z",
+      "textLength": 253288,
+      "highlightRefreshedAt": "2026-04-03T02:48:05.151Z"
+    }
+  },
+  {
+    "id": "19300CP0052026",
+    "licitacaoFormatada": "CP005/2026",
+    "orgao": "SECRETARIA DA SAÚDE",
+    "unidade": "SECRETARIA DA SAÚDE",
+    "modalidade": "Concorrência Pública",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "15/05/2026 00:00:00",
+    "dataAberturaIso": "2026-05-15",
+    "valorEstimado": 18020403.32,
+    "valorHomologado": 0,
+    "objeto": "Serviços especiais, serviços especiais de engenharia e obras especiais",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/19300CP0052026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Contratação de empresa para execução de obras de construção de cinco Unidades Básicas de Saúde Indígena (UBSI Tipo II) em aldeias no município de Ilhéus, Bahia. O edital faz parte do Programa de Fortalecimento do SUS no Estado da Bahia (PROSUS II) e é financiado pelo Banco Interamericano de Desenvolvimento (BID).",
+      "cnaes": [],
+      "items": [
+        "Construção de Unidade Básica de Saúde Indígena Tipo II (UBSI T2) na Aldeia Acuípe do Meio - Ilhéus/BA",
+        "Construção de Unidade Básica de Saúde Indígena Tipo II (UBSI T2) na Aldeia Acuípe de Baixo - Ilhéus/BA",
+        "Construção de Unidade Básica de Saúde Indígena Tipo II (UBSI T2) na Aldeia Santana - Ilhéus/BA",
+        "Construção de Unidade Básica de Saúde Indígena Tipo II (UBSI T2) na Aldeia Serra Negra - Ilhéus/BA",
+        "Construção de Unidade Básica de Saúde Indígena Tipo II (UBSI T2) na Aldeia Sapucaeira - Ilhéus/BA"
+      ],
+      "deliveryConditions": [
+        "Obras devem ser concluídas no prazo especificado nos Dados da Licitação (DDL)",
+        "Proibida a subcontratação total ou parcial das obras por empresas que tenham participado da proposta de outro concorrente",
+        "Pagamentos elegíveis serão realizados com recursos de empréstimo do Banco Interamericano de Desenvolvimento (BID)"
+      ],
+      "locations": [
+        "Ilhéus/BA",
+        "Aldeia Acuípe do Meio",
+        "Aldeia Acuípe de Baixo",
+        "Aldeia Santana",
+        "Aldeia Serra Negra",
+        "Aldeia Sapucaeira"
+      ],
+      "deadlines": [
+        "Prazo de conclusão das Obras especificado nos Dados da Licitação (DDL)"
+      ],
+      "requirements": [
+        "Elegibilidade de concorrentes (países membros do BID, sem conflito de interesses, não inelegíveis)",
+        "Entidades governamentais autônomas",
+        "Habilitação jurídica",
+        "Qualificação econômico-financeira",
+        "Regularidade fiscal e trabalhista",
+        "Declaração de não empregar trabalho infantil/menor em condições proibidas",
+        "Qualificação técnica (experiência em obras, responsável técnico, máquinas/equipamentos)",
+        "Consórcios: documentação individual dos membros e compromisso de constituição",
+        "Atendimento a critérios mínimos de volume de obras, experiência, liquidez e patrimônio líquido (conforme DDL)",
+        "Apresentar uma única proposta"
+      ],
+      "documents": [
+        "Proposta técnica e comercial (conforme Formulários da Seção 3, incluindo método e cronograma do trabalho)",
+        "Documentação de habilitação jurídica",
+        "Documentação de qualificação econômico-financeira (incluindo balanço e atestados)",
+        "Documentação de regularidade fiscal e trabalhista (incluindo certidões)",
+        "Declaração de não empregar menor (conforme Decreto Federal nº 4.358/2002)",
+        "Documentação de qualificação técnica (atestados de serviços executados, comprovação de experiência do responsável técnico, disponibilidade de equipamentos)",
+        "Compromisso de constituição de consórcio (se aplicável)"
+      ],
+      "keywords": [
+        "Concorrência Pública Nacional",
+        "LPN 005/2026",
+        "obras civis",
+        "construção",
+        "Unidade Básica de Saúde Indígena",
+        "UBSI",
+        "saúde",
+        "SUS",
+        "Bahia",
+        "Ilhéus",
+        "aldeia",
+        "engenharia",
+        "serviços especiais",
+        "PROSUS II",
+        "Banco Interamericano de Desenvolvimento",
+        "BID"
+      ],
+      "sourceTextPreview": "GOVERNO DO ESTADO DA BAHIA Secretaria da Sa˙de do Estado da Bahia Programa de Fortalecimento do SUS no Estado da Bahia – PROSUS II Unidade de Gest„o de Projetos – UGP LICIT!ÇÃO PÚBLIC! N!CION!L (LPN) P!R! CONTR!T!ÇÃO ÈE EMPRES! P!R! EXECUÇÃO È!S OBR!S ÈE CONSTRUÇÃO ÈE UNIÈ!ÈE BÁSIC! ÈE S!ÚÈE INÈÍGEN!(UBSI) LPN 005/2026 LOTE ÚNICO ITEM 1: Unidade B·sica de Sa˙de IndÌgena Tipo II – UBSI T2 – Aldeia AcuÌpe do Meio IlhÈus/BA ITEM 2: Unidade B·sica de Sa˙de IndÌgena Tipo II – UBSI T2– Aldeia AcuÌpe de Baixo – IlhÈus/BA ITEM 3: Unidade B·sica de Sa˙de IndÌgena Tipo II – UBSI T2 – Aldeia Santana – IlhÈus/BA ITEM 4: Unidade B·sica de Sa˙de IndÌgena Tipo II – UBSI T2 – Aldeia Serra Negra – IlhÈus/BA ITEM 5: Unidade B·sica de Sa˙de IndÌgena Tipo II – UBSI T2 – Aldeia Sapucaeira – IlhÈus/BA PROGR!M! ÈE FORT!LECIMENTO ÈO SUS NO EST!ÈO È! B!HI! - PROJETO BR-L1602 B!NCO INTER!MERIC!NO ÈE ÈESENVOLVIMENTO - BIÈ CONTR!TO ÈE EMPRÉSTIMO Nº 5870/OC-BR MAR«O/2026 -- 1 of 119 -- GOVERNO DO ESTADO DA BAHIA Secretaria da Sa˙de do Estado da Bahia Programa de Fortalecimento do SUS no Estado da Bahia – PROSUS II Unidade de Gest„o de Projetos – UGP EDITAL DE LICITA«√O P⁄BLICA COM DIVULGA«√O NACIONAL PARA CONT",
+      "technicalQualificationHighlight": "Comprovar experiência como executor principal na construção de, no mínimo, duas obras de Estabelecimento Assistencial de Saúde (EAS) e possuir responsável técnico com experiência nas parcelas mais relevantes da obra, como estrutura em concreto armado e instalações elétricas prediais.",
+      "proposalDateHighlight": "Abertura das propostas ocorrerá no dia 15/05/2026 às 09:00 horas."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:24:00.981Z",
+      "textLength": 248577,
+      "highlightRefreshedAt": "2026-04-03T02:48:18.568Z"
+    }
+  },
+  {
+    "id": "22901CP0012026",
+    "licitacaoFormatada": "CP001/2026",
+    "orgao": "SECRETARIA DE CULTURA",
+    "unidade": "POLITICA NACIONAL ALDIR BLANC DE FOMENTO Á CULTURA - SECULT EXECUTORA.",
+    "modalidade": "Concorrência Pública",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "14/05/2026 00:00:00",
+    "dataAberturaIso": "2026-05-14",
+    "valorEstimado": 3512685.09,
+    "valorHomologado": 0,
+    "objeto": "Serviços comuns e serviços comuns de engenharia",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/22901CP0012026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Contratação de empresa especializada para a prestação de serviços técnicos, administrativos e logísticos, bem como para o fornecimento de infraestrutura de apoio, incluindo equipamentos e mobiliários adequados.",
+      "cnaes": [
+        {
+          "code": "8211-3/00",
+          "description": "Serviços combinados de escritório e apoio administrativo"
+        },
+        {
+          "code": "7112-0/00",
+          "description": "Serviços de engenharia"
+        },
+        {
+          "code": "7739-0/99",
+          "description": "Aluguel de outras máquinas e equipamentos comerciais e industriais não especificados anteriormente"
+        }
+      ],
+      "items": [
+        "Serviços técnicos",
+        "Serviços administrativos",
+        "Serviços logísticos",
+        "Fornecimento de infraestrutura de apoio",
+        "Fornecimento de equipamentos",
+        "Fornecimento de mobiliários",
+        "Serviços de engenharia"
+      ],
+      "deliveryConditions": [
+        "Serviços e fornecimentos conforme Termo de Referência",
+        "Infraestrutura de apoio, equipamentos e mobiliários devem ser adequados"
+      ],
+      "locations": [
+        "Rua Conselheiro Spínola, S/n, Barris, Salvador- BA",
+        "Coordenação de Licitações/SECULT-BA",
+        "Secretaria de Cultura/SECULT"
+      ],
+      "deadlines": [
+        "Prazo de validade da proposta: 60 (sessenta) dias a contar da data de sua apresentação",
+        "Recebimento das propostas e início da sessão pública: 10:00 horas do dia 14 DE MAIO DE 2026",
+        "Envio dos documentos de habilitação (digital): 02 (dois) dias, contado da solicitação (prorrogável por igual período)",
+        "Prazo para assinatura do contrato: 10 (dez) dias úteis (prorrogável por igual período)"
+      ],
+      "requirements": [
+        "Serão admitidos a participar os interessados, inscritos ou não no Cadastro de Fornecedores do Estado da Bahia / SAEB",
+        "Atender a todas as exigências contidas no Edital",
+        "Pertencer ao ramo de atividade pertinente ao objeto licitado",
+        "Ter realizado credenciamento como usuário junto ao Banco do Brasil para obtenção de chave de identificação ou senha individual",
+        "Propostas em original, datilografadas ou digitadas, sem emendas, rasuras, ressalvas ou entrelinhas, rubricadas em todas as folhas, datadas e assinadas",
+        "Propostas técnica e de preços em 2 (dois) envelopes distintos, lacrados e identificados (Envelope A - Proposta Técnica, Envelope B - Proposta de Preços)",
+        "Declarações em envelope lacrado e identificado (Envelope C - Declarações)",
+        "Em caso de consórcio não formado integralmente por ME/EPP, acréscimo de 10% no percentual de habilitação econômico-financeira"
+      ],
+      "documents": [
+        "Proposta Técnica",
+        "Proposta de Preços",
+        "Declaração de elaboração independente de proposta e de inexistência de impedimento à participação no certame",
+        "Declaração de ciência das condições do Edital e seus Anexos",
+        "Declaração de cumprimento de requisitos de habilitação",
+        "Declaração de proteção ao trabalho do menor",
+        "Declaração de ausência de empregados executando trabalho degradante ou forçado",
+        "Declaração de cumprimento das exigências de reserva de cargos",
+        "Declaração de enquadramento como microempresa, empresa de pequeno porte",
+        "Declaração quanto a regularidade fiscal e trabalhista (Lei Complementar 123/06)",
+        "Declaração por ME e EPP de limitação de celebração de contrato",
+        "Termo de Referência e seus Anexos do I ao V",
+        "Minuta do Contrato",
+        "Documentos de habilitação (para o licitante vencedor, enviados digitalmente ou em Envelope D – Habilitação em caso de inversão de fases)",
+        "Modelo de procuração (se aplicável)",
+        "Ato constitutivo, estatuto ou contrato social (para credenciamento)",
+        "Documento de eleição e posse dos administradores (para S.A.)"
+      ],
+      "keywords": [
+        "Cultura",
+        "SECULT",
+        "Licitação",
+        "Concorrência Pública",
+        "Serviços",
+        "Engenharia",
+        "Administrativos",
+        "Logísticos",
+        "Infraestrutura",
+        "Equipamentos",
+        "Mobiliário",
+        "Bahia",
+        "Salvador",
+        "Contratação de empresa",
+        "Presencial",
+        "Técnica e preço",
+        "Consórcio",
+        "ME",
+        "EPP"
+      ],
+      "sourceTextPreview": "ESTADO DA BAHIA SECRETARIA DE CULTURA COORDENAÇÃO DE LICITAÇÕES 1/20 Minuta de Edital – Concorrência sob a forma Presencial. EDITAL (Processo Administrativo n° 022.2264.2024.0005368-06) ( x ) Contratação delegada ( x ) CONCORRÊNCIA PRESENCIAL Nº 01/2026 PREÂMBULO 1. Regência legal: Esta licitação obedecerá as disposições da Lei n° 14.634, de 28 de novembro de 2023, da Lei Complementar no 123, de 14 de dezembro de 2006, das normas gerais da Lei no14.133, de 1° de abril de 2021, e respectivas alterações, bem como doDecretos n° 22.885, de 20 de junho de 2024, e do Decreto n° 22.888, de 26 de junho de 2024. 2. Requisito de participação: 2.1 Inscrição no Cadastro de Fornecedores do Estado da Bahia /SAEB ( x ) Serão admitidos a participar desta licitação os interessados, inscritos ou não no Cadastro de Fornecedores do Estado da Bahia, que atenderem a todas as exigências contidas neste instrumento, e que pertençam ao ramo de atividade pertinente ao objeto licitado, e que tenham realizado seu credenciamento como usuário junto ao Banco do Brasil, para a obtenção de chave de identificação ou senha individual. 2.2 Tratamento diferenciado e simplificado ( ) Participação restrita a Microempresa",
+      "technicalQualificationHighlight": "Capacidade de prestar serviços técnicos, administrativos e logísticos, e fornecer infraestrutura de apoio, incluindo equipamentos e mobiliários adequados, conforme detalhado no Termo de Referência.",
+      "proposalDateHighlight": "Início da sessão pública em 14 de maio de 2026, às 10:00 horas."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:24:24.842Z",
+      "textLength": 258755,
+      "highlightRefreshedAt": "2026-04-03T02:48:30.922Z"
+    }
+  },
+  {
+    "id": "19300CP0022026",
+    "licitacaoFormatada": "CP002/2026",
+    "orgao": "SECRETARIA DA SAÚDE",
+    "unidade": "SECRETARIA DA SAÚDE",
+    "modalidade": "Concorrência Pública",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "14/05/2026 00:00:00",
+    "dataAberturaIso": "2026-05-14",
+    "valorEstimado": 17703253.41,
+    "valorHomologado": 0,
+    "objeto": "Serviços especiais, serviços especiais de engenharia e obras especiais",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/19300CP0022026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Licitação Pública Nacional (LPN) para a contratação de obras civis visando a construção de 05 (cinco) Unidades Básicas de Saúde Indígena Tipo II (UBSI) em diversas aldeias localizadas nos municípios de Pau Brasil, Itaju do Colônia, Camacã e Buerarema, na Bahia. O projeto é financiado pelo Banco Interamericano de Desenvolvimento (BID) como parte do Programa de Fortalecimento do SUS no Estado da Bahia (PROSUS II).",
+      "cnaes": [
+        {
+          "code": "4120-4/00",
+          "description": "Construção de edifícios"
+        },
+        {
+          "code": "4299-1/99",
+          "description": "Outras obras de engenharia civil não especificadas anteriormente"
+        }
+      ],
+      "items": [
+        "Construção de Unidades Básicas de Saúde Indígena Tipo II (UBSI)",
+        "Obras civis para equipamentos de saúde"
+      ],
+      "deliveryConditions": [
+        "Conclusão das obras no prazo especificado nos Dados da Licitação (DDL)",
+        "Visita ao local das obras recomendada para conhecimento das condições"
+      ],
+      "locations": [
+        "Aldeia Serra Do Padeiro",
+        "Aldeia Bahetá",
+        "Aldeia Caramuru",
+        "Aldeia Água Vermelha",
+        "Aldeia Panelão",
+        "Pau Brasil",
+        "Itaju do Colônia",
+        "Camacã",
+        "Buerarema"
+      ],
+      "deadlines": [
+        "Prazo de execução das obras definido nos Dados da Licitação (DDL)",
+        "Validade das provas de regularidade por 60 dias (se não houver prazo próprio)",
+        "Atestados de instituições financeiras emitidos nos 60 dias anteriores à abertura das propostas"
+      ],
+      "requirements": [
+        "Elegibilidade de concorrentes de países membros do Banco Interamericano de Desenvolvimento (BID)",
+        "Não possuir conflito de interesses",
+        "Não estar declarado inelegível por instituições financeiras internacionais (IFI)",
+        "Habilitação jurídica, incluindo ato constitutivo e documentos de administração",
+        "Qualificação econômico-financeira, com certidão de não falência e balanço patrimonial",
+        "Regularidade fiscal e trabalhista (CNPJ, Fazendas Federal, Estadual, Municipal, Seguridade Social, FGTS, Justiça do Trabalho)",
+        "Declaração de não emprego de menores em condições proibidas",
+        "Qualificação técnica comprovada por atestados de serviços executados",
+        "Experiência e qualificação do responsável técnico compatíveis com o objeto",
+        "Disponibilidade de máquinas e equipamentos necessários para as obras",
+        "Volume médio anual de obras nos últimos 5 anos conforme DDL",
+        "Experiência em pelo menos 2 obras de natureza e complexidade equivalente nos últimos 10 anos (70% concluídas)",
+        "Índice de liquidez e patrimônio líquido conforme DDL"
+      ],
+      "documents": [
+        "Proposta completa (conforme modelos da Seção 3)",
+        "Documentos de habilitação jurídica (ato constitutivo, estatuto/contrato social, eleição de administradores)",
+        "Certidão negativa de falência ou recuperação judicial",
+        "Balanço patrimonial e demonstrações contábeis do último exercício",
+        "Relatório de auditores ou contadores",
+        "Atestados de duas instituições financeiras",
+        "Comprovantes de inscrição e regularidade fiscal (CNPJ, cadastro estadual/municipal, Fazendas Federal/Estadual/Municipal, Dívida Ativa da União)",
+        "Comprovantes de regularidade trabalhista e social (Seguridade Social, FGTS, Justiça do Trabalho)",
+        "Declaração de não emprego de trabalho de menores (Formulário Modelo 10)",
+        "Formulário Modelo 3 (atestados de serviços executados)",
+        "Formulário Modelo 4 (comprovação de experiência e qualificação do responsável técnico)",
+        "Formulário Modelo 5 (demonstração de disponibilidade de máquinas e equipamentos)",
+        "Compromisso de constituição de consórcio (se aplicável)"
+      ],
+      "keywords": [
+        "Obras civis",
+        "Saúde indígena",
+        "UBSI",
+        "Construção",
+        "Equipamentos de saúde",
+        "BID",
+        "PROSUS II",
+        "Bahia",
+        "Concorrência Pública"
+      ],
+      "sourceTextPreview": "Capa 1 LICITA«√O P⁄BLICA NACIONAL (LPN) PARA EXECU«√O DAS OBRAS DE CONSTRU«√O DE EQUIPAMENTOS DE SA⁄DE, 05 (Cinco) Unidade B·sica De Sa˙de IndÌgena Tipo II – UBSI – Aldeia Serra Do Padeiro, Aldeia Bahet·, Aldeia Caramuru, Aldeia ¡gua Vermelha, Aldeia Panel„o, localizadas nos MunÌcipios de Pau Brasil, Itaju do ColÙnia, Camac„ e Buerarema, LOTE ⁄NICO. LPN 002/2026 SECRETARIA DA SA⁄DE DO ESTADO DA BAHIA - SESAB PROGRAMA DE FORTALECIMENTO DO SISTEMA ⁄NICO DE SA⁄DE NO ESTADO DA BAHIA – PROSUS II PROJETO BR-L 1602 BANCO INTERAMERICANO DE DESENVOLVIMENTO - BID CONTRATO DE EMPR…STIMO no 5870/OC-BR MAR«O/2026 GOVERNO DO ESTADO DA BAHIA Secretaria da Sa˙de do Estado da Bahia Programa de Fortalecimento do SUS no Estado da Bahia – PROSUS II Unidade de Gest„o de Projetos – UGP -- 1 of 110 -- Conte˙do 2 EDITAL DE LICITA«√O P⁄BLICA COM DIVULGA«√O NACIONAL PARA CONTRATA«√O DE OBRAS CIVIS (LPN) PARTE 1 – PROCEDIMENTOS DE LICITA«√O .............................................................. 3 SE«√O 1 - INSTRU«’ES AOS CONCORRENTES (IAC) ..................................... 3 SE«√O 2 – DADOS DA LICITA«√O (DDL) ......................................................... 20 SE«√O 3. FORMUL¡RIOS DA PRO",
+      "technicalQualificationHighlight": "Comprovar experiência como executor principal em pelo menos 2 obras de construção de Unidades Básicas de Saúde Indígena (UBSI) ou de complexidade equivalente, com atestados para quantitativos mínimos das parcelas de maior relevância.",
+      "proposalDateHighlight": "Sessão pública para abertura das propostas em 14/05/2026 às 09:00 horas."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:24:47.886Z",
+      "textLength": 240992,
+      "highlightRefreshedAt": "2026-04-03T02:48:49.696Z"
+    }
+  },
+  {
+    "id": "19300CP0042026",
+    "licitacaoFormatada": "CP004/2026",
+    "orgao": "SECRETARIA DA SAÚDE",
+    "unidade": "SECRETARIA DA SAÚDE",
+    "modalidade": "Concorrência Pública",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "04/05/2026 00:00:00",
+    "dataAberturaIso": "2026-05-04",
+    "valorEstimado": 14142596.93,
+    "valorHomologado": 0,
+    "objeto": "Serviços especiais, serviços especiais de engenharia e obras especiais",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/19300CP0042026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Licitação Pública Nacional para contratação de empresa para execução das obras de construção de Unidades Básicas de Saúde Indígena (UBSI) Tipo I e Tipo II em diversas aldeias localizadas em Banzaê/BA e Euclides da Cunha/BA, no âmbito do Programa de Fortalecimento do SUS no Estado da Bahia – PROSUS II, com financiamento do Banco Interamericano de Desenvolvimento (BID).",
+      "cnaes": [
+        {
+          "code": "4120-4/00",
+          "description": "Construção de edifícios"
+        },
+        {
+          "code": "7112-0/00",
+          "description": "Serviços de engenharia"
+        }
+      ],
+      "items": [
+        "UNIDADE BÁSICA DE SAÚDE INDÍGENA TIPO I NA ALDEIA TUXÁ",
+        "UNIDADE BÁSICA DE SAÚDE INDÍGENA TIPO I NA ALDEIA VÁRZEA",
+        "UNIDADE BÁSICA DE SAÚDE INDÍGENA TIPO II NA ALDEIA MARCAÇÃO",
+        "UNIDADE BÁSICA DE SAÚDE INDÍGENA TIPO II NA ALDEIA MIRANDELA",
+        "UNIDADE BÁSICA DE SAÚDE INDÍGENA TIPO II NA ALDEIA PAU- FERRO"
+      ],
+      "deliveryConditions": [
+        "Execução das obras de construção",
+        "Concluir as Obras no prazo especificado nos Dados da Licitação (DDL)"
+      ],
+      "locations": [
+        "Aldeia Tuxá – Banzaê/BA",
+        "Aldeia Várzea – Euclides da Cunha/BA",
+        "Aldeia Marcação – Banzaê/BA",
+        "Aldeia Mirandela – Banzaê/BA",
+        "Aldeia Pau- Ferro – Banzaê/BA"
+      ],
+      "deadlines": [
+        "Prazo para apresentação das propostas (Cláusula 20)",
+        "Período de validade da proposta (Cláusula 15)",
+        "Conclusão das Obras no prazo especificado nos DDL (Cláusula 1.2)",
+        "Atestados de instituições financeiras emitidos nos 60 dias anteriores à abertura das propostas (Cláusula 4.3.b.iv)",
+        "Provas de regularidade válidas por 60 dias de sua expedição (Cláusula 4.3)",
+        "Volume médio anual de Obras nos últimos 5 anos (Cláusula 4.5.b)",
+        "Experiência em obras de natureza e complexidade equivalente nos últimos 10 anos (Cláusula 4.5.c)"
+      ],
+      "requirements": [
+        "Nacionalidade de país membro do Banco Interamericano de Desenvolvimento (BID)",
+        "Não ter conflito de interesses",
+        "Não ser inelegível por sanções do BID ou outras Instituições Financeiras Internacionais (IFIs)",
+        "Entidades governamentais elegíveis se legal e financeiramente autônomas, operando conforme leis de comércio e não dependentes do Mutuário",
+        "Habilitação Jurídica (ato constitutivo, estatuto, contrato social, eleição de administradores, decreto/registro de autorização, prova de diretoria em exercício)",
+        "Qualificação Econômico-Financeira (certidão negativa de falência/recuperação judicial, balanço patrimonial e demonstrações contábeis do último exercício, relatório de auditores/contadores, atestados de 02 instituições financeiras)",
+        "Regularidade Fiscal e Trabalhista (CNPJ, cadastro de contribuintes estadual/municipal, regularidade com Fazendas Federal/Estadual/Municipal, Dívida Ativa da União, regularidade com Seguridade Social e FGTS, inexistência de débitos na Justiça do Trabalho)",
+        "Declaração de não emprego de menor de dezoito anos em trabalho noturno, perigoso ou insalubre e não emprego de menor de 16 anos (exceto aprendiz a partir de 14 anos)",
+        "Qualificação Técnica (comprovação de serviços executados, experiência e qualificação do responsável técnico, disponibilidade de máquinas e equipamentos)",
+        "Para consórcios: apresentação individual de documentação por todos os membros, compromisso de constituição de consórcio, responsabilidade solidária, designação de membro líder",
+        "Critérios mínimos para assinatura do Contrato: situação regular jurídica, financeira, fiscal e trabalhista; volume médio anual de Obras nos últimos 5 anos (conforme DDL); experiência em pelo menos 2 obras equivalentes nos últimos 10 anos (70% concluídas); índice de liquidez (conforme DDL); patrimônio líquido (conforme DDL); execução de serviços compatíveis; responsável técnico com experiência compatível; disponibilidade de máquinas e equipamentos"
+      ],
+      "documents": [
+        "Ato constitutivo, estatuto ou contrato social em vigor",
+        "Documentos de eleição de administradores (sociedades por ações)",
+        "Decreto de autorização e registro de autorização para funcionamento (empresa/sociedade estrangeira)",
+        "Inscrição do ato constitutivo (sociedades civis)",
+        "Prova de diretoria em exercício (sociedades civis)",
+        "Certidão negativa de falência ou recuperação judicial",
+        "Balanço patrimonial e demonstrações contábeis do último exercício social",
+        "Relatório de auditores ou de contadores",
+        "Atestados de 02 (duas) instituições financeiras",
+        "Prova de inscrição no Cadastro Nacional de Pessoas Jurídicas (CNPJ)",
+        "Prova de inscrição no cadastro de contribuintes estadual ou municipal",
+        "Prova de regularidade para com as Fazendas Federal, Estadual e Municipal",
+        "Certidão quanto à Dívida Ativa da União",
+        "Prova de regularidade relativa à Seguridade Social",
+        "Prova de regularidade relativa ao Fundo de Garantia por Tempo de Serviço (FGTS)",
+        "Prova de inexistência de débitos inadimplidos perante a Justiça do Trabalho",
+        "Declaração do Concorrente (não emprego de menor - Modelo 10 da Seção 3)",
+        "Formulário Modelo 3 (atestados de serviços executados)",
+        "Formulário Modelo 4 (comprovação de experiência e qualificação do responsável técnico)",
+        "Formulário Modelo 5 (disponibilidade de máquinas e equipamentos)",
+        "Compromisso de constituição de consórcio (se aplicável)"
+      ],
+      "keywords": [
+        "construção",
+        "saúde",
+        "unidade básica de saúde",
+        "UBSI",
+        "aldeia",
+        "indígena",
+        "Bahia",
+        "obras civis",
+        "engenharia",
+        "SUS",
+        "BID",
+        "Banzaê",
+        "Euclides da Cunha"
+      ],
+      "sourceTextPreview": "GOVERNO DO ESTADO DA BAHIA Secretaria da Saúde do Estado da Bahia Programa de Fortalecimento do SUS no Estado da Bahia – PROSUS II Unidade de Gestão de Projetos – UGP LICITAÇÃO PÚBLICA NACIONAL (LPN) PARA CONTRATAÇÃO DE EMPRESA PARA EXECUÇÃO DAS OBRAS DE CONSTRUÇÃO DE UNIDADE BÁSICA DE SAÚDE INDÍGENA(UBSI) LPN 004/2026 LOTE ÚNICO ITEM 1: UNIDADE BÁSICA DE SAÚDE INDÍGENA TIPO I NA ALDEIA TUXÁ – BANZAÊ/BA ITEM 2: UNIDADE BÁSICA DE SAÚDE INDÍGENA TIPO I NA ALDEIA VÁRZEA – EUCLIDES DA CUNHA/BA ITEM 3: UNIDADE BÁSICA DE SAÚDE INDÍGENA TIPO II NA ALDEIA MARCAÇÃO – BANZAÊ/BA ITEM 4: UNIDADE BÁSICA DE SAÚDE INDÍGENA TIPO II NA ALDEIA MIRANDELA – BANZAÊ/BA ITEM 5: UNIDADE BÁSICA DE SAÚDE INDÍGENA TIPO II NA ALDEIA PAU- FERRO – BANZAÊ/BA PROCESSO SEI 019.8781.2026.0047204-23 PROGRAMA DE FORTALECIMENTO DO SUS NO ESTADO DA BAHIA - PROJETO BR-L1602 BANCO INTERAMERICANO DE DESENVOLVIMENTO - BID CONTRATO DE EMPRÉSTIMO Nº 5870/OC-BR MARÇO/2026 -- 1 of 123 -- GOVERNO DO ESTADO DA BAHIA Secretaria da Saúde do Estado da Bahia Programa de Fortalecimento do SUS no Estado da Bahia – PROSUS II Unidade de Gestão de Projetos – UGP EDITAL DE LICITAÇÃO PÚBLICA COM DIVULGAÇÃO NACIONAL PARA CONTRATAÇÃO DE OBRA",
+      "technicalQualificationHighlight": "Experiência comprovada na construção de Estabelecimentos Assistenciais de Saúde (EAS), incluindo obras civis relevantes como estrutura de concreto armado, cobertura, instalações elétricas e fundações, com responsável técnico qualificado.",
+      "proposalDateHighlight": "Abertura das propostas em sessão pública no dia 04/05/2026 às 09:00 horas."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:25:14.299Z",
+      "textLength": 248372,
+      "highlightRefreshedAt": "2026-04-03T02:49:00.452Z"
+    }
+  },
+  {
+    "id": "36004CP0012026",
+    "licitacaoFormatada": "CP001/2026",
+    "orgao": "SECRETARIA DE COMUNICACAO SOCIAL",
+    "unidade": "DIRETORIA ADMINISTRATIVA",
+    "modalidade": "Concorrência Pública",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "30/04/2026 00:00:00",
+    "dataAberturaIso": "2026-04-30",
+    "valorEstimado": 50000000,
+    "valorHomologado": 0,
+    "objeto": "Serviços especiais, serviços especiais de engenharia e obras especiais",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/36004CP0012026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Contratação de 03 (três) empresas prestadoras de serviços de comunicação digital para prospecção, planejamento, desenvolvimento, implementação de soluções digitais, moderação de conteúdo e perfis em redes sociais, monitoramento, análise de interações, desenvolvimento de estratégias de engajamento digital, criação e execução técnica de projetos e produtos de comunicação digital, e desenvolvimento e implementação de soluções inovadoras de comunicação, explorando novas tecnologias, inteligência artificial, automação de marketing, interatividade e experiência do usuário (UX/UI).",
+      "cnaes": [],
+      "items": [
+        "Contratação de empresas prestadoras de serviços de comunicação digital",
+        "Prospecção de soluções de comunicação digital",
+        "Planejamento de soluções de comunicação digital",
+        "Desenvolvimento de soluções de comunicação digital",
+        "Implementação de soluções de comunicação digital",
+        "Moderação de conteúdo e perfis em redes sociais",
+        "Monitoramento contínuo de redes sociais",
+        "Análise de interações digitais",
+        "Desenvolvimento de estratégias de engajamento digital baseadas em inteligência de dados",
+        "Criação de projetos, ações e produtos de comunicação digital",
+        "Execução técnica de projetos, ações e produtos de comunicação digital",
+        "Desenvolvimento de soluções inovadoras de comunicação (novas tecnologias, inteligência artificial, automação de marketing, interatividade, UX/UI)",
+        "Implementação de soluções inovadoras de comunicação (novas tecnologias, inteligência artificial, automação de marketing, interatividade, UX/UI)"
+      ],
+      "deliveryConditions": [
+        "Execução indireta",
+        "Regime de empreitada por preço unitário",
+        "Serão contratadas 03 (três) empresas",
+        "Procedimento de seleção interna entre as contratadas",
+        "Limites de execução por empresa: máximo de 70% e mínimo de 15% do montante total"
+      ],
+      "locations": [
+        "Sala de reunião da Secretaria de Comunicação Social, prédio sede da Governadoria, 1º andar, 3ª Avenida, nº 390, Plataforma IV, Centro Administrativo da Bahia – CAB, Salvador – Ba (Local de realização)",
+        "Secretaria de Comunicação Social, prédio sede da Governadoria, Sala da Coordenação de Licitações, 1º andar, 3ª Avenida, nº 390, Plataforma IV, Centro Administrativo da Bahia – CAB, Salvador – Ba (Retirada de Invólucro – Via Não Identificada)",
+        "Setor e endereço do contratante (para recebimento das propostas)"
+      ],
+      "deadlines": [
+        "Recebimento das Propostas Técnicas e de Preços: 09h30min do dia 30/04/2026 (ou no primeiro dia útil subsequente caso não haja expediente)",
+        "Pedidos de esclarecimento e impugnações: até 3 (três) dias úteis antes da data de abertura do certame",
+        "Respostas a pedidos de esclarecimento e impugnações: até 3 (três) dias úteis antes da data de abertura do certame"
+      ],
+      "requirements": [
+        "Estar inscrito no Cadastro de Fornecedores do Estado da Bahia / SAEB ou atender a todas as exigências do edital",
+        "Pertencer ao ramo de atividade pertinente ao objeto licitado",
+        "Não ser autor do anteprojeto, projeto básico ou executivo, ou empresa relacionada a eles",
+        "Não estar impossibilitado de participar da licitação devido a sanção",
+        "Não manter vínculo de natureza técnica, comercial, econômica, financeira, trabalhista ou civil com dirigente ou agente público do órgão contratante ou da licitação/fiscalização/gestão, nem ser cônjuge, companheiro ou parente até o terceiro grau destes",
+        "Empresas controladoras, controladas ou coligadas não podem concorrer entre si",
+        "Não ter sido condenada judicialmente (nos 5 anos anteriores) por exploração de trabalho infantil, submissão a condições análogas à escravo ou contratação ilegal de adolescentes",
+        "Não ser agente público do órgão ou entidade licitante",
+        "Não ser Organização da Sociedade Civil de Interesse Público (OSCIP) atuando nessa condição",
+        "Para consórcios, observar o disposto no Termo de Referência e Habilitação (Anexo B)",
+        "Para projetos financiados por agência de cooperação estrangeira ou organismo financeiro internacional, não poderá participar pessoa física ou jurídica sancionada por essas entidades ou declarada inidônea"
+      ],
+      "documents": [
+        "Edital e seus anexos (disponibilização)",
+        "Propostas Técnicas (Invólucros nº 1, nº 2, nº 3 e nº 4)",
+        "Propostas de Preços",
+        "Documentos de Habilitação",
+        "Documento de identidade de fé pública do representante",
+        "Cópia do ato de constituição da empresa (para sócio/dirigente representante)",
+        "Cópia da ata da assembleia de eleição do dirigente (se aplicável)",
+        "Procuração (instrumento público ou particular) com poderes (se o preposto não for representante estatutário ou legal) (Modelo Anexo II)",
+        "Anexo I: Termo de Referência",
+        "Anexo A – Descrição Auxiliar do Objeto",
+        "Anexo B – Participação de pessoas jurídicas reunidas em Consórcio",
+        "Apêndice I: Produtos e Serviços Essenciais",
+        "Apêndice I – A: Catálogo de Produtos e Serviços Essenciais",
+        "Apêndice II: Apresentação e Julgamento das Propostas Técnicas",
+        "Apêndice III: Briefing",
+        "Apêndice IV: Apresentação das Propostas de Preços",
+        "Apêndice V: Modelo de Proposta de Preços",
+        "Anexo III: Minuta de Contrato",
+        "Anexo IV – Modelo de prova de Qualificação Técnica Capacidade Técnico Operacional",
+        "Anexo V – Modelo de Prova de Qualificação Técnica declaração de Indicação do Pessoal Técnico, Instalações e Aparelhamento",
+        "Anexo VI – Modelo de Prova de Qualificação Técnica Declaração de Pleno Conhecimento, Sem Exigência de Vistoria"
+      ],
+      "keywords": [
+        "Comunicação Digital",
+        "Serviços de Comunicação",
+        "Marketing Digital",
+        "Redes Sociais",
+        "Inteligência de Dados",
+        "Inovação Digital",
+        "Tecnologia",
+        "Inteligência Artificial",
+        "Automação de Marketing",
+        "UX/UI",
+        "Bahia",
+        "SECOM",
+        "Concorrência Pública"
+      ],
+      "sourceTextPreview": "ESTADO DA BAHIA SECRETARIA DE COMUNICAÇÃO SOCIAL 1 SECRETARIA DE COMUNICAÇÃO SOCIAL DO ESTADO DA BAHIA CONCORRÊNCIA Nº 01 / 2026 CONTRATAÇÃO DE COMUNICAÇÃO DIGITAL POR INTERMÉDIO DE EMPRESAS PRESTADORAS DE SERVIÇOS -- 1 of 93 -- ESTADO DA BAHIA SECRETARIA DE COMUNICAÇÃO SOCIAL 2 S U M Á R I O 1. Disposições Iniciais 2. Objeto 3. Vigência e Prorrogação 4. Valor Contratual e Recursos Orçamentários 5. Condições de Participação 6. Disponibilização do Edital e Divulgação dos Atos Licitatórios 7. Impugnação e Pedidos de Esclarecimento 8. Cadastro de Representantes ou Procuradores 9. Recebimento das Propostas Técnicas de Preço 10. Entrega das Propostas Técnicas 11. Apresentação e Julgamento das Propostas Técnicas 12. Entrega das Propostas de Preços 13. Apresentação das Propostas e de Preços 14. Entrega dos Documentos de Habilitação 15. Apresentação dos Documentos de Habilitação 16. Análise dos Documentos de Habilitação 17. Comissão de Contratação e Subcomissão Técnica 18. Recursos Administrativos e Pedidos de Reconsideração 19. Procedimentos Licitatórios 20. Julgamento Final da Concorrência 21. Homologação e Adjudicação 22. Condições Pré-Contratuais 23. Garantia de Execução 24. Obrigações",
+      "technicalQualificationHighlight": "Apresentação de Proposta Técnica com Plano de Comunicação Digital e comprovação de Capacidade de Atendimento e Relatos de Soluções de Comunicação Digital, avaliada pelo critério de Melhor Técnica.",
+      "proposalDateHighlight": "Recebimento das Propostas Técnicas e de Preços em 30/04/2026 às 09h30min."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:25:33.141Z",
+      "textLength": 246820,
+      "highlightRefreshedAt": "2026-04-03T02:49:17.656Z"
+    }
+  },
+  {
+    "id": "19180PE0372026",
+    "licitacaoFormatada": "PE037/2026",
+    "orgao": "SECRETARIA DA SAÚDE",
+    "unidade": "SECRETARIA DA SAÚDE",
+    "modalidade": "Pregão Eletrônico",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "30/04/2026 00:00:00",
+    "dataAberturaIso": "2026-04-30",
+    "valorEstimado": 624818,
+    "valorHomologado": 0,
+    "objeto": "Aquisição de bens comuns",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/19180PE0372026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Pregão Eletrônico nº 037/2026 da SECRETARIA DA SAÚDE (SESAB) para aquisição de medicamentos (HIDRALAZINA, SUXAMETONIO, CEFTRIAXONA e outros) para compor o Sistema de Registro de Preços (SRP). O certame é de Ampla Participação com reserva de cota para Microempresas e Empresas de Pequeno Porte (ME/EPP), e o critério de julgamento é o Menor Preço, por item ou por lote.",
+      "cnaes": [],
+      "items": [
+        "HIDRALAZINA",
+        "SUXAMETONIO",
+        "CEFTRIAXONA",
+        "Medicamentos"
+      ],
+      "deliveryConditions": [
+        "Encaminhamento de amostras ao endereço indicado no edital, com comprovante de envio via sistema Licitações-e.",
+        "Amostras devem estar devidamente identificadas com nome da empresa, número do pregão eletrônico, lote e nome do pregoeiro.",
+        "Empresas vencedoras de lotes de ampla participação que assumam lotes de ME/EPP fracassados/desertos não estão dispensadas da apresentação de amostra, se requisito do edital.",
+        "Empresas que desejem integrar o cadastro de reserva e a licitação exija amostras, também deverão apresentá-las."
+      ],
+      "locations": [
+        "Salvador/Bahia",
+        "4ª avenida, nº. 400, Plataforma VI, Lado “A”, Térreo, Diretoria de Licitações – DL - Centro Administrativo da Bahia – CAB – Salvador/Bahia – CEP – 41.745.002",
+        "https://licitacoes-e2.bb.com.br/aop-inter-estatico/",
+        "Portal Nacional de Contratações Públicas (PNCP)",
+        "portal Comprasnet.BA",
+        "Sistema Eletrônico de Informações (SEI)",
+        "E-mail: sesab.protocolo@saude.ba.gov.br",
+        "E-mail: fernando.pinto@saude.ba.gov.br"
+      ],
+      "deadlines": [
+        "Prazo de até 03 horas para apresentação de propostas ajustadas após a disputa de lances.",
+        "Documentação de habilitação deve ser apresentada com data válida à época da abertura do certame.",
+        "Intenção de recorrer deve ser manifestada em até 15 minutos após a declaração do vencedor.",
+        "Recebimento das propostas: das 09:00 horas do dia 24/03/2026, às 09:00 horas do dia 26/03/2026.",
+        "Início da sessão pública: às 09:00 horas do dia 26/03/2026."
+      ],
+      "requirements": [
+        "Informar a marca do objeto ofertado no campo “descrição da proposta” no formulário eletrônico do Banco do Brasil, sob pena de desclassificação.",
+        "A proposta escrita deve contemplar CNPJ da empresa, CPF do sócio majoritário e telefone para contato.",
+        "O valor da proposta deve conter apenas 2 (duas) casas decimais.",
+        "Apresentar tão somente UMA marca por item, sem propostas alternativas.",
+        "É vedada a identificação do proponente ao registrar a proposta. Usar 'marca própria' ou 'marca do fabricante' se a marca ofertada identificar o proponente.",
+        "O envio da proposta de preços e demais documentos deve ser realizado exclusivamente através do sistema eletrônico.",
+        "Estar inscrito ou não no Cadastro de Fornecedores do Estado da Bahia e atender a todas as exigências do edital.",
+        "Pertencer ao ramo de atividade pertinente ao objeto licitado.",
+        "Ter realizado credenciamento como usuário junto ao Banco do Brasil para obtenção de chave de identificação/senha individual.",
+        "Credenciar-se previamente no sistema eletrônico utilizado no certame.",
+        "Cada licitante pode credenciar apenas um representante, e cada representante pode representar apenas uma única licitante.",
+        "Não podem participar autores de anteprojeto/projeto, empresas controladoras/controladas/coligadas entre si, aqueles impossibilitados por sanção, com vínculo com dirigentes/agentes públicos do órgão contratante, condenados por exploração de trabalho infantil/análogo ao escravo, agente público do órgão licitante, ou OSCIP atuando nessa condição.",
+        "Não podem participar pessoas físicas ou jurídicas sancionadas por agências de cooperação estrangeira ou organismos financeiros internacionais em projetos parcialmente financiados por eles."
+      ],
+      "documents": [
+        "Proposta ajustada (após disputa de lances)",
+        "Proposta escrita (contendo CNPJ, CPF do sócio majoritário, telefone para contato, valor com 2 casas decimais e marca)",
+        "Comprovante de envio de amostra (se aplicável)",
+        "Documentos de habilitação (jurídica, fiscal, social e trabalhista, econômico-financeira, e qualificação técnica, quando for o caso)",
+        "Peça recursal e contrarrazões",
+        "Modelo de procuração",
+        "Modelo de declaração por ME e EPP de limitação de celebração de contrato (art. 4º, §2º, da Lei Federal nº 14.133/2021)"
+      ],
+      "keywords": [
+        "Pregão Eletrônico",
+        "Registro de Preços",
+        "Medicamentos",
+        "Aquisição",
+        "SESAB",
+        "Bahia",
+        "Amostra",
+        "Habilitação",
+        "ME/EPP",
+        "Menor Preço",
+        "Lote",
+        "Proposta",
+        "Licitações-e",
+        "SRP",
+        "Licitação",
+        "Credenciamento",
+        "Recurso",
+        "Saúde"
+      ],
+      "sourceTextPreview": "ESTADO DA BAHIA SECRETARIA DA SAÚDE DIRETORIA DE LICITAÇÕES 1/82 INFORMAÇÕES PARA PARTICIPAÇÃO ATENÇÃO: A licitante DEVERÁ informar a marca do objeto ofertado no formulário eletrônico do Banco do Brasil, no campo “descrição da proposta”. A ausência da indicação de marca implicará na desclassificação da proposta. Após a disputa de lances, o(s) licitante(s) “provisoriamente vencedor(es)” será(ão) convocado(s) para que apresente(m) sua(s) proposta(s) ajustada(s) ao valor negociado ou ao seu último lance, no prazo de até 03 (três) horas. A proposta escrita deverá contemplar informações como o CNPJ da empresa participante, o CPF do sócio majoritário, bem como telefone para contato. Por sua vez, o valor da proposta deverá conter apenas 2 (duas) casas decimais. Não é possível a apresentação de proposta alternativa, portanto, para cada item a licitante deverá apresentar tão somente UMA marca. O julgamento da proposta irá avaliar apenas a marca indicada na proposta, mais precisamente, no campo descrição do item, disponível na plataforma do Licitações-e e repisada na proposta escrita. É vedada a identificação do proponente quando do registro de sua proposta no campo oferecido pela plataforma",
+      "technicalQualificationHighlight": "Aferição do atendimento às especificações exigidas do objeto através da apresentação de amostras, avaliação de conformidade ou prova de conceito, se requerido.",
+      "proposalDateHighlight": "Início da sessão pública e prazo final para recebimento das propostas em 26 de março de 2026, às 09:00 horas."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:25:56.850Z",
+      "textLength": 204571,
+      "highlightRefreshedAt": "2026-04-03T02:49:28.666Z"
+    }
+  },
+  {
+    "id": "26004CP0012026",
+    "licitacaoFormatada": "CP001/2026",
+    "orgao": "SECRETARIA DE DESENVOLVIMENTO URBANO",
+    "unidade": "SUPERINTENDENCIA DE GESTAO TERRITORIAL",
+    "modalidade": "Concorrência Pública",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "30/04/2026 00:00:00",
+    "dataAberturaIso": "2026-04-30",
+    "valorEstimado": 28986338.29,
+    "valorHomologado": 0,
+    "objeto": "Serviços especiais, serviços especiais de engenharia e obras especiais",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/26004CP0012026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Concorrência Pública para contratação de consultoria especializada para elaboração do Plano Urbano Integrado da Região de Planejamento do Centro-Leste Baiano (PUI-CENTRO LESTE), incluindo as áreas urbanas impactadas pelo Sistema Rodoviário Ponte Salvador-Itaparica (SRPSI).",
+      "cnaes": [
+        {
+          "code": "02.14 C",
+          "description": "Serviços especiais, serviços especiais de engenharia e obras especiais"
+        }
+      ],
+      "items": [
+        "Consultoria especializada para elaboração do Plano Urbano Integrado da Região de Planejamento do Centro-Leste Baiano (PUI-CENTRO LESTE)",
+        "Plano Urbano Integrado (PUI-CENTRO LESTE)",
+        "Sistema Rodoviário Ponte Salvador-Itaparica (SRPSI) - planejamento",
+        "02.14.00.00143311-3"
+      ],
+      "deliveryConditions": [],
+      "locations": [
+        "Centro-Leste Baiano",
+        "Áreas urbanas impactadas pelo Sistema Rodoviário Ponte Salvador-Itaparica",
+        "Salvador-BA",
+        "Centro Administrativo da Bahia (CAB)"
+      ],
+      "deadlines": [
+        "Validade da proposta: mínimo de 60 dias a partir da data de apresentação",
+        "Envio de documentos de habilitação do licitante vencedor: 1 dia a partir da solicitação",
+        "Assinatura do contrato: 30 dias a partir da convocação, prorrogável por igual período",
+        "Data e hora da sessão pública: 30/04/2026 às 10:00 horas",
+        "Data de expedição do Edital: 03 de Março de 2026",
+        "Publicação da portaria de designação do Agente de Contratação: 26 de fevereiro de 2026"
+      ],
+      "requirements": [
+        "Inscrição no Cadastro de Fornecedores do Estado da Bahia (SAEB) ou credenciamento",
+        "Pertencer ao ramo de atividade pertinente ao objeto licitado",
+        "Credenciamento como usuário no Banco do Brasil para obtenção de chave de identificação ou senha individual",
+        "Propostas técnicas e de preço elaboradas de acordo com os requisitos definidos no Termo de Referência",
+        "Propostas em original, datilografadas ou digitadas, sem emendas, rasuras, ressalvas ou entrelinhas",
+        "Propostas rubricadas em todas as folhas, datadas e assinadas pelo representante legal do licitante ou mandatário",
+        "Juntada da procuração que contemple expressamente o poder (se aplicável)",
+        "Comprovação do recolhimento da quantia a título de garantia de proposta",
+        "Declaração de elaboração independente de proposta e de inexistência de impedimento à participação no certame",
+        "Para consórcios não formados integralmente por microempresas ou empresas de pequeno porte, haverá um acréscimo no percentual de habilitação econômico-financeira",
+        "Não ser autor de anteprojeto, projeto básico ou projeto executivo relacionado ao objeto da licitação",
+        "Não ser empresa, isoladamente ou em consórcio, responsável pela elaboração de anteprojeto, projeto básico ou executivo, ou empresa da qual o autor seja dirigente, controlador, responsável técnico ou tenha mais de 5% do capital social",
+        "Não estar impedido de participar da licitação em decorrência de sanção",
+        "Não manter vínculo com dirigente do órgão ou entidade contratante ou com agente público que atue na fiscalização ou gestão de contratos",
+        "Não ser cônjuge, companheiro ou parente até terceiro grau de dirigentes/agentes públicos do órgão contratante",
+        "Não ser empresa controladora, controlada ou coligada concorrendo entre si",
+        "Não ter sido condenado judicialmente por exploração de trabalho infantil ou submissão de trabalhadores a condições análogas às de escravo nos últimos 5 anos",
+        "Não ser agente público do órgão ou entidade contratante",
+        "Não ser servidor ou dirigente do órgão ou entidade contratante ou responsável pela licitação que tenha interesse direto ou indireto na matéria"
+      ],
+      "documents": [
+        "Proposta Técnica",
+        "Proposta de Preços",
+        "Comprovação do recolhimento da garantia da proposta",
+        "Declaração de elaboração independente de proposta e de inexistência de impedimento à participação",
+        "Procuração (se aplicável)",
+        "Ato constitutivo, estatuto ou contrato social",
+        "Documento de eleição e posse dos administradores (para sociedades por ações)",
+        "Declaração de ciência das condições do Edital e seus Anexos e de veracidade dos documentos",
+        "Declaração de abrangência da proposta de preços",
+        "Declaração de cumprimento de requisitos de habilitação",
+        "Declaração de proteção ao trabalho do menor",
+        "Declaração de ausência de empregados executando trabalho degradante ou forçado",
+        "Declaração de cumprimento das exigências de reserva de cargos",
+        "Declaração de enquadramento como microempresa, empresa de pequeno porte ou sociedade cooperativa",
+        "Documentos de habilitação (em formato digital, para o licitante vencedor)"
+      ],
+      "keywords": [
+        "Consultoria Especializada",
+        "Plano Urbano Integrado",
+        "PUI-CENTRO LESTE",
+        "Centro-Leste Baiano",
+        "Ponte Salvador-Itaparica",
+        "SRPSI",
+        "Engenharia",
+        "Obras",
+        "Concorrência Pública",
+        "SEDUR",
+        "Desenvolvimento Urbano",
+        "Bahia",
+        "Planejamento"
+      ],
+      "sourceTextPreview": "SECR Minuta de Edital – concorrência, so (Processo Ad ( X ) Contratação delegada ( X ) CONCORRÊNCIA PRE 1. Regência legal: Esta licitação obedecerá as dispos 123, de 14 de dezembro de 200 alterações, bem como doDecretos 2024. 2. Requisito de participação: 2.1 Inscrição no Cadastr ( x ) Serão admitidos a partic Fornecedores do Estado da pertençam ao ramo de ativ como usuário junto ao Banc 2.2 Tratamento diferenc ( X ) Ampla Participação ( x ) Serviços – Sem rese ( x ) Itens de Ampla Part ( x ) Serviços – Se 2.2.1A obtenção do bene empresas de pequeno po celebrado contratos com máxima admitida para fins da Lei n° 14.133, de 2021. 3. Processo administrativo DESNVOLVIMENTO URBANO/SED 4. Modalidade/número de ord ( x ) Concorrência presencial 4.1 Modo de Disputa ( x ) Fechado (art. 56, §2° da Le 4.1.1 Os licitantes apresent apresentação de lances. ESTADO DA BAHIA SECRETARIA DE DESENVOLVIMENTO URBANO cia, sob a forma presencial – contratação integrada. EDITAL sso Administrativo n° 026.1300.2025.0003401-96) PRESENCIAL Nº 001/2026 PREÂMBULO isposições da Lei n° 14.634, de 28 de novembro de 2023 2006, das normas gerais da Lei no14.133, de 1° de abr retos n° 22.885, de 20 de junho de 2024, e",
+      "technicalQualificationHighlight": "Contratação de consultoria especializada para elaboração do Plano Urbano Integrado da Região de Planejamento do Centro-Leste Baiano (PUI-Centro Leste), conforme Termo de Referência.",
+      "proposalDateHighlight": "Início da sessão pública e recebimento das propostas em 30/04/2026 às 10:00 horas."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:26:26.904Z",
+      "textLength": 327342,
+      "highlightRefreshedAt": "2026-04-03T03:01:55.034Z"
+    }
+  },
+  {
+    "id": "19004PE1752026",
+    "licitacaoFormatada": "PE175/2026",
+    "orgao": "SECRETARIA DA SAÚDE",
+    "unidade": "SECRETARIA DA SAÚDE",
+    "modalidade": "Pregão Eletrônico",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "28/04/2026 00:00:00",
+    "dataAberturaIso": "2026-04-28",
+    "valorEstimado": 102051.7,
+    "valorHomologado": 0,
+    "objeto": "Aquisição de bens comuns",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/19004PE1752026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Pregão Eletrônico para aquisição de bens comuns, especificamente materiais e equipamentos de uso hospitalar, odontológico, veterinário e de laboratório (sondas e cateteres), para compor um sistema de registro de preços. A participação é restrita a Microempresas (ME) e Empresas de Pequeno Porte (EPP).",
+      "cnaes": [
+        {
+          "code": "65.15",
+          "description": "Aquisição de Materiais e Equip. de Uso Hospitalar, Odontológico, Veterinário e de Laboratório (SONDA E CATETER)"
+        }
+      ],
+      "items": [
+        "Materiais e Equipamentos de Uso Hospitalar",
+        "Materiais e Equipamentos Odontológicos",
+        "Materiais e Equipamentos Veterinários",
+        "Materiais e Equipamentos de Laboratório",
+        "Sondas",
+        "Cateteres"
+      ],
+      "deliveryConditions": [
+        "Amostras (se requeridas) devem ser encaminhadas ao endereço indicado no edital, no prazo estabelecido, com comprovante de envio anexado no sistema Licitações-e.",
+        "Amostras devem estar identificadas com nome da empresa, número do pregão eletrônico, lote e nome do pregoeiro."
+      ],
+      "locations": [
+        "Sistema Eletrônico Licitações-e do Banco do Brasil (https://licitacoes-e2.bb.com.br/aop-inter-estatico/)",
+        "Portal Nacional de Contratações Públicas (PNCP)",
+        "Portal Comprasnet.BA",
+        "Salvador/Bahia (Diretoria de Licitações - DL, Centro Administrativo da Bahia - CAB)",
+        "Sistema Eletrônico de Informações (SEI) para impugnação, esclarecimento e recursos"
+      ],
+      "deadlines": [
+        "Recebimento das propostas: das 09:00 de 24/04/2026 às 10:00 de 28/04/2026",
+        "Início da sessão pública: 10:00 de 28/04/2026",
+        "Apresentação de propostas ajustadas: até 03 horas após convocação",
+        "Manifestação de intenção de recorrer: até 15 minutos após declaração do vencedor",
+        "Documentos de habilitação devem estar válidos na data de abertura do certame/sessão pública"
+      ],
+      "requirements": [
+        "Informar a marca do objeto ofertado no campo 'descrição da proposta' no formulário eletrônico do Banco do Brasil (a ausência de marca implica desclassificação).",
+        "A proposta escrita ajustada deve contemplar CNPJ da empresa, CPF do sócio majoritário e telefone para contato.",
+        "O valor da proposta deve conter apenas 2 (duas) casas decimais.",
+        "Apresentar tão somente UMA marca por item (não é permitida proposta alternativa).",
+        "Não identificar o proponente ao registrar a proposta; se a marca ofertada o fizer, usar 'marca própria' ou 'marca do fabricante'.",
+        "O envio da proposta de preços e demais documentos deve ser realizado exclusivamente através do sistema eletrônico.",
+        "Os documentos de habilitação devem ser enviados pelo licitante provisoriamente vencedor exclusivamente por meio do sistema eletrônico, em formato digital e individualizado por lote, após convocação.",
+        "A documentação de habilitação (jurídica, fiscal, social e trabalhista, econômico-financeira e qualificação técnica, se for o caso) deve ter data válida à época da abertura do certame.",
+        "Somente encaminhar os documentos solicitados pelo Pregoeiro (proposta na fase classificatória, habilitação se classificado).",
+        "Manifestar a intenção de recorrer imediatamente após a declaração do vencedor, no prazo de até 15 minutos.",
+        "Inscrição no Cadastro de Fornecedores do Estado da Bahia (ou atender exigências de inscrição) e pertencer ao ramo de atividade pertinente ao objeto licitado.",
+        "Ter realizado credenciamento como usuário junto ao Banco do Brasil para obtenção de chave de identificação ou senha individual.",
+        "Participação restrita a Microempresas e Empresas de Pequeno Porte (ME/EPP)."
+      ],
+      "documents": [
+        "Proposta de preços (eletrônica)",
+        "Proposta escrita ajustada (CNPJ, CPF sócio majoritário, telefone, valor)",
+        "Comprovante de envio de amostra (se aplicável)",
+        "Documentos de habilitação (jurídica, fiscal, social e trabalhista, econômico-financeira)",
+        "Documentos de qualificação técnica (se aplicável)",
+        "Peça recursal",
+        "Contrarrazões",
+        "Modelo de procuração",
+        "Modelo de declaração por ME e EPP (art. 4º, §2º, da Lei Federal nº 14.133/2021)",
+        "Minuta da Ata de Registro de Preços",
+        "Termo de Referência e Habilitação (TR/Habilitação)",
+        "Minuta de contrato"
+      ],
+      "keywords": [
+        "Pregão Eletrônico",
+        "Aquisição",
+        "Materiais Hospitalares",
+        "Equipamentos Odontológicos",
+        "Materiais Veterinários",
+        "Materiais Laboratório",
+        "Sonda",
+        "Cateter",
+        "Sistema de Registro de Preços (SRP)",
+        "Saúde",
+        "Bahia",
+        "SESAB",
+        "Microempresa",
+        "Empresa de Pequeno Porte",
+        "ME/EPP",
+        "Licitação",
+        "Lei 14.133/2021"
+      ],
+      "sourceTextPreview": "ESTADO DA BAHIA SECRETARIA DA SAÚDE DIRETORIA DE LICITAÇÕES 1/96 INFORMAÇÕES PARA PARTICIPAÇÃO ATENÇÃO: A licitante DEVERÁ informar a marca do objeto ofertado no formulário eletrônico do Banco do Brasil, no campo “descrição da proposta”. A ausência da indicação de marca implicará na desclassificação da proposta. Após a disputa de lances, o(s) licitante(s) “provisoriamente vencedor(es)” será(ão) convocado(s) para que apresente(m) sua(s) proposta(s) ajustada(s) ao valor negociado ou ao seu último lance, no prazo de até 03 (três) horas. A proposta escrita deverá contemplar informações como o CNPJ da empresa participante, o CPF do sócio majoritário, bem como telefone para contato. Por sua vez, o valor da proposta deverá conter apenas 2 (duas) casas decimais. Não é possível a apresentação de proposta alternativa, portanto, para cada item a licitante deverá apresentar tão somente UMA marca. O julgamento da proposta irá avaliar apenas a marca indicada na proposta, mais precisamente, no campo descrição do item, disponível na plataforma do Licitações-e e repisada na proposta escrita. É vedada a identificação do proponente quando do registro de sua proposta no campo oferecido pela plataforma",
+      "technicalQualificationHighlight": "Será exigido exame de adequação do objeto, incluindo apresentação de amostras, avaliação de conformidade e prova de conceito, para aferição da aceitabilidade da proposta.",
+      "proposalDateHighlight": "Início da sessão pública às 10:00 horas do dia 28/04/2026."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:26:49.949Z",
+      "textLength": 228216,
+      "highlightRefreshedAt": "2026-04-03T03:02:08.330Z"
+    }
+  },
+  {
+    "id": "19123PE0052026",
+    "licitacaoFormatada": "PE005/2026",
+    "orgao": "SECRETARIA DA SAÚDE",
+    "unidade": "SECRETARIA DA SAÚDE",
+    "modalidade": "Pregão Eletrônico",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "24/04/2026 00:00:00",
+    "dataAberturaIso": "2026-04-24",
+    "valorEstimado": 140880.06,
+    "valorHomologado": 0,
+    "objeto": "Serviços comuns e serviços comuns de engenharia",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/19123PE0052026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Pregão Eletrônico para a contratação de empresa especializada em serviços de manutenção preventiva e corretiva de grupos de geradores para o Hospital Geral Ernesto Simões Filho, da Secretaria da Saúde do Estado da Bahia.",
+      "cnaes": [
+        {
+          "code": "04.19",
+          "description": "Manutenção preventiva e corretiva em grupo de geradores"
+        }
+      ],
+      "items": [
+        "Serviços de manutenção preventiva e corretiva em grupo de geradores"
+      ],
+      "deliveryConditions": [],
+      "locations": [
+        "Hospital Geral Ernesto Simões Filho (HGESF), Praça Conselheiro João Alfredo s/n – Pau Miúdo – Salvador – Bahia CEP 40.320-350",
+        "Sistema eletrônico Licitações-e (https://licitacoes-e2.bb.com.br/aop)",
+        "Portal Nacional de Contratações Públicas (PNCP)"
+      ],
+      "deadlines": [
+        "Envio de propostas ajustadas: até 03 horas após a disputa de lances",
+        "Manifestação de intenção de recorrer: até 15 minutos após a declaração do vencedor",
+        "Recebimento das propostas: de 10:00 horas de 22/04/2026 até 10:00 horas de 24/04/2026",
+        "Início da sessão pública: 10:00 horas de 24/04/2026"
+      ],
+      "requirements": [
+        "Informar a marca do objeto ofertado no formulário eletrônico da proposta",
+        "Proposta escrita deve conter CNPJ da empresa, CPF do sócio majoritário e telefone de contato",
+        "Envio da proposta de preços e demais documentos deve ser realizado exclusivamente via sistema eletrônico",
+        "Apresentação de amostras (se requerido): encaminhar ao endereço indicado no edital e comprovar o envio eletronicamente",
+        "Amostra deve estar devidamente identificada com nome da empresa, número do pregão eletrônico, lote e nome do pregoeiro",
+        "Envio eletrônico dos documentos de habilitação (jurídica, fiscal, social, trabalhista, econômico-financeira e técnica) após convocação, em formato digital individualizado por lote",
+        "Documentação de habilitação com data válida à época da abertura do certame",
+        "Inscrição no Cadastro de Fornecedores do Estado da Bahia (SAEB) ou atendimento às exigências do edital",
+        "Pertencer ao ramo de atividade pertinente ao objeto licitado",
+        "Credenciamento como usuário junto ao Banco do Brasil para obtenção de chave de identificação ou senha individual",
+        "Agendamento de vistoria (se exigível no TR) com Átila Sodré (atila.sodré@saude.ba.gov.br) no HGESF, das 08h às 17h",
+        "Empresas vencedoras de lote de ampla participação que assumam lotes ME/EPP fracassados/desertos não estão dispensadas da apresentação de amostra, se requisito do edital (conforme Decreto nº 12.678/2011, art. 8º, §2º)"
+      ],
+      "documents": [
+        "Proposta de preços (eletrônica e escrita)",
+        "Comprovante de envio de amostra (se aplicável)",
+        "Documentos de habilitação (jurídica, fiscal, social, trabalhista, econômico-financeira e qualificação técnica)",
+        "Peça recursal e contrarrazões",
+        "Modelo de procuração",
+        "Modelo de declaração por ME e EPP de limitação de celebração de contrato (art. 4º, §2º, da Lei Federal nº 14.133/2021)"
+      ],
+      "keywords": [
+        "Pregão Eletrônico",
+        "Manutenção de Geradores",
+        "Manutenção Preventiva",
+        "Manutenção Corretiva",
+        "Serviços de Engenharia",
+        "Hospital Geral Ernesto Simões Filho",
+        "SESAB",
+        "Bahia",
+        "Licitação",
+        "Amostra",
+        "Habilitação",
+        "Cadastro de Fornecedores",
+        "ME/EPP"
+      ],
+      "sourceTextPreview": "SECRETARIA DA SAÚDE DO ESTADO DA BAHIA INFORMAÇÕES PARA PARTICIPAÇÃO NO PREGÃO ELETRÔNICO ATENÇÃO: A licitante DEVERÁ informar a marca do objeto ofertado no formulário eletrônico, da proposta”. A ausência da indicação de marca implicará na Após a disputa de lances, o(s) licitante(s) “provisoriamente vencedor(es)” será(ão) convocado(s) para que apresente(m) sua(s) proposta(s) ajustada(s) ao valor negociado ou ao seu último lanc horas. A proposta escrita deverá contemplar informações como o CNPJ da empresa participante, o CPF do sócio majoritário, bem como telefone para contato. O envio da proposta de preços e demais documentos deverão ser realizados eletrônico. Quando o pregão requerer a apresentação de amostras, o licitante convocado deverá encaminhar o produto ao endereço indicado neste edital, no prazo estabelecido, devendo, imediatamente, fazer prova do envio me juntada de comprovante junto ao sistema Licitações Em caso de apresentação de amostra, a amostra deverá estar devidamente identificada com informações como o nome da empresa responsável, número do pregão eletrônico, lote e nome do pregoeiro da do setor de Licitações – COPEL. Os documentos de habilitação deverão ser envia",
+      "technicalQualificationHighlight": "É exigível, quando solicitado no Termo de Referência, o agendamento de vistoria no local para manutenção preventiva e corretiva no grupo de geradores.",
+      "proposalDateHighlight": "O recebimento das propostas e o início da sessão pública ocorrerão até as 10:00 horas do dia 24/04/2026."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:27:19.643Z",
+      "textLength": 401320,
+      "highlightRefreshedAt": "2026-04-03T03:00:15.276Z"
+    }
+  },
+  {
+    "id": "23013CP0062026",
+    "licitacaoFormatada": "CP006/2026",
+    "orgao": "SECRETARIA DE INFRAESTRUTURA HIDRICA E SANEAMENTO",
+    "unidade": "DIRETORIA DE SANEAMENTO (DSA)",
+    "modalidade": "Concorrência Pública",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "24/04/2026 00:00:00",
+    "dataAberturaIso": "2026-04-24",
+    "valorEstimado": 7962173.4,
+    "valorHomologado": 0,
+    "objeto": "Obras Civis",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/23013CP0062026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Contratação de Empresa Especializada para Execução das Obras do Sistema Adutor de Água Bruta da Sede Municipal de Wagner, no Estado da Bahia, por menor preço global e regime de empreitada por preço unitário.",
+      "cnaes": [
+        {
+          "code": "4222-7/01",
+          "description": "Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas, exceto redes de água e esgoto"
+        }
+      ],
+      "items": [
+        "Obras do Sistema Adutor de Água Bruta",
+        "Assentamento de 5.000 (cinco mil) metros de tubulação em PVC DE FoFo, com DN ≥ 200mm"
+      ],
+      "deliveryConditions": [
+        "Regime de execução: Empreitada por preço unitário",
+        "Não será permitida a participação de empresas organizadas em consórcio",
+        "Será permitida a subcontratação de obras e/ou serviços",
+        "Início da execução das obras a partir do 7º dia após a ordem de serviço",
+        "Conhecimento e conformidade com a política de qualidade da CERB (NBR ISO 9001/2015)"
+      ],
+      "locations": [
+        "Sede Municipal de Wagner, no Estado da Bahia"
+      ],
+      "deadlines": [
+        "Abertura da Licitação: 24/04/2026 às 10h",
+        "Prazo máximo para execução das obras: 240 (duzentos e quarenta) dias",
+        "Prazo para assinatura do contrato: 10 (dez) dias da convocação do adjudicatário",
+        "Prazo de vigência do contrato: 360 (trezentos e sessenta) dias",
+        "Solicitação de esclarecimentos: até 05 (cinco) dias úteis antes da data de abertura",
+        "Respostas a esclarecimentos: até 03 (três) dias úteis antes da data de abertura",
+        "Prazo para regularização fiscal (ME/EPP): 05 (cinco) dias úteis, prorrogáveis por igual período"
+      ],
+      "requirements": [
+        "Pertencer ao ramo de atividade pertinente ao objeto licitado",
+        "Capacitação técnico-operacional comprovando execução de assentamento de 5.000 metros de tubulação em PVC DE FoFo, com DN ≥ 200mm",
+        "Capacitação técnico-profissional de Engenheiro Civil Pleno para assentamento de tubulação em PVC DE FoFo, com DN ≥ 200mm",
+        "Disponibilização de equipe técnica composta por 1 (um) Engenheiro Civil Pleno e 1 (um) Encarregado de Obras",
+        "Comprovação de pertencimento da equipe técnica ao quadro da empresa",
+        "Registro ou inscrição no CREA da empresa e dos responsáveis técnicos (visto do CREA-BA para empresas de outros estados)",
+        "Declaração de visita aos locais das obras ou de não realização de vistoria",
+        "Apresentação de balanço patrimonial e demonstrações contábeis do último exercício social",
+        "Patrimônio Líquido igual ou superior a 10% do valor da proposta",
+        "Índice de Liquidez Corrente (ILC) maior ou igual a 1,50",
+        "Índice de Endividamento Geral (IEG) menor ou igual a 0,60",
+        "Disponibilidade Financeira Líquida (DFL) igual ou superior ao orçamento oficial da obra/serviço",
+        "Prestar garantia contratual de 5% do valor do contrato (ou 100% do valor do material fornecido pela CONTRATANTE)"
+      ],
+      "documents": [
+        "Mídia digital (pendrive, CD) com digitalização integral dos documentos",
+        "Registro público (empresário individual)",
+        "Ato constitutivo, estatuto ou contrato social e alterações (sociedades empresárias e simples)",
+        "Documentos societários comprobatórios de eleição ou designação de administradores",
+        "Decreto de autorização e registro para funcionamento (empresa estrangeira)",
+        "Prova de inscrição no Cadastro Nacional de Pessoa Jurídica – CNPJ",
+        "Prova de inscrição no Cadastro de Contribuinte Estadual ou Municipal",
+        "Prova de regularidade para com a Fazenda Estadual e Municipal",
+        "Certidão Negativa de Tributos (CNT) e Certidão Negativa da Dívida Ativa (CNDA) da Fazenda Federal",
+        "Certidão de Regularidade da Seguridade Social (INSS-CND)",
+        "Certificado de Regularidade do FGTS - CRF",
+        "Certidão Negativa de Débitos Trabalhistas (CNDT)",
+        "Atestados de capacitação técnico-operacional",
+        "Atestados de capacitação técnico-profissional (com CAT do CREA)",
+        "Comprovação de que a equipe técnica pertence ao quadro (carteira de trabalho, certidão CREA, contrato social, etc.)",
+        "Comprovação de registro ou inscrição junto ao CREA para os profissionais",
+        "Currículos dos profissionais de nível superior",
+        "Comprovação de registro ou inscrição no CREA da empresa e dos responsáveis técnicos",
+        "Declaração de visita aos locais das obras ou Declaração de não realização de vistoria (Anexo IV)",
+        "Balanço patrimonial e demonstrações contábeis (publicação ou cópias do Livro Diário com Termos de Abertura e Encerramento)",
+        "Certidão negativa de falência ou recuperação judicial",
+        "Declaração, em papel timbrado, dos cálculos dos índices (ILC, IEG) subscrita por representante e contador",
+        "Relação dos compromissos assumidos que importem diminuição da capacidade operativa ou absorção de disponibilidade financeira",
+        "Demonstração da Disponibilidade Financeira Líquida (DFL) mediante balancete analítico",
+        "Declaração de Proteção ao Trabalho do Menor (Anexo III)",
+        "Indicação do nome, condição legal, CPF, RG do representante, endereço, telefone, CNPJ, Inscrição Estadual e Municipal da Licitante",
+        "Indicação de banco, agência, conta corrente para pagamentos"
+      ],
+      "keywords": [
+        "Obras Civis",
+        "Sistema Adutor de Água Bruta",
+        "Wagner",
+        "Bahia",
+        "Saneamento",
+        "Infraestrutura Hídrica",
+        "Tubulação PVC FoFo",
+        "Engenharia Civil",
+        "Concorrência Pública",
+        "Licitação",
+        "CERB"
+      ],
+      "sourceTextPreview": "1 LICITAÇÃO – 2026015 – Lei -13.303/16 SECRETARIA DE INFRAESTRUTURA HÍDRICA E SANEAMENTO - SIHS COMPANHIA DE ENGENHARIA HÍDRICA E SANEAMENTO DA BAHIA – CERB L I C I T A Ç Ã O N º 2 0 2 6 0 1 5 S E I N º 0 3 9 . 0 7 9 8 . 2 0 2 6 . 0 0 0 0 6 2 4 - 4 4 A C o m p a n h i a d e E n g e n h a r i a H í d r i c a e d e S a n e a m e n t o d a B a h i a - C E R B , p o r m e i o d a C o m i s s ã o P e r m a n e n t e d e L i c i t a ç ã o - C P L , c o m s e d e n a A v e n i d a L u i z V i a n a F i l h o - 3 ª A v e n i d a - n º 3 0 0 - C e n t r o A d m i n i s t r a t i v o d a B a h i a - C A B - S a l v a d o r - B A , n e s t e E d i t a l d o r a v a n t e d e n o m i n a d a s i m p l e s m e n t e C E R B , t o r n a p ú b l i c o , p a r a c o n h e c i m e n t o d o s i n t e r e s s a d o s q u e f a r á r e a l i z a r à s 1 0 h o r a s d o d i a 2 4 . 0 4 . 2 0 2 6 L i c i t a ç ã o P ú b l i c a N º 2 0 2 6 0 1 5 , n o m o d o d e d i s p u t a f e c h a d o , s e n d o q u e o s s e r v i ç o s o b j e t o d e s t a L i c i t a ç ã o s e r ã o c o n t r a t a d o s p e l o m e n o r p r e ç o g l o b a l . O r i e n t a - s e , t a m b é m , o a c e s s o a o P o r t a",
+      "technicalQualificationHighlight": "Comprovação de assentamento de 5.000 metros de tubulação em PVC DE FoFo com diâmetro nominal igual ou superior a 200mm.",
+      "proposalDateHighlight": "24/04/2026 às 10h para início da sessão pública da licitação."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:27:40.326Z",
+      "textLength": 170923,
+      "highlightRefreshedAt": "2026-04-03T03:00:23.166Z"
+    }
+  },
+  {
+    "id": "09009PE0302026",
+    "licitacaoFormatada": "PE030/2026",
+    "orgao": "SECRETARIA DA ADMINISTRAÇÃO",
+    "unidade": "SUPERINTENDENCIA DE RECURSOS LOGISTICOS",
+    "modalidade": "Pregão Eletrônico",
+    "situacao": "Em andamento/elaboração",
+    "ano": "2026",
+    "dataAbertura": "24/04/2026 00:00:00",
+    "dataAberturaIso": "2026-04-24",
+    "valorEstimado": 785410,
+    "valorHomologado": 0,
+    "objeto": "Aquisição de bens comuns",
+    "editalPdfUrl": "https://comprasnet3.ba.gov.br/edital/09009PE0302026.pdf",
+    "featuredItems": [],
+    "extracted": {
+      "summary": "Aquisição de bens comuns através de Pregão Eletrônico.",
+      "cnaes": [],
+      "items": [
+        "Bens comuns"
+      ],
+      "deliveryConditions": [],
+      "locations": [
+        "SECRETARIA DA ADMINISTRAÇÃO"
+      ],
+      "deadlines": [],
+      "requirements": [],
+      "documents": [],
+      "keywords": [
+        "Pregão Eletrônico",
+        "Aquisição",
+        "Bens comuns",
+        "SECRETARIA DA ADMINISTRAÇÃO",
+        "PE030/2026"
+      ],
+      "sourceTextPreview": "\u0001 \u0001 \u0001 \u0001\u0002\u0003\u0004\u0005\u0006\u0007\b \u0007\u0005\u0007 \u0007\u0005\u000e\u0001\u000f\u0001 \u0007\b\u0010\u0004 \u0002\u0004 \u0005 \u0011\u0010\u0004 \u0012 \u000e\u0005\u0013\u0002\u0001\u000f\u0004 \u0002\u0003\u0004\u0001\u0005\u0006\u0007\b \u0005\u0001\u0005 \u0001\u0006\u0003 \u0003 \u0005 \u0007 \u0001\u000e\u0001\u000f\u0005 \u0001\u0003 \u0010\b\u0005\u0011\u0012\u0007 \u0001\u0007\u0001 \u0005 \u0011\u0012\u0007 \u0001\u0005\u000f\u0013\u0003 \u0003 \b\u0005 \u0003\u0014\u0005 \u0001 \u0005\u0015\u0016\u0017\u0018\u0001\u0019\u0017\u0001\u001a\u001b\u001c\u0017\u0018\u0017\u0015\u0016\u001a\u001c\u0001\u001b\u001c\u001d\u001b\u001d\u0018\u0016\u001a\u0018\u0001\u001d\u001e\u0001\u0019\u001d\u001f\u001e \u0017\u0015\u0016\u001d\u0018!\u0001\u001a\u0016\u0017\u0015\u0016\u0017\"\u0018\u0017\u0001\u001a\u001d\u0001\u0019#\u0018\u001b\u001d\u0018\u0016\u001d\u0001\u0015\u001d\u0001#\u0016\u0017 \u0001$%\u0001\u0019\u001d\u0001\u0017\u0019#\u0016\u001a&\u0001\u000e\u0001#\u0015'\u001c\u001a()\u0017\u0018\u0001 \u001a\u0019 #\u0015#\u0018\u0016\u001c\u001a\u0016#*\u001a\u0018\u0001 \u0017\u0001 \u0018\u001a\u0015()\u0017\u0018+\u0001 \u0005\u0001 #\u0015\u001d,\u0018\u0017\u001c*-\u0015\u001f#\u001a\u0001 \u0019\u001a\u0018\u0001 \u0017.#/0\u0015\u001f#\u001a\u0018\u0001 \u0017\u0019#\u0016\u001a&1\u001f#\u001a\u0018!\u0001 \u0017\u0018\u001b\u0017\u001f#\u001a& \u0017\u0015\u0016\u0017\u0001 2\u001e\u001a\u0015\u0016\u001d\u0001 \u001a\u0001 \u00153\u001d\u0001 \u001a\u001b\u001c\u0017\u0018\u0017\u0015\u0016\u001a(3\u001d\u0001 \u0019\u001a\u0001 \u0019\u001d\u001f\u001e \u0017\u0015\u0016\u001a(3\u001d\u0001 \u001d,\u001c#/\u001a\u00164\u001c#\u001a!\u0001 \u001b\u001d\u0019\u0017\u001c5\u0001 \u001f\u001d\u0015'#/\u001e\u001c\u001a\u001c\u0001 #\u0015'\u001c\u001a(3\u001d\u0001 \u001a\u0019 #\u0015#\u0018\u0016\u001c\u001a\u0016#*\u001a!\u0001 \u0018\u001e6\u0017#\u0016\u001a\u0015\u0019\u001d\u0001 \u001d\u0001 &#\u001f#\u0016\u001a\u0015\u0016\u0017\u0001 7\u0018\u0001 \u0018\u001a\u0015()\u0017\u0018\u0001 \u001b\u001c\u0017*#\u0018\u0016\u001a\u0018\u0001 \u0015\u001d\u0018\u0001 \u001a\u001c\u0016\u0018+\u0001 $%%\u0001 \u0019\u001a\u0001 \u0006\u0017#\u0001 \u0010\u0017\u0019\u0017\u001c\u001a&\u0001 \u00158\u0001 $9+$::;<=<$!\u0001 \u001a\u001c\u0016+\u0001 9>\u0001 \u0017\u0001 \u001a\u001c\u0016+\u0001 9?\u0001 \u0019\u001a\u0001 &\u0017#\u0001 \u00158\u0001 $9+@:9;<=<:!\u0001\u0017\u0001\u0019\u0017 \u001a#\u0018\u0001\u0015\u001d\u001c \u001a\u0018\u0001\u001a\u001b&#\u001f5*\u0017#\u0018\u0001\u0015\u001d\u0001- ,#\u0016\u001d\u0001\u0019\u001d\u0001\u0007\u0018\u0016\u001a\u0019\u001d\u0001\u0019\u001a\u0001A\u001aB#\u001a+\u0001\u0005\u0018\u0001\u001b\u0017\u0015\u001a&#\u0019\u001a\u0019\u0017\u0018\u0001\u001b\u001d\u0019\u0017 \u0001#\u0015\u001f&\u001e#\u001c\u0001 \u001a\u0019*\u0017\u001c\u00160\u0015\u001f#\u001a!\u0001 \u001e&\u0016\u001a!\u0001 # \u001b\u0017\u0019# \u0017\u0015\u0016\u001d\u0001 \u0019\u0017\u0001 &#\u001f#\u0016\u001a\u001c\u0001 \u0017\u0001 \u001f\u001d\u0015\u0016\u001c\u001a\u0016\u001a\u001c!\u0001 \u0017\u0001 \u0019\u0017\u001f&\u001a\u001c\u001a(3\u001d\u0001 \u0019\u0017\u0001 #\u0015#\u0019\u001d\u0015\u0017#\u0019\u001a\u0019\u0017!\u0001 \u001c\u0017\u0018\u001b\u0017#\u0016\u001a\u0019\u001d\u0001 \u001d\u0001 \u0019#\u001c\u0017#\u0016\u001d\u00017\u0001\u001a \u001b&\u001a\u0001\u0019\u0017'\u0017\u0018\u001a\u0001\u0017\u0001\u001a\u001d\u0001\u001f\u001d\u0015\u0016\u001c\u001a\u0019#\u00164\u001c#\u001d+\u0001 \b\u0017\u001f\u001d \u0017\u0015\u0019\u001a\"\u0018\u0017\u0001\u001a\u0001&\u0017#\u0016\u001e\u001c\u001a\u0001\u001a\u0016\u0017\u0015\u0016\u001a\u0001\u0017\u0001#\u0015\u0016\u0017/\u001c\u001a&\u0001\u0019\u001d\u0001\u0007\u0019#\u0016\u001a&!\u0001,\u0017 \u0001\u001f\u001d \u001d\u0001\u0019\u0017\u0001\u0016\u001d\u0019\u001d\u0018\u0001\u001d\u0018\u0001\u0018\u0017\u001e\u0018\u0001\u001a\u0015\u0017.\u001d\u0018!\u0001\u0017\u0018\u001b\u0017\u001f#\u001a& \u0017\u0015\u0016\u0017\u0001 \u0019\u001d\u0001 #\u0016\u0017 \u0001 $%\u0001 \u0019\u001a\u0001 \u001b\u001a\u001c\u0016\u0017\u0001 '#.\u001a!\u0001 \u001a\u0001 '# \u0001 \u0019\u0017\u0001 \u0017*#\u0016\u001a\u001c\u0001 \u0018\u001a\u0015()\u0017\u0018\u0001 \u001b\u001d\u001c\u0001 \u0019\u0017\u0018\u001f\u001e \u001b\u001c# \u0017\u0015\u0016\u001d\u0001 \u0019\u001a\u0018\u0001 \u001d,\u001c#/\u001a()\u0017\u0018\u0001 &\u0017/\u001a#\u0018\u0001 \u0017\u0001 \u001c\u0017/\u001e&\u001a \u0017\u0015\u0016\u001a\u001c\u0017\u0018+\u0001 \u0001 \u0002\u0003\u0003\u0004\u0001 $=+$=+$\u0001 \u000f\u0017\u0018\u0019\u0017\u0001 2\u001e\u0017\u0001 \u0018\u001d&#\u001f#\u0016\u001a\u0019\u001d\u0001 \u0019\u0017\u0001 '\u001d\u001c \u001a\u0001 \u0017.\u001b\u001c\u0017\u0018\u0018\u001a\u0001 \u001b\u0017&\u001d\u0001 &#\u001f#\u0016\u001a\u0015\u0016\u0017\u0001 #\u0015\u0016\u0017\u001c\u0017\u0018\u0018\u001a\u0019\u001d!\u0001 \u0017\u0001 \u0018\u001d,\u0001 \u0018\u001e\u001a\u0001 #\u0015\u0016\u0017#\u001c\u001a\u0001 \u0017\u0001 \u0017.\u001f&\u001e\u0018#*\u001a\u0001\u001c\u0017\u0018\u001b\u001d\u0015\u0018\u001a,#&#\u0019\u001a\u0019\u0017!\u0001#\u0015\u001f&\u001e\u0018#*\u0017\u0001\u0015\u001d",
+      "technicalQualificationHighlight": "Comprovação de qualificação técnica para o fornecimento dos bens.",
+      "proposalDateHighlight": "Data da sessão pública: 10/10/2026."
+    },
+    "analysis": {
+      "analyzedAt": "2026-04-02T19:27:53.231Z",
+      "textLength": 343399,
+      "highlightRefreshedAt": "2026-04-03T03:01:06.992Z"
+    }
+  }
+]

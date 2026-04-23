@@ -1,0 +1,150 @@
+template_sistema_documental:
+  pacote_documental:
+    id: ""
+    nome: ""
+    tipo: "dossie_licitacao"
+    origem:
+      arquivo: ""
+      paginas_total: 0
+      formato: "pdf"
+      origem_textual: "digital|escaneado|misto"
+    contexto:
+      orgao: ""
+      setor: ""
+      modalidade: ""
+      numero: ""
+      processo_administrativo: ""
+      objeto: ""
+      data_referencia: ""
+    partes:
+      proponente:
+        razao_social: ""
+        cnpj: ""
+        endereco: ""
+      representante_legal:
+        nome: ""
+        cpf: ""
+        rg: ""
+        documento_identificacao_anexo_id: ""
+      responsaveis_tecnicos:
+        - id: ""
+          nome: ""
+          papel: ""
+          conselho: ""
+          registro: ""
+          cpf: ""
+          area: ""
+    secoes:
+      - id: "contexto_proposta"
+        nome: "Contexto e proposta"
+        ordem: 1
+        obrigatoria: true
+        documentos:
+          - id: ""
+            titulo: ""
+            tipo_documento: "proposta|capa|formulario"
+            papel: "principal"
+            paginas:
+              inicio: 0
+              fim: 0
+            finalidade: ""
+            vinculos:
+              comprova: []
+              depende_de: []
+              pessoa_relacionada_id: ""
+            temporalidade:
+              data_emissao: ""
+              data_validade: ""
+              possui_vencimento: false
+            assinatura:
+              tipo: "manual|digital|nao_identificada"
+              signatarios: []
+            validacao:
+              status: "pendente"
+              regras: []
+              observacoes: ""
+      - id: "declaracoes_habilitacao"
+        nome: "Declaracoes de habilitacao e integridade"
+        ordem: 2
+        obrigatoria: true
+        documentos: []
+      - id: "qualificacao_economico_financeira"
+        nome: "Qualificacao economico-financeira"
+        ordem: 3
+        obrigatoria: true
+        documentos: []
+      - id: "qualificacao_tecnica"
+        nome: "Qualificacao tecnica"
+        ordem: 4
+        obrigatoria: true
+        documentos: []
+      - id: "comprovacao_cadastral"
+        nome: "Comprovacao institucional e cadastral"
+        ordem: 5
+        obrigatoria: true
+        documentos: []
+      - id: "declaracoes_finais"
+        nome: "Declaracoes finais de conformidade"
+        ordem: 6
+        obrigatoria: true
+        documentos: []
+    anexos:
+      - id: ""
+        nome: ""
+        tipo_anexo: "certidao|identificacao|contrato|acervo|autorizacao|cadastro|atestado"
+        paginas:
+          inicio: 0
+          fim: 0
+        origem_textual: "digital|escaneado|misto"
+        ligado_a_secao_id: ""
+        ligado_a_documento_id: ""
+        ligado_a_pessoa_id: ""
+        ligado_a_entidade: ""
+        resumo_funcional: ""
+        temporalidade:
+          data_emissao: ""
+          data_validade: ""
+          possui_vencimento: false
+        validacao:
+          status: "pendente"
+          assinatura_exigida: false
+          autenticidade_verificavel: false
+          observacoes: ""
+    regras_do_sistema:
+      classificacao:
+        - "Todo documento deve pertencer a uma secao."
+        - "Todo anexo deve apontar para um documento ou secao."
+        - "Paginas escaneadas devem ser marcadas como origem_textual = escaneado."
+      consistencia:
+        - "Numero do processo deve ser uniforme em todos os documentos principais."
+        - "Responsavel tecnico deve possuir pelo menos autorizacao, vinculacao e registro profissional."
+        - "Documentos com vencimento devem poder gerar alerta."
+      rastreabilidade:
+        - "Toda pagina deve poder ser rastreada ate um documento ou anexo."
+        - "Todo anexo tecnico deve estar ligado a uma pessoa e a uma competencia."
+    workflow_minimo:
+      - "Ingerir o PDF e criar o pacote_documental."
+      - "Extrair metadados do contexto administrativo."
+      - "Classificar paginas em secoes."
+      - "Separar documentos principais de anexos."
+      - "Vincular anexos a pessoas, secoes e comprovacoes."
+      - "Registrar validade, assinatura e status de validacao."
+      - "Gerar checklist e alertas de vencimento."
+
+exemplo_de_uso_resumido:
+  pacote_documental:
+    nome: "Confidence / Patagonia"
+    contexto:
+      modalidade: "Concorrencia Eletronica"
+      numero: "001/2025"
+      processo_administrativo: "069.1475.2024.0003715-28"
+    partes:
+      proponente:
+        razao_social: "Confidence Construtora Ltda"
+      responsaveis_tecnicos:
+        - id: "rt_civil_01"
+          nome: "Emily Almeida Pires"
+          area: "Engenharia Civil"
+        - id: "rt_eletrica_01"
+          nome: "Paulo Moreira Mota da Silva"
+          area: "Engenharia Eletrica"

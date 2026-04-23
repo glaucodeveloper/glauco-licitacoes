@@ -1,0 +1,26 @@
+appId: app.glauco.licitacoes
+productName: Glauco Licitacoes
+copyright: Glauco
+asar: true
+directories:
+  output: dist/electron
+files:
+  - dist/renderer/**/*
+  - electron/**/*
+  - src/shared/**/*
+  - package.json
+extraResources:
+  - from: public
+    to: public
+  - from: data
+    to: data
+  - from: config
+    to: config
+  - from: .env
+    to: .env
+win:
+  target:
+    - target: portable
+      arch:
+        - x64
+  artifactName: "${productName}-${version}-${arch}.${ext}"
