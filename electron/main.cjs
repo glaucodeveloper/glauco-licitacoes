@@ -1,10 +1,7 @@
-const { app, BrowserWindow, ipcMain, shell } = require("electron");
+const { app, BrowserWindow, ipcMain, shell, Menu } = require("electron");
 const { dialog } = require("electron");
 const fs = require("node:fs/promises");
 const path = require("node:path");
-require("dotenv").config({
-	path: path.join(process.resourcesPath, ".env")
-});
 
 const appRoot = path.resolve(__dirname, "..");
 
@@ -57,6 +54,150 @@ function getResourcePath(relativePath) {
 function getAppFilePath(relativePath) {
   if (app.isPackaged) return path.join(app.getAppPath(), relativePath);
   return path.join(appRoot, relativePath);
+}
+
+async function fileExists(filePath) {
+	try {
+		await fs.access(filePath);
+		return true;
+	} catch {
+		return false;
+	}
+}
+
+async function resolveOperationalManualPath() {
+	const candidates = [
+		// Desenvolvimento: arquivo dentro de /public
+		getAppFilePath("public/Manual Operacional — Glauco Licitações.pdf"),
+
+		// Produção com Vite: public copiado para dist/renderer
+		getAppFilePath("dist/renderer/Manual Operacional — Glauco Licitações.pdf"),
+
+		// Produção caso o public seja copiado inteiro no empacotamento
+		getResourcePath("public/Manual Operacional — Glauco Licitações.pdf"),
+
+		// Produção caso o PDF vá direto para resources
+		getResourcePath("Manual Operacional — Glauco Licitações.pdf")
+	];
+
+	for (const candidate of candidates) {
+		if (await fileExists(candidate)) return candidate;
+	}
+
+	// Fallback: procura qualquer PDF começando com "Manual Operacional"
+	const searchDirs = [
+		getAppFilePath("public"),
+		getAppFilePath("dist/renderer"),
+		getResourcePath("public"),
+		getResourcePath("")
+	];
+
+	for (const dir of searchDirs) {
+		try {
+			const files = await fs.readdir(dir);
+			const manual = files.find((name) =>
+				/^Manual Operacional/i.test(name) && /\.pdf$/i.test(name)
+			);
+
+			if (manual) {
+				const fullPath = path.join(dir, manual);
+				if (await fileExists(fullPath)) return fullPath;
+			}
+		} catch {
+			// ignora diretorios inexistentes
+		}
+	}
+
+	return null;
+}
+
+async function openOperationalManual() {
+	const manualPath = await resolveOperationalManualPath();
+
+	if (!manualPath) {
+		await dialog.showMessageBox(mainWindow, {
+			type: "warning",
+			title: "Manual operacional nao encontrado",
+			message: "Nao foi possivel localizar o Manual Operacional da aplicacao.",
+			detail:
+				"Verifique se o arquivo PDF esta dentro da pasta public ou foi incluido no empacotamento da aplicacao."
+		});
+		return;
+	}
+
+	const manualWindow = new BrowserWindow({
+		width: 1100,
+		height: 800,
+		minWidth: 900,
+		minHeight: 650,
+		title: "Manual Operacional - Glauco Licitacoes",
+		backgroundColor: "#f4f4f4",
+		webPreferences: {
+			contextIsolation: true,
+			nodeIntegration: false
+		}
+	});
+
+	await manualWindow.loadFile(manualPath);
+}
+
+function setupApplicationMenu() {
+	const template = [
+		{
+			label: "Arquivo",
+			submenu: [
+				{
+					label: "Sair",
+					role: process.platform === "darwin" ? "close" : "quit"
+				}
+			]
+		},
+		{
+			label: "Ajuda",
+			submenu: [
+				{
+					label: "Manual Operacional",
+					accelerator: "F1",
+					click: () => {
+						openOperationalManual().catch((error) => {
+							console.error("Falha ao abrir manual operacional", error);
+							dialog.showErrorBox(
+								"Erro ao abrir manual",
+								error?.message || "Erro desconhecido ao abrir o manual operacional."
+							);
+						});
+					}
+				},
+				{
+					type: "separator"
+				},
+				{
+					label: "Abrir manual no visualizador externo",
+					click: async () => {
+						const manualPath = await resolveOperationalManualPath();
+
+						if (!manualPath) {
+							await dialog.showMessageBox(mainWindow, {
+								type: "warning",
+								title: "Manual operacional nao encontrado",
+								message: "Nao foi possivel localizar o Manual Operacional da aplicacao."
+							});
+							return;
+						}
+
+						const result = await shell.openPath(manualPath);
+
+						if (result) {
+							dialog.showErrorBox("Erro ao abrir manual", result);
+						}
+					}
+				}
+			]
+		}
+	];
+
+	const menu = Menu.buildFromTemplate(template);
+	Menu.setApplicationMenu(menu);
 }
 
 async function readJsonResource(relativePath, fallback) {
@@ -203,15 +344,19 @@ async function createSetupWindow() {
 }
 
 async function bootstrapApp() {
-  const userRoot = path.join(app.getPath("userData"), "workspace");
-  store = new JsonStore({ userRoot });
-  await store.init();
-  portals = new PortalRuntime({ store, getResourcePath });
-  registerIpc();
-  await createWindow();
-  if (!store.snapshot().setup?.completed) {
-    await createSetupWindow();
-  }
+	const userRoot = path.join(app.getPath("userData"), "workspace");
+	store = new JsonStore({ userRoot });
+	await store.init();
+	portals = new PortalRuntime({ store, getResourcePath });
+	registerIpc();
+
+	setupApplicationMenu();
+
+	await createWindow();
+
+	if (!store.snapshot().setup?.completed) {
+		await createSetupWindow();
+	}
 }
 
 function registerIpc() {
@@ -710,10 +855,7 @@ function registerIpc() {
 
 function geminiApiKey(state) {
   return (
-    process.env.GEMINI_API_KEY ||
-    process.env.GOOGLE_API_KEY ||
-    state.integrations?.google?.geminiApiKey ||
-    ""
+    "AIzaSyDPWyol6sKGIYTQOkcukTc0MdHN3kzxS1E"
   );
 }
 

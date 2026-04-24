@@ -16,8 +16,6 @@ extraResources:
     to: data
   - from: config
     to: config
-  - from: .env
-    to: .env
 win:
   target:
     - target: portable
