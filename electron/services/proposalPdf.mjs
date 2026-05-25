@@ -18,6 +18,7 @@ export function buildProposalRecord({ state, tender, createdAt = new Date().toLo
     readiness,
     createdAt,
     documents,
+    letterhead: letterheadTemplateReference(state),
     argument: tender.magnitudeArgument || tender.reason || "Proposta criada a partir do radar Bahia e inventario documental."
   };
 }
@@ -52,7 +53,19 @@ export async function generateProposalPdf({ state, proposal, downloadsDir }) {
   const safeTitle = slug(`${proposal.tenderId}-${proposal.title}`).slice(0, 90);
   const outputPath = path.join(downloadsDir, `Proposta completa ${safeTitle}.pdf`);
   await fs.writeFile(outputPath, await pdf.save());
-  return { outputPath, letterheadPath };
+  return {
+    outputPath,
+    letterheadPath
+  };
+}
+
+function letterheadTemplateReference(state) {
+  const template = state.company?.letterhead?.template || {};
+  return {
+    name: template.name || state.company?.letterhead?.name || "Papel timbrado DOCX nao selecionado",
+    localPath: template.localPath || state.company?.letterhead?.filePath || "",
+    uploadedAt: template.uploadedAt || ""
+  };
 }
 
 async function collectProposalAnnexes(state) {
@@ -193,16 +206,19 @@ function proposalContext(state, proposal) {
 }
 
 function proposalDocumentReadiness(state) {
-  return (state.documents || []).map((doc) => ({
-    id: doc.id,
-    name: doc.name,
-    kind: doc.kind,
-    status: doc.status,
-    confidence: Number(doc.confidence || 0),
-    ready: Boolean(doc.file) && Number(doc.confidence || 0) >= 70,
-    fileName: doc.file?.name || "",
-    filePath: doc.file?.localPath || ""
-  }));
+  return (state.documents || []).map((doc) => {
+    const confidence = doc.file?.localPath ? Number(doc.confidence || 0) : 0;
+    return {
+      id: doc.id,
+      name: doc.name,
+      kind: doc.kind,
+      status: doc.status,
+      confidence,
+      ready: Boolean(doc.file?.localPath) && confidence >= 70,
+      fileName: doc.file?.name || "",
+      filePath: doc.file?.localPath || ""
+    };
+  });
 }
 
 function addTextPages(pdf, lines, { regular, bold, serif, serifBold, state }) {

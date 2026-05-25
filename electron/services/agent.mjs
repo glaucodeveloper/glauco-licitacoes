@@ -34,12 +34,6 @@ export function contextSnapshot(state) {
 
 export function fallbackAgentAnswer(prompt, state) {
   const clean = String(prompt || "").toLowerCase();
-  if (clean.includes("whatsapp")) {
-    return "O WhatsApp fica como canal operacional de notificacao. Conecte no instalador, deixe notificacao ativa e eu anuncio licitacoes aderentes quando o radar Bahia encontrar oportunidade.";
-  }
-  if (clean.includes("google") || clean.includes("email")) {
-    return "O login Google identifica o operador e habilita o email como canal de alerta. Sem credencial OAuth propria, o app grava o email localmente e abre o fluxo Google no navegador.";
-  }
   if (clean.includes("cat") || clean.includes("tecnico")) {
     return "Prioridade tecnica: validar CATs, vinculo do responsavel tecnico e compatibilidade do escopo antes de compor bloco tecnico da proposta.";
   }
@@ -72,13 +66,12 @@ export function inferAgentAction(prompt) {
     };
   }
   const routes = [
-    { view: "ventures", label: "Abrir empreendimentos", terms: ["empreendimento", "nexus", "lote", "reserva", "contrato imobiliario"] },
     { view: "documents", label: "Abrir documentos", terms: ["documento", "certidao", "dfl", "cat", "upload", "validar arquivo"] },
     { view: "proposal", label: "Abrir propostas", terms: ["proposta", "dossie", "anexo", "composicao"] },
     { view: "bahia", label: "Abrir licitacoes BA", terms: ["bahia", "radar", "edital", "licitacao"] },
     { view: "company", label: "Abrir empresa", terms: ["empresa", "cadastro", "balanco", "cnpj"] },
-    { view: "portals", label: "Abrir portais externos", terms: ["portal", "twa", "ngrok", "apk", "externo"] },
-    { view: "settings", label: "Abrir configuracoes", terms: ["configuracao", "gmail", "whatsapp", "email", "instalador"] },
+    { view: "portals", label: "Abrir portais externos", terms: ["portal", "ngrok", "externo"] },
+    { view: "settings", label: "Abrir configuracoes", terms: ["configuracao", "instalador"] },
     { view: "dashboard", label: "Abrir dashboard", terms: ["dashboard", "metrica", "indicador"] },
     { view: "home", label: "Abrir inicio", terms: ["inicio", "diretriz", "assistente"] }
   ];

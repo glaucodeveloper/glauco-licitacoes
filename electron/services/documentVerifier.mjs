@@ -10,20 +10,23 @@ const { PDFParse } = require("pdf-parse");
 const INSTRUCTIONS = {
   Regularidade: [
     "arquivo anexado",
+    "correspondencia ao slot documental pedido",
     "titularidade da empresa",
     "validade identificavel",
     "orgao emissor identificavel"
   ],
   "Economico-financeiro": [
     "arquivo anexado",
+    "correspondencia ao slot documental pedido",
     "periodo ou exercicio identificavel",
     "assinatura ou origem contabil",
     "vinculo com limite financeiro"
   ],
   Tecnico: [
     "arquivo anexado",
+    "correspondencia ao slot documental pedido",
     "responsavel tecnico identificavel",
-    "escopo compativel com edital",
+    "escopo tecnico identificavel",
     "registro CAT/CREA/atestado identificavel"
   ]
 };
@@ -67,7 +70,7 @@ export async function verifyDocumentUpload({ document, filePath, state = {}, api
   );
 
   for (const instruction of instructions.slice(1)) {
-    const semantic = llmInference.checks[instruction] || fallbackSemanticCheck(instruction, reader.text, document.kind);
+    const semantic = llmInference.checks[instruction] || fallbackSemanticCheck(instruction, reader.text, document);
     checks.push(
       check(
         sentenceCase(instruction),
@@ -93,6 +96,124 @@ export async function verifyDocumentUpload({ document, filePath, state = {}, api
   };
 }
 
+export async function evaluateDocumentTenderCompatibility({ document, filePath, tender, state = {}, apiKey = "", model = "gemini-2.5-flash" }) {
+  const extension = path.extname(filePath || "").toLowerCase();
+  const reader = filePath
+    ? await readDocumentText(filePath, extension)
+    : { kind: "sem arquivo", text: "", raw: "", preview: "" };
+  const base = {
+    ok: false,
+    source: "llm_required",
+    score: null,
+    status: "Nao avaliado",
+    summary: "",
+    evidence: [],
+    gaps: [],
+    nextStep: "",
+    documentId: document?.id || "",
+    tenderId: tender?.id || "",
+    tenderTitle: tenderTitle(tender),
+    reader: {
+      kind: reader.kind,
+      preview: reader.preview
+    }
+  };
+
+  if (!apiKey) {
+    return {
+      ...base,
+      reason: "Chave de LLM indisponivel; compatibilidade com edital nao deve ser inferida localmente."
+    };
+  }
+  if (!reader.text) {
+    return {
+      ...base,
+      reason: "Nao houve texto extraido do documento; a LLM precisa de leitura do arquivo para avaliar compatibilidade."
+    };
+  }
+  if (!tender) {
+    return {
+      ...base,
+      reason: "Nenhum edital foi informado para a comparacao."
+    };
+  }
+
+  const prompt = [
+    "Voce e um avaliador documental de licitacoes publicas no Brasil.",
+    "A metrica de compatibilidade so pode considerar o texto do documento lido e os requisitos do edital informado.",
+    "Nao use porcentagem padrao, heuristica local ou prontidao do slot. Se faltar evidencia, reduza a nota ou marque inconclusivo.",
+    "Responda somente JSON valido. Sem markdown.",
+    "",
+    "Formato:",
+    '{"score":0,"status":"Compativel|Parcial|Incompativel|Inconclusivo","summary":"diagnostico curto","evidence":["trecho ou evidencia usada"],"gaps":["lacuna objetiva"],"nextStep":"acao recomendada"}',
+    "",
+    `Empresa: ${state.company?.name || "nao informada"}`,
+    `Documento no inventario: ${document?.name || document?.title || document?.id || "sem titulo"}`,
+    `Tipo do documento: ${document?.kind || document?.documentType || "nao informado"}`,
+    `Papel esperado do slot: ${document?.role || document?.sample || document?.scope || ""}`,
+    "",
+    "Edital em analise:",
+    tenderCompatibilityContext(tender),
+    "",
+    `Leitor usado: ${reader.kind}`,
+    "",
+    "Texto extraido do documento:",
+    String(reader.raw || reader.preview || "").slice(0, 18000)
+  ].join("\n");
+
+  try {
+    const response = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
+      {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          contents: [
+            {
+              role: "user",
+              parts: [{ text: prompt }]
+            }
+          ],
+          generationConfig: {
+            responseMimeType: "application/json"
+          }
+        })
+      }
+    );
+    if (!response.ok) {
+      return {
+        ...base,
+        source: `llm_error_http_${response.status}`,
+        reason: `A LLM nao respondeu a avaliacao de compatibilidade (${response.status}).`
+      };
+    }
+    const json = await response.json();
+    const text = json.candidates?.[0]?.content?.parts?.map((part) => part.text).join("\n").trim();
+    const parsed = parseJsonObject(text);
+    const numericScore = Number(parsed?.score);
+    const score = Number.isFinite(numericScore) ? clampScore(numericScore) : null;
+    return {
+      ...base,
+      ok: score !== null,
+      source: "llm_gemini",
+      model,
+      score,
+      status: String(parsed?.status || (score === null ? "Inconclusivo" : compatibilityStatus(score))).slice(0, 80),
+      summary: String(parsed?.summary || "").slice(0, 520),
+      evidence: compactStringList(parsed?.evidence, 6),
+      gaps: compactStringList(parsed?.gaps, 6),
+      nextStep: String(parsed?.nextStep || "").slice(0, 260),
+      reason: score === null ? "A LLM nao retornou uma pontuacao numerica confiavel." : ""
+    };
+  } catch (error) {
+    return {
+      ...base,
+      source: `llm_error_${error.message}`,
+      reason: "A chamada de LLM falhou; a compatibilidade permanece sem avaliacao."
+    };
+  }
+}
+
 async function inferDocumentChecksWithLlm({ document, instructions, reader, state, apiKey, model }) {
   if (!apiKey || !reader.text) {
     return { source: "fallback_keywords", checks: {} };
@@ -101,6 +222,7 @@ async function inferDocumentChecksWithLlm({ document, instructions, reader, stat
   const prompt = [
     "Voce e um verificador documental para licitacoes publicas no Brasil.",
     "Leia o texto extraido do arquivo e avalie cada requisito de forma inferida e coerente, nao por mera palavra-chave.",
+    "A prontidao deve medir principalmente se o arquivo enviado corresponde ao slot documental pedido no card.",
     "Responda somente JSON valido. Sem markdown.",
     "",
     "Formato:",
@@ -108,8 +230,8 @@ async function inferDocumentChecksWithLlm({ document, instructions, reader, stat
     "",
     `Empresa: ${state.company?.name || "nao informada"}`,
     `Tipo do documento: ${document.kind}`,
-    `Nome do card: ${document.name}`,
-    `Papel esperado: ${document.role || document.sample || ""}`,
+    `Slot pedido: ${document.name}`,
+    `Papel esperado do slot: ${document.role || document.sample || ""}`,
     `Requisitos: ${instructions.join("; ")}`,
     `Leitor usado: ${reader.kind}`,
     "",
@@ -145,7 +267,7 @@ async function inferDocumentChecksWithLlm({ document, instructions, reader, stat
       const item = parsed?.checks?.[instruction];
       if (!item) continue;
       checks[instruction] = {
-        ok: item.ok === true ? true : item.ok === false ? null : null,
+        ok: item.ok === true ? true : item.ok === false ? false : null,
         detail: `Inferencia LLM: ${String(item.detail || "").slice(0, 220)}`
       };
     }
@@ -207,8 +329,22 @@ function makeReader(kind, text) {
   };
 }
 
-function fallbackSemanticCheck(instruction, normalizedText, kind) {
+function fallbackSemanticCheck(instruction, normalizedText, document) {
   if (!normalizedText) return { ok: null, detail: "Leitor nao extraiu texto suficiente; precisa OCR externo ou arquivo melhor." };
+  const kind = document?.kind;
+
+  if (instruction === "correspondencia ao slot documental pedido") {
+    const slotTerms = meaningfulTerms(`${document?.name || ""} ${document?.kind || ""} ${document?.role || ""} ${document?.sample || ""}`);
+    const hits = slotTerms.filter((term) => normalizedText.includes(normalize(term)));
+    const minimum = kind === "Economico-financeiro" ? 1 : Math.min(2, slotTerms.length);
+    if (hits.length >= minimum) {
+      return { ok: true, detail: `Fallback local: o arquivo parece corresponder ao slot pedido (${hits.slice(0, 5).join(", ")}).` };
+    }
+    return {
+      ok: null,
+      detail: `Fallback local: correspondencia ao slot ainda inconclusiva (${hits.join(", ") || "sem sinais diretos"}).`
+    };
+  }
 
   const rules = {
     "titularidade da empresa": ["confidence", "construtora", "engenharia", "cnpj"],
@@ -218,7 +354,7 @@ function fallbackSemanticCheck(instruction, normalizedText, kind) {
     "assinatura ou origem contabil": ["contador", "contabil", "assinatura", "crc", "demonstrativo"],
     "vinculo com limite financeiro": ["patrimonio", "dfl", "financeira", "liquida", "compromissos"],
     "responsavel tecnico identificavel": ["engenheiro", "engenheira", "crea", "responsavel tecnico", "emily", "paulo"],
-    "escopo compativel com edital": ["obra", "civil", "engenharia", "servico", "execucao", "atestado"],
+    "escopo tecnico identificavel": ["obra", "civil", "engenharia", "servico", "execucao", "atestado"],
     "registro CAT/CREA/atestado identificavel": ["cat", "crea", "atestado", "acervo", "certidao"]
   };
   const terms = rules[instruction] || [];
@@ -242,6 +378,69 @@ function parseJsonObject(text) {
     if (start >= 0 && end > start) return JSON.parse(clean.slice(start, end + 1));
     return {};
   }
+}
+
+function tenderCompatibilityContext(tender) {
+  const extracted = tender?.extracted || {};
+  return [
+    `Identificador: ${tender?.id || "nao informado"}`,
+    `Titulo: ${tenderTitle(tender)}`,
+    `Orgao: ${tender?.orgao || "nao informado"}`,
+    `Objeto: ${tender?.objeto || extracted.summary || "nao informado"}`,
+    `Valor estimado: ${tender?.value ?? tender?.valorEstimado ?? "nao informado"}`,
+    `Prazo/data: ${tender?.deadline || tender?.dataAbertura || tender?.date || "nao informado"}`,
+    `Documentos exigidos: ${(extracted.documents || []).join("; ")}`,
+    `Requisitos: ${(extracted.requirements || []).join("; ")}`,
+    `Sinais tecnicos: ${[extracted.technicalQualificationHighlight, ...(extracted.technical || []), ...(extracted.items || [])].filter(Boolean).join("; ")}`
+  ].join("\n");
+}
+
+function tenderTitle(tender) {
+  return tender?.title || tender?.licitacaoFormatada || tender?.numero || tender?.id || "Edital sem titulo";
+}
+
+function compactStringList(value, limit) {
+  const source = Array.isArray(value) ? value : value ? [value] : [];
+  return source
+    .map((item) => String(item || "").replace(/\s+/g, " ").trim())
+    .filter(Boolean)
+    .slice(0, limit)
+    .map((item) => item.slice(0, 260));
+}
+
+function clampScore(value) {
+  return Math.max(0, Math.min(100, Math.round(Number(value))));
+}
+
+function compatibilityStatus(score) {
+  if (score >= 80) return "Compativel";
+  if (score >= 50) return "Parcial";
+  return "Incompativel";
+}
+
+function meaningfulTerms(value) {
+  const stop = new Set([
+    "para",
+    "com",
+    "dos",
+    "das",
+    "uma",
+    "por",
+    "que",
+    "de",
+    "em",
+    "ao",
+    "da",
+    "do",
+    "e",
+    "documento",
+    "arquivo",
+    "slot"
+  ]);
+  return normalize(value)
+    .split(/[^a-z0-9]+/)
+    .filter((token) => token.length >= 4 && !stop.has(token))
+    .slice(0, 16);
 }
 
 function normalize(value) {

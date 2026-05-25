@@ -1,21 +1,14 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { defaultState } from "../src/shared/defaultState.mjs";
-import { generateTwaArtifacts, validatePortalApps } from "../src/shared/twa.mjs";
+import { validatePortalApps } from "../src/shared/portalApps.mjs";
 
 const root = process.cwd();
 const outDir = path.join(root, "dist", "package");
-const twaDir = path.join(root, "dist", "twa");
 const state = defaultState("");
 
 await fs.rm(outDir, { recursive: true, force: true });
-await fs.rm(twaDir, { recursive: true, force: true });
 await fs.mkdir(outDir, { recursive: true });
-await fs.mkdir(twaDir, { recursive: true });
-
-for (const app of state.portalApps) {
-  await generateTwaArtifacts({ app, outputDir: twaDir });
-}
 
 const manifest = {
   app: "glauco-licitacoes-electron",
@@ -25,8 +18,7 @@ const manifest = {
   userData: "Electron app.getPath('userData')/workspace",
   portals: state.portalApps.map((item) => ({
     id: item.id,
-    route: item.route,
-    packageName: item.packageName
+    route: item.route
   })),
   checks: validatePortalApps(state.portalApps)
 };
@@ -43,4 +35,3 @@ await fs.writeFile(
 );
 
 console.log(`Package manifest: ${path.join(outDir, "manifest.json")}`);
-console.log(`TWA artifacts: ${twaDir}`);

@@ -2,6 +2,7 @@ const { app, BrowserWindow, ipcMain, shell, Menu } = require("electron");
 const { dialog } = require("electron");
 const fs = require("node:fs/promises");
 const path = require("node:path");
+const { pathToFileURL } = require("node:url");
 
 const appRoot = path.resolve(__dirname, "..");
 
@@ -23,9 +24,12 @@ let decorateOpenEditaisDataset;
 let getOpenEditalById;
 let listOpenEditais;
 let verifyDocumentUpload;
+let evaluateDocumentTenderCompatibility;
 let inferFinancialWorkbook;
 let buildProposalRecord;
 let generateProposalPdf;
+let locatePdfTopic;
+let buildDocxTemplateRecord;
 
 let mainWindow;
 let setupWindow;
@@ -39,11 +43,13 @@ async function loadModules() {
   ({ answerAgentPrompt, inferAgentAction, reviseAssistantBehavior, reviseProposalTemplateSection, runAgentTask, runAllAgentTasks } = await import("./services/agent.mjs"));
   ({ nowStamp, PORTAL_ROUTE_OPTIONS } = await import("../src/shared/defaultState.mjs"));
   ({ runBahiaScan, proposalFitForRecord } = await import("../src/shared/radar.mjs"));
-  ({ slugify, validatePortalApps } = await import("../src/shared/twa.mjs"));
+  ({ slugify, validatePortalApps } = await import("../src/shared/portalApps.mjs"));
   ({ decorateOpenEditaisDataset, getOpenEditalById, listOpenEditais } = await import("../src/shared/openEditaisData.mjs"));
-  ({ verifyDocumentUpload } = await import("./services/documentVerifier.mjs"));
+  ({ verifyDocumentUpload, evaluateDocumentTenderCompatibility } = await import("./services/documentVerifier.mjs"));
   ({ inferFinancialWorkbook } = await import("./services/financialImporter.mjs"));
   ({ buildProposalRecord, generateProposalPdf } = await import("./services/proposalPdf.mjs"));
+  ({ locatePdfTopic } = await import("./services/pdfLocator.mjs"));
+  ({ buildDocxTemplateRecord } = await import("./services/docxTemplate.mjs"));
 }
 
 function getResourcePath(relativePath) {
@@ -240,7 +246,7 @@ async function createProposalFromTenderCode(tenderCode) {
       ...(state.company || {}),
       letterhead: {
         ...((state.company || {}).letterhead || {}),
-        filePath: generated.letterheadPath
+        generatedPdfPath: generated.letterheadPath
       }
     };
     state.proposals = [proposal, ...(state.proposals || [])];
@@ -264,6 +270,50 @@ async function findTenderByCode(code, state) {
   if (inRadar) return inRadar;
   const { dataset } = await loadOpenEditais();
   return dataset.find((item) => tenderMatches(item, wanted)) || null;
+}
+
+async function resolveCompatibilityTender(tenderId, state) {
+  const code =
+    tenderId ||
+    state.proposalProcess?.selectedTenderId ||
+    state.proposalProcess?.proposalDetailId ||
+    state.bahia?.notifications?.[0]?.id ||
+    "";
+  if (!code) return null;
+  return findTenderByCode(code, state);
+}
+
+async function evaluateInventoryDocument({ document, filePath, tender, state }) {
+  const evaluation = await evaluateDocumentTenderCompatibility({
+    document,
+    filePath,
+    tender,
+    state,
+    apiKey: geminiApiKey(state),
+    model: process.env.GEMINI_MODEL || "gemini-2.5-flash"
+  });
+  return {
+    ...evaluation,
+    tenderId: tender.id,
+    tenderTitle: tenderTitle(tender),
+    documentId: document.id,
+    documentTitle: document.name || document.title || document.id,
+    evaluatedAt: nowStamp()
+  };
+}
+
+function catCompatibilityDocument(cat) {
+  return {
+    id: cat.id,
+    name: cat.title || "CAT ou atestado tecnico",
+    kind: "Tecnico",
+    role: cat.scope || "Escopo tecnico executado.",
+    sample: [cat.documentType, cat.area, cat.municipality, cat.organ, cat.notes].filter(Boolean).join("; ")
+  };
+}
+
+function tenderTitle(tender) {
+  return tender?.title || tender?.licitacaoFormatada || tender?.numero || tender?.id || "Edital sem titulo";
 }
 
 function tenderMatches(tender, wanted) {
@@ -399,33 +449,6 @@ function registerIpc() {
     return next;
   });
 
-  ipcMain.handle("integration:google", async (_event, email) => {
-    return store.update((state) => {
-      state.integrations.google = {
-        connected: Boolean(email),
-        email: email || "",
-        status: email
-          ? "Google/Gmail vinculado localmente"
-          : "Informe email e use o painel interno Google/Gmail"
-      };
-      return state;
-    });
-  });
-
-  ipcMain.handle("integration:whatsapp", async (_event, phone) => {
-    return store.update((state) => {
-      state.integrations.whatsapp = {
-        connected: Boolean(phone),
-        phone: phone || "",
-        status: phone
-          ? "WhatsApp vinculado localmente"
-          : "Informe numero e use o painel interno WhatsApp"
-      };
-      state.integrations.notifications.whatsapp = Boolean(phone);
-      return state;
-    });
-  });
-
   ipcMain.handle("document:upload", async (_event, id) => {
     const current = store.snapshot();
     const document = current.documents.find((item) => item.id === id);
@@ -499,6 +522,216 @@ function registerIpc() {
           : item
       );
       state.activity = [`${nowStamp()} - Documento verificado: ${document.name}`, ...(state.activity || [])].slice(0, 30);
+      return state;
+    });
+  });
+
+  ipcMain.handle("cat:upload-document", async (_event, id) => {
+    const current = store.snapshot();
+    const cat = (current.cats || []).find((item) => item.id === id);
+    if (!cat) return current;
+
+    const result = await dialog.showOpenDialog(mainWindow, {
+      title: `Selecionar PDF da CAT - ${cat.title || id}`,
+      properties: ["openFile"],
+      filters: [
+        { name: "PDF", extensions: ["pdf"] },
+        { name: "Documentos", extensions: ["pdf", "png", "jpg", "jpeg"] },
+        { name: "Todos", extensions: ["*"] }
+      ]
+    });
+    if (result.canceled || !result.filePaths[0]) return current;
+
+    const sourcePath = result.filePaths[0];
+    const safeName = `cat-${id}-${Date.now()}-${path.basename(sourcePath).replace(/[^a-zA-Z0-9._-]/g, "_")}`;
+    const destinationPath = path.join(store.dirs.documents, safeName);
+    await fs.copyFile(sourcePath, destinationPath);
+
+    const technicalDocument =
+      current.documents.find((item) => item.id === "doc_cats") || {
+        id: "doc_cats",
+        name: "CATs e atestados tecnicos",
+        kind: "Tecnico",
+        role: "Prova experiencia compativel com o objeto e vincula o responsavel tecnico ao escopo.",
+        sample: "CAT, atestado, acervo, CAO/CREA, escopo executado e responsavel tecnico."
+      };
+    const verification = await verifyDocumentUpload({
+      document: { ...technicalDocument, name: cat.title || technicalDocument.name },
+      filePath: destinationPath,
+      state: current,
+      apiKey: geminiApiKey(current),
+      model: process.env.GEMINI_MODEL || "gemini-2.5-flash"
+    });
+    const file = {
+      name: path.basename(sourcePath),
+      localPath: destinationPath,
+      fileUrl: pathToFileURL(destinationPath).href,
+      uploadedAt: nowStamp()
+    };
+
+    return store.update((state) => {
+      state.cats = (state.cats || []).map((item) =>
+        item.id === id
+          ? {
+              ...item,
+              status: verification.status,
+              readiness: verification.confidence,
+              summary: verification.summary,
+              file,
+              verification
+            }
+          : item
+      );
+      state.documents = (state.documents || []).map((item) =>
+        item.id === "doc_cats"
+          ? {
+              ...item,
+              status: verification.status,
+              confidence: verification.confidence,
+              summary: verification.summary,
+              file,
+              verification
+            }
+          : item
+      );
+      state.activity = [`${nowStamp()} - PDF da CAT anexado: ${cat.title}`, ...(state.activity || [])].slice(0, 30);
+      return state;
+    });
+  });
+
+  ipcMain.handle("document:evaluate-tender-compatibility", async (_event, id, tenderId) => {
+    const current = store.snapshot();
+    const document = (current.documents || []).find((item) => item.id === id);
+    const tender = await resolveCompatibilityTender(tenderId, current);
+    if (!document?.file?.localPath || !tender) return current;
+    const evaluation = await evaluateInventoryDocument({ document, filePath: document.file.localPath, tender, state: current });
+    return store.update((state) => {
+      state.documents = (state.documents || []).map((item) =>
+        item.id === id
+          ? {
+              ...item,
+              tenderCompatibility: {
+                ...(item.tenderCompatibility || {}),
+                [tender.id]: evaluation
+              }
+            }
+          : item
+      );
+      state.activity = [`${nowStamp()} - Compatibilidade LLM avaliada: ${document.name} x ${tenderTitle(tender)}`, ...(state.activity || [])].slice(0, 30);
+      return state;
+    });
+  });
+
+  ipcMain.handle("cat:evaluate-tender-compatibility", async (_event, id, tenderId) => {
+    const current = store.snapshot();
+    const cat = (current.cats || []).find((item) => item.id === id);
+    const tender = await resolveCompatibilityTender(tenderId, current);
+    if (!cat?.file?.localPath || !tender) return current;
+    const document = catCompatibilityDocument(cat);
+    const evaluation = await evaluateInventoryDocument({ document, filePath: cat.file.localPath, tender, state: current });
+    return store.update((state) => {
+      state.cats = (state.cats || []).map((item) =>
+        item.id === id
+          ? {
+              ...item,
+              tenderCompatibility: {
+                ...(item.tenderCompatibility || {}),
+                [tender.id]: evaluation
+              }
+            }
+          : item
+      );
+      state.activity = [`${nowStamp()} - Compatibilidade LLM avaliada: ${cat.title} x ${tenderTitle(tender)}`, ...(state.activity || [])].slice(0, 30);
+      return state;
+    });
+  });
+
+  ipcMain.handle("tender:evaluate-documents-compatibility", async (_event, tenderId) => {
+    const current = store.snapshot();
+    const tender = await resolveCompatibilityTender(tenderId, current);
+    if (!tender) return current;
+    const documents = (current.documents || []).filter((item) => item.file?.localPath);
+    const cats = (current.cats || []).filter((item) => item.file?.localPath);
+    const documentResults = new Map();
+    const catResults = new Map();
+
+    for (const document of documents) {
+      const evaluation = await evaluateInventoryDocument({ document, filePath: document.file.localPath, tender, state: current });
+      documentResults.set(document.id, evaluation);
+    }
+    for (const cat of cats) {
+      const evaluation = await evaluateInventoryDocument({
+        document: catCompatibilityDocument(cat),
+        filePath: cat.file.localPath,
+        tender,
+        state: current
+      });
+      catResults.set(cat.id, evaluation);
+    }
+
+    return store.update((state) => {
+      state.documents = (state.documents || []).map((item) =>
+        documentResults.has(item.id)
+          ? {
+              ...item,
+              tenderCompatibility: {
+                ...(item.tenderCompatibility || {}),
+                [tender.id]: documentResults.get(item.id)
+              }
+            }
+          : item
+      );
+      state.cats = (state.cats || []).map((item) =>
+        catResults.has(item.id)
+          ? {
+              ...item,
+              tenderCompatibility: {
+                ...(item.tenderCompatibility || {}),
+                [tender.id]: catResults.get(item.id)
+              }
+            }
+          : item
+      );
+      const total = documentResults.size + catResults.size;
+      state.activity = [`${nowStamp()} - Compatibilidade LLM calculada para ${total} documento(s) contra ${tenderTitle(tender)}`, ...(state.activity || [])].slice(0, 30);
+      return state;
+    });
+  });
+
+  ipcMain.handle("company:select-letterhead-docx", async () => {
+    const current = store.snapshot();
+    const result = await dialog.showOpenDialog(mainWindow, {
+      title: "Selecionar modelo DOCX do papel timbrado",
+      properties: ["openFile"],
+      filters: [
+        { name: "Papel timbrado Word", extensions: ["docx"] },
+        { name: "Todos", extensions: ["*"] }
+      ]
+    });
+    if (result.canceled || !result.filePaths[0]) return current;
+
+    const sourcePath = result.filePaths[0];
+    const templatesDir = path.join(store.userRoot, "templates");
+    await fs.mkdir(templatesDir, { recursive: true });
+    const safeName = `letterhead-template-${Date.now()}-${path.basename(sourcePath).replace(/[^a-zA-Z0-9._-]/g, "_")}`;
+    const destinationPath = path.join(templatesDir, safeName);
+    await fs.copyFile(sourcePath, destinationPath);
+    const template = await buildDocxTemplateRecord({
+      filePath: destinationPath,
+      sourceName: path.basename(sourcePath)
+    });
+
+    return store.update((state) => {
+      state.company = {
+        ...(state.company || {}),
+        letterhead: {
+          ...((state.company || {}).letterhead || {}),
+          name: template.name,
+          template,
+          filePath: destinationPath
+        }
+      };
+      state.activity = [`${nowStamp()} - Modelo DOCX do papel timbrado selecionado: ${template.name}`, ...(state.activity || [])].slice(0, 30);
       return state;
     });
   });
@@ -810,6 +1043,10 @@ function registerIpc() {
     return detail ? { ...detail, proposalFit: proposalFitForRecord(detail, store.snapshot()) } : null;
   });
 
+  ipcMain.handle("open-editais:locate-pdf-topic", async (_event, url, query) =>
+    locatePdfTopic({ url, query })
+  );
+
   ipcMain.handle("portal:add-app", async (_event, payload) =>
     store.update((state) => {
       const name = payload?.name || "Novo portal";
@@ -822,12 +1059,10 @@ function registerIpc() {
           name,
           description: payload?.description || "Aplicativo externo gerado pela plataforma.",
           route,
-          packageName: payload?.packageName || `app.glauco.${id.replaceAll("-", "")}`,
           active: false,
           port: 8010,
           localUrl: "",
-          publicUrl: "",
-          twaStatus: "Nao gerado"
+          publicUrl: ""
         }
       ];
       state.activity = [`${nowStamp()} - App externo cadastrado: ${name}`, ...(state.activity || [])].slice(0, 30);
@@ -838,8 +1073,6 @@ function registerIpc() {
   ipcMain.handle("portal:toggle", async (_event, id, active) =>
     active ? portals.activate(id) : portals.deactivate(id)
   );
-
-  ipcMain.handle("portal:generate-twa", async (_event, id) => portals.generateTwa(id));
 
   ipcMain.handle("portal:checks", async () => validatePortalApps(store.snapshot().portalApps));
 
@@ -855,7 +1088,7 @@ function registerIpc() {
 
 function geminiApiKey(state) {
   return (
-    "AIzaSyDPWyol6sKGIYTQOkcukTc0MdHN3kzxS1E"
+    "AIzaSyD1ihs0Qm69zWIV7ulaMeGMZIyUktB_Nx0"
   );
 }
 

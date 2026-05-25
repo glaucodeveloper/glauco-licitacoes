@@ -11,7 +11,6 @@ export class JsonStore {
       documents: path.join(userRoot, "documents"),
       finance: path.join(userRoot, "finance"),
       portals: path.join(userRoot, "portals"),
-      twa: path.join(userRoot, "twa"),
       cache: path.join(userRoot, "cache"),
       logs: path.join(userRoot, "logs")
     };

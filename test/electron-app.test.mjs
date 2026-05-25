@@ -10,7 +10,7 @@ import {
   getOpenEditalById,
   listOpenEditais
 } from "../src/shared/openEditaisData.mjs";
-import { generateTwaArtifacts, validatePortalApps } from "../src/shared/twa.mjs";
+import { validatePortalApps } from "../src/shared/portalApps.mjs";
 import { fallbackAgentAnswer, inferAgentAction, runAllAgentTasks } from "../electron/services/agent.mjs";
 import { verifyDocumentUpload } from "../electron/services/documentVerifier.mjs";
 import { inferFinancialWorkbook } from "../electron/services/financialImporter.mjs";
@@ -30,7 +30,8 @@ test("default state uses local user workspace and installer pending", () => {
   assert.ok(state.proposalTemplate.sections.some((item) => item.id === "price_opening"));
   assert.match(state.company.letterhead.footer, /Goiabeiras/);
   assert.match(state.setup.userRoot, /workspace/);
-  assert.ok(state.portalApps.some((item) => item.route === "ventures"));
+  assert.ok(state.portalApps.every((item) => item.route !== "ventures"));
+  assert.equal(state.integrations.notifications.screen, true);
 });
 
 test("historical intent starts blank and is inferred from participated tender items", () => {
@@ -82,7 +83,7 @@ test("agent tasks and fallback answer work without network", () => {
   assert.ok(state.agentTasks.every((item) => item.status === "Executado"));
   const answer = fallbackAgentAnswer("quais licitacoes da bahia?", state);
   assert.match(answer.toLowerCase(), /radar|bahia|licit/);
-  assert.equal(inferAgentAction("abra empreendimentos e contratos").view, "ventures");
+  assert.equal(inferAgentAction("abra portais externos").view, "portals");
 });
 
 test("uploaded user document is checked by document instructions", async () => {
@@ -97,22 +98,11 @@ test("uploaded user document is checked by document instructions", async () => {
   assert.ok(verification.confidence > 20);
 });
 
-test("twa artifacts are generated for active portal contract", async () => {
-  const temp = await fs.mkdtemp(path.join(os.tmpdir(), "glauco-twa-"));
+test("portal apps validate without mobile package automation", async () => {
   const app = defaultState("").portalApps[0];
   const checks = validatePortalApps([app]);
   assert.equal(checks[0].level, "ok");
-  const output = await generateTwaArtifacts({ app, outputDir: temp, host: "example.ngrok-free.app" });
-  const manifest = JSON.parse(await fs.readFile(output.manifestPath, "utf8"));
-  assert.equal(manifest.packageId, app.packageName);
-  assert.equal(manifest.startUrl, `/__glauco/pages/${app.id}`);
-});
-
-test("nexus map uses original SVG rect lots from source repository", async () => {
-  const svg = await fs.readFile("public/nexus-lotes.svg", "utf8");
-  const rectCount = [...svg.matchAll(/<rect\b/g)].length;
-  assert.equal(rectCount, 102);
-  assert.match(svg, /viewBox="0 0 14499 6807"/);
+  assert.match(checks[0].detail, /publicacao externa/);
 });
 
 test("financial workbook importer infers balance chart structure", async () => {
