@@ -1,65 +1,32 @@
-# GLAUCO Example App
+# Glauco Licitações
 
-Projeto de exemplo para demonstrar o uso do [Glauco Framework](../glauco-framework/README.md) - um framework Ruby/JRuby para criar aplicações desktop com React-like state management.
+Cockpit desktop para acompanhar agentes de licitações, portais externos e o radar da Bahia. A aplicação combina Electron, React e Vite com serviços locais e organização própria de dados.
 
-## Pré-requisitos
+## Estrutura
 
-```bash
-# Instalar JRuby 10.0.4 ou superior
-rbenv install jruby-10.0.4 || ruby -v && rbenv install jruby-10.0.4
+- `electron/`: inicialização e integração com a janela desktop.
+- `src/`: interface da aplicação.
+- `server/`: serviços locais.
+- `data/`: dados usados pelo projeto.
+- `scripts/`: desenvolvimento, empacotamento e ferramentas auxiliares.
+- `test/`: testes Node.js.
 
-# Instalar gems do projeto
-bundle install
-```
+## Desenvolvimento
 
-## Rodando o app
-
-```bash
-# Executar a aplicação de exemplo
-jruby bin/main.rb
-```
-
-## Estrutura do Projeto
-
-```
-glauco-example-app/
-├── Gemfile              # Dependências Ruby
-├── .ruby-version        # Versão do JRuby (jruby-10.0.4)
-├── bin/                 # Scripts de execução
-│   └── main.rb         # Entrada principal da aplicação
-├── core/                # Módulo Glauco Framework embeded
-├── App/                 # Componentes do aplicativo
-├── public/             # Assets públicos (CSS, JS)
-├── config/             # Configurações YAML
-├── data/               # Dados persistentes
-└── docs/                # Documentação local
-```
-
-## Exemplos Disponíveis
-
-Veja [`../glauco-framework/examples/`](../glauco-framework/examples/) para exemplos de apps:
-- `basic_ui_with_fs_io.rb` - UI básica com acesso ao sistema de arquivos
-- `floating_chat_app.rb` - App de chat web flutuante
-- `linkedin_bot.rb` - Bot para LinkedIn Jobs
-
-## Criando Novo Projeto a Partir deste Template
+Requer Node.js e npm.
 
 ```bash
-# No projeto alvo:
-bundle exec warbler package # Empacotar como JAR
-bundle exec glauco-package build # Construir com Glauco
-bundle exec glauco-containerize build # Gerar imagem Docker
+npm install
+npm run dev
 ```
 
-## Sobre o Framework Glauco
+## Comandos principais
 
-Framework Ruby para construir interfaces desktop HTML com gerenciamento de estado estilo React, usando:
-- JRuby + SWT (para janela nativa)
-- Expressões CSS/HTML aninhadas em Ruby
-- State management funcional
-- Suporte a Webviews e Browser embedded
-- Integração com LLM via Ollama
+```bash
+npm test          # executa os testes Node.js
+npm run build     # gera a interface Vite
+npm run package   # compila e empacota a aplicação
+npm run windows-app # gera um executável portátil para Windows
+```
 
----
-
-_Referência principal: [../glauco-framework/README.md](../glauco-framework/README.md)_
+O README anterior apontava para um framework em um caminho relativo que não existe neste repositório. Esta documentação descreve a aplicação e os comandos declarados no `package.json` atual.
